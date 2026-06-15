@@ -94,7 +94,7 @@ These add-ons are not strictly mandatory but highly recommended to optimize your
 
 Except the workflow most of the installation and set ups steps must only be done on time
 
-How to connect anki with yomitan?
+### How to connect anki with yomitan?
 <details>
 Connecting Yomitan with Anki via the **AnkiConnect** add-on is the absolute gold standard for mining vocabulary efficiently. It allows you to transform words directly from your browser into fully formatted Anki cards with a single click.
 
