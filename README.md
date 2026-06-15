@@ -3,6 +3,23 @@ Connects several repos of this profile together and introduces an efficient and 
 
 ---
 
+## Core Philosophy & Mindset
+
+The main idea of this system is to **shift away from using Anki as a traditional learning scheduler and instead treat it primarily as a database**. 
+
+While reviewing cards is important, relying solely on Anki’s default scheduling algorithm can lead to massive time waste. Your time is far better spent actively reading and immersing in new material. 
+
+### The 3 Core Strategies
+Instead of brute-force memorization, this system proposes three interconnected strategies:
+
+1. **Visual Recognition Over Memorization:** Every card you look up today is added to your vocabulary list. When you encounter the word again during reading, a visual indicator alerts you that you’ve seen it before. This also immediately shows you the word's actual importance based on how frequently you run into it.
+2. **Zero-Effort Mining:** You don't waste time manually creating cards. With just a few clicks, audio, accurate translations, context, and visuals are automatically generated for your mined card using either the **Light Novel** or **Anime** framework. You should generally look at these cards only once and access them later *on demand*, rather than forcing yourself to memorize them. Save your mental energy for deep Japanese concepts.
+3. **Hyper-Selective Long-Term Reviewing:** If you choose to use Anki's scheduler, you must be **highly selective**. Understand exactly *why* you want to learn a specific card long-term. Aim for **at most 5 new cards daily**. This system introduces a framework that helps you filter out the noise, providing both shallow and deep reviewing mechanisms.
+
+> 💡 **Note to Users:** You probably already have a running Anki system. You don't have to abandon it. Simply finish reviewing the remaining cards left in your current stack, but stop adding new cards using your old system. Shift your focus here.
+
+---
+
 ## 🛠️ Anki Setup & Add-ons
 
 To ensure the **miningsimple** system works correctly, specific Anki add-ons are required for card rendering, database maintenance, and workflow automation. 
