@@ -88,6 +88,7 @@ These add-ons are not strictly mandatory but highly recommended to optimize your
 *   **Advanced Copy Fields** ([1898445115](https://ankiweb.net/shared/info/1898445115)) – Allows rapid field relocation and copy operations.
 *   **Opening the same window multiple time** ([354407385](https://ankiweb.net/shared/info/354407385)) – Grants more freedom to open multiple editor windows simultaneously.
 *   **strikethrough_in_editor** ([698524645](https://ankiweb.net/shared/info/698524645)) – Quick formatting utility to use strikethrough text inside fields.
+*   **google translate** ([1536291224](https://ankiweb.net/shared/info/1536291224)) – Quickly batch add transaltions to your mined sentences.
 </details>
 
 ## Yomitan and Ankiconnect Configuration
