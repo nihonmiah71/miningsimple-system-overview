@@ -9,7 +9,7 @@ The main idea of this system is to **shift away from using Anki as a traditional
 
 While reviewing cards is important, relying solely on Anki’s default scheduling algorithm can lead to massive time waste. Your time is far better spent actively reading and immersing in new material. 
 
-### The 3 Core Strategies
+## The 3 Core Strategies
 Instead of brute-force memorization, this system proposes three interconnected strategies:
 
 1. **Visual Recognition Over Memorization:** Every card you look up today is added to your vocabulary list. When you encounter the word again during reading, a visual indicator alerts you that you’ve seen it before. This also immediately shows you the word's actual importance based on how frequently you run into it.
