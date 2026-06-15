@@ -89,3 +89,58 @@ These add-ons are not strictly mandatory but highly recommended to optimize your
 *   **Opening the same window multiple time** ([354407385](https://ankiweb.net/shared/info/354407385)) – Grants more freedom to open multiple editor windows simultaneously.
 *   **strikethrough_in_editor** ([698524645](https://ankiweb.net/shared/info/698524645)) – Quick formatting utility to use strikethrough text inside fields.
 </details>
+
+## Yomitan and Ankiconnect Configuration
+
+Except the workflow most of the installation and set ups steps must only be done on time
+
+How to connect anki with yomitan?
+<details>
+Connecting Yomitan with Anki via the **AnkiConnect** add-on is the absolute gold standard for mining vocabulary efficiently. It allows you to transform words directly from your browser into fully formatted Anki cards with a single click.
+
+Since AnkiConnect acts as a local API, we need to ensure that Anki's backend permissions and your browser's extension settings are perfectly aligned.
+
+Here is the step-by-step setup guide.
+
+---
+
+## 1. Install AnkiConnect in Anki
+
+First, you need to install the add-on in Anki so that external programs (like your browser) are permitted to communicate with your database.
+
+1. **Copy the Code:** Copy the official AnkiConnect code: **2055492159**.
+2. **Install in Anki:** Open Anki. In the top menu, go to **Tools** -> **Add-ons**. Click **Get Add-ons...** in the top right, paste the code into the text field, and click **OK**.
+3. **Restart Anki:** Close Anki completely and reopen it. The local AnkiConnect server (running on port `8765` by default) will only initialize after a fresh launch.
+
+---
+
+## 2. Configure Yomitan in the Browser
+
+Now, we link the browser extension to the running AnkiConnect interface.
+
+1. **Open Settings:** Click the Yomitan icon in your browser extension bar and open the **Settings** (the gear icon).
+2. **Enable Integration:** Scroll down the left sidebar menu to the **Anki** section. Toggle the switch for **Enable Anki integration**.
+3. **Verify Connection:** Yomitan will automatically attempt to reach the local server (`[http://127.0.0.1:8765](http://127.0.0.1:8765)`). If Anki is running properly in the background, the status will change to **Connected** within a few seconds.
+
+---
+
+## 3. Download the dictionaries
+
+See as a reference the picture which dictionaries you should use, you can find those dictionaries on the official yomitan website https://yomitan.wiki/dictionaries/, or with a google prompt
+
+<img width="817" height="543" alt="image" src="https://github.com/user-attachments/assets/9c8437c5-e144-4170-bd72-121957bc6461" />
+
+
+---
+
+## 4. Map Note Types and Fields
+
+Once connected, Yomitan directly fetches your Anki decks and note types. Just import the yomitansettings which are enclosed in the attachments and you can start to mine, also make sure that you call the deck you want to mine from mining or configure the settings in the yomitan options manualy.
+
+
+Once configured, simply hold your activation key (usually `Shift`) over any word in your browser, and click the green **`+`** icon in the Yomitan pop-up to instantly create a card in the background.
+
+```
+
+```
+</details>
