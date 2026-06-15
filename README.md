@@ -140,7 +140,4 @@ Once connected, Yomitan directly fetches your Anki decks and note types. Just im
 
 Once configured, simply hold your activation key (usually `Shift`) over any word in your browser, and click the green **`+`** icon in the Yomitan pop-up to instantly create a card in the background.
 
-```
-
-```
 </details>
