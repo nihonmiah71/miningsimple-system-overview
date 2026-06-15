@@ -3,7 +3,7 @@ Connects several repos of this profile together and introduces an efficient and 
 
 ---
 
-## Core Philosophy & Mindset
+# Core Philosophy & Mindset
 
 The main idea of this system is to **shift away from using Anki as a traditional learning scheduler and instead treat it primarily as a database**. 
 
