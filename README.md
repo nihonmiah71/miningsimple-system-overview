@@ -193,11 +193,12 @@ If you modify any source code files (such as background scripts, stylesheets, or
 </details>
 ---
 
-## 🔧 Further Add-on Configurations
+##  Further Add-on Configurations
 
-Configuration of **AJT Japanese** and **AutoReorder**
+### Configuration of AJT Japanese and AutoReorder
 
 <details>
+
 ### 1. AJT Japanese (for JP Mining Note) Profile Setup
 
 To customize sentence parsing and target fields, configure two distinct profiles at the beginning of your configuration process:
@@ -206,6 +207,10 @@ To customize sentence parsing and target fields, configure two distinct profiles
 2. Look at the top menu bar directly at the top of your card dashboard area.
 3. Navigate into the **Japanese Options** menu selection.
 4. Add exactly **2 new profiles** using your specific parameters to align text mapping scripts correctly with your database note properties.
+
+<img width="1304" height="775" alt="image" src="https://github.com/user-attachments/assets/5e4cbcdc-5040-4bcc-a530-a73eb551a75a" />
+<img width="1303" height="780" alt="image" src="https://github.com/user-attachments/assets/4c2dde30-8507-4880-87af-be3c16a8854f" />
+
 
 ### 2. AutoReorder Automation Script
 
