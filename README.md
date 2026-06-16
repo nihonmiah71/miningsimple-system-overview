@@ -24,7 +24,30 @@ $${\\color{red}Remember \\space that \\space you \\space have \\space to \\space
 
 ## 🛠️ Anki Setup & Add-ons
 
+
 To ensure the **miningsimple** system works correctly, specific Anki add-ons are required for card rendering, database maintenance, and workflow automation. 
+
+
+### 🚀 Shortcut: Install All Add-ons All at Once
+<details>
+Instead of installing each add-on individually, you can install all the required extensions for the system in one single step. Anki allows you to batch-install multiple add-ons simultaneously by pasting their codes separated by spaces.
+
+#### Steps to Install:
+
+1. Open **Anki**.
+2. In the top menu bar, navigate to **Tools** and select **Add-ons**.
+3. In the Add-ons window, click the **Get Add-ons...** button on the right side.
+4. Copy the entire string of codes from the box below:
+
+```text
+207985417 984445827 1321136162 787429252 1444428697 1389423810 1383490780 1240106570 2055492159 1077002392 200813220 746398558 757527607 744725736 1247171202 1771074083 738807903 1423933177 1621302762 874215009 1819291495 291119185 1021636467 181103283 1898445115 354407385 698524645 1536291224
+
+```
+
+5. Paste this entire string directly into the **Code** text field and click **OK**.
+6. Anki will download all the core and utility add-ons simultaneously in the background.
+7. **Important:** Restart Anki after the installation is complete to load and activate all the newly added extensions.
+</details>
 
 ### 🌟 Custom Developed Add-ons
 These are my own specialized add-ons designed explicitly to power the workflows and database connections of this system.
