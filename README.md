@@ -17,8 +17,10 @@ Instead of brute-force memorization, this system proposes three interconnected s
 3. **Hyper-Selective Long-Term Reviewing:** If you choose to use Anki's scheduler, you must be **highly selective**. Understand exactly *why* you want to learn a specific card long-term. Aim for **at most 5 new cards daily**. This system introduces a framework that helps you filter out the noise, providing both shallow and deep reviewing mechanisms.
 
 > 💡 **Note to Users:** You probably already have a running Anki system. You don't have to abandon it. Simply finish reviewing the remaining cards left in your current stack, but stop adding new cards using your old system. Shift your focus here.
-
 ---
+
+$${\\color{red}Remember \\space that \\space you \\space have \\space to \\space do \\space the \\space installation \\space only \\space once \\space and \\space that \\space the \\space actual \\space workflows \\space are \\space very \\space quick. \\space For \\space example, \\space while \\space previously \\space the \\space ratio \\space of \\space reading:preparing:reviewing \\space was \\space 1:1:1, \\space after \\space you \\space have \\space finished \\space the \\space setup \\space and \\space use \\space the \\space workflows \\space it \\space will \\space be \\space 8:1:1.}$$
+
 
 ## 🛠️ Anki Setup & Add-ons
 
