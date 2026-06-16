@@ -118,9 +118,6 @@ These add-ons are not strictly mandatory but highly recommended to optimize your
 
 ## Yomitan and Ankiconnect Configuration
 
-Except the workflow most of the installation and set ups steps must only be done on time
-
-### How to connect anki with yomitan?
 <details>
 Connecting Yomitan with Anki via the **AnkiConnect** add-on is the absolute gold standard for mining vocabulary efficiently. It allows you to transform words directly from your browser into fully formatted Anki cards with a single click.
 
@@ -172,7 +169,7 @@ Once configured, simply hold your activation key (usually `Shift`) over any word
 
 ## Local Chrome Extension Installation 
 
-### For the mining process, you want to install several Chrome extensions locally using source files that are already downloaded onto your computer (rather than using the official Web Store).
+For the mining process, you want to install several Chrome extensions locally using source files that are already downloaded onto your computer (rather than using the official Web Store).
 
 * [Japanese Learners Optimized Multitextmarker Browser Addon](https://github.com/nihonmiah71/japanese-learners-optimized-multitextmarker-browseraddon)
 * [Japanese GrammarHub Browser Addon](https://github.com/nihonmiah71/japanese-grammarhub-browseraddon)
@@ -220,7 +217,7 @@ If you modify any source code files (such as background scripts, stylesheets, or
 
 ##  Further Add-on Configurations
 
-### Configuration of AJT Japanese and AutoReorder
+Configuration of AJT Japanese and AutoReorder
 
 <details>
 
