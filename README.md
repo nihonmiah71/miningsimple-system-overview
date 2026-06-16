@@ -142,3 +142,88 @@ Once connected, Yomitan directly fetches your Anki decks and note types. Just im
 Once configured, simply hold your activation key (usually `Shift`) over any word in your browser, and click the green **`+`** icon in the Yomitan pop-up to instantly create a card in the background.
 
 </details>
+
+---
+
+## Local Chrome Extension Installation 
+
+### For the mining process, you want to install several Chrome extensions locally using source files that are already downloaded onto your computer (rather than using the official Web Store).
+
+* [Japanese Learners Optimized Multitextmarker Browser Addon](https://github.com/nihonmiah71/japanese-learners-optimized-multitextmarker-browseraddon)
+* [Japanese GrammarHub Browser Addon](https://github.com/nihonmiah71/japanese-grammarhub-browseraddon)
+* [Ruby Furigana Remover for Tsuu Reader Browser Addon](https://github.com/nihonmiah71/Ruby-Furigana-remover-for-tsuu-reader-browseraddon)
+
+<details>
+   
+### General Installation Procedure
+
+### Step 1: Prepare the Files
+
+* Load all the files you downloaded in one folder
+
+### Step 2: Open the Extensions Menu in Chrome
+
+1. Open Google Chrome.
+2. Click on the **three vertical dots** (Menu) in the top-right corner.
+3. Hover over **Extensions** and select **Manage Extensions**.
+*(Alternatively, type `chrome://extensions/` directly into the address bar and press Enter).*
+
+### Step 3: Enable Developer Mode
+
+In the top-right corner of the Extensions management screen, find the toggle switch labeled **Developer mode**.
+
+* Flip this switch to the **ON** position.
+* Once enabled, a secondary utility bar will instantly appear on the top-left side of the interface displaying three operational buttons: *Load unpacked*, *Pack extension*, and *Update*.
+
+### Step 4: Load the Local Extension
+
+1. Click the **Load unpacked** button on the far-left side of the Developer menu bar.
+2. A system file explorer window will pop up.
+3. Navigate to the local folder where your extracted extension files reside.
+
+### Step 5: Reloading After Source Changes
+
+If you modify any source code files (such as background scripts, stylesheets, or configuration objects) within your local directory, Chrome does not track updates in real-time. You must manually force a refresh:
+
+1. Save all file edits within your code editor.
+2. Return to `chrome://extensions/`.
+3. Locate the respective extension's interface card.
+4. Click the circular **Reload arrow icon** located in the bottom-right corner of that card.
+5. *Note: If your local extension interacts with a specific website or tab, remember to refresh that target webpage (F5) for the changes to apply.*
+</details>
+---
+
+## 🔧 Further Add-on Configurations
+
+Configuration of **AJT Japanese** and **AutoReorder**
+
+<details>
+### 1. AJT Japanese (for JP Mining Note) Profile Setup
+
+To customize sentence parsing and target fields, configure two distinct profiles at the beginning of your configuration process:
+
+1. Open your Anki dashboard layout.
+2. Look at the top menu bar directly at the top of your card dashboard area.
+3. Navigate into the **Japanese Options** menu selection.
+4. Add exactly **2 new profiles** using your specific parameters to align text mapping scripts correctly with your database note properties.
+
+### 2. AutoReorder Automation Script
+
+To ensure cards containing frequent terms are systematically prioritized during active review loops, update the scheduling layout properties:
+
+1. From the top main menu toolbar in Anki, click on **Tools**.
+2. Select **AutoReorder** from the drop-down list.
+3. Navigate directly to the **Config** tab.
+4. Replace or insert the following configuration text into the editor window:
+
+```
+{
+    "search_to_sort": "deck:mining is:new",
+    "shift_existing": true,
+    "sort_field": "Frequency",
+    "sort_reverse": false
+}
+
+```
+</details>
+---
