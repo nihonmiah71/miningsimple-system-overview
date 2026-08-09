@@ -1273,3 +1273,314 @@ By default, these cards use the **Term Card** layout, and their Pronunciation Si
 
 ---
 
+# Ruby Remover
+
+**Ruby Remover** is a lightweight Chrome extension (Manifest V3) specifically designed for use with **Tsuu Reader**. It prepares Light Novel text so that other text-scanning extensions (such as pop-up dictionaries) can function flawlessly without being interrupted by Furigana (ruby tags) or fragmented text nodes.
+
+---
+
+## Demo
+
+https://github.com/user-attachments/assets/12daaa9e-3880-402e-a733-e8d38e6a2822
+
+---
+
+## Key Features
+
+* **Furigana Removal (Ruby Tags):** The extension scans the document, removes all `<rt>` and `<rp>` elements, and preserves only the original Kanji or base text. The structural integrity of the layout remains perfectly intact.
+
+
+* **Text Normalization (`DOM Normalize`):** After removing the ruby tags, fragmented text nodes (e.g., `"可愛"` + `"いい〜。"`) are automatically fused back into a single, cohesive string within the DOM. This step is critical for ensuring that downstream text-scanning addons can accurately recognize vocabulary.
+
+
+* **Middle-Block Cleanup:** Paragraphs carrying the `p.middle-block` class are automatically processed. Stray quotation marks and brackets (such as `"`, `„`, `“`, `「`, `」`) are stripped out, and multiple consecutive whitespaces are collapsed into a single space.
+
+
+
+---
+
+## How It Works Under the Hood
+
+When you click the extension's icon in your browser toolbar, it triggers a sequence via the background components:
+
+1. **Event Listening:** The service worker in `background.js` listens for the extension icon click.
+
+
+2. **Script Injection:** It dynamically injects and executes `content.js` onto your active browser tab.
+
+
+3. **DOM Manipulation:** The injected script in `content.js` isolates and deletes the Furigana markup, invokes `document.body.normalize()` to merge fractured strings, and formats text inside `.middle-block` elements.
+
+
+
+---
+
+## Installation & Usage
+
+Since this project is currently hosted on GitHub, you can install it as a developer extension on any Chromium-based browser (Google Chrome, Brave, Microsoft Edge, Vivaldi):
+
+### 1. Download the Extension
+
+* Clone this repository using Git, or download the source code as a ZIP file directly from GitHub and extract it into a local directory.
+
+### 2. Enable Developer Mode
+
+* Open your browser's extension management page by navigating to `chrome://extensions/`.
+* Toggle the **Developer mode** switch in the top-right corner.
+
+### 3. Load the Unpacked Folder
+
+* Click the **"Load unpacked"** button in the top-left corner.
+* Select the local folder containing your `manifest.json`, `background.js`, and `content.js` files.
+
+
+
+### 4. Running on Tsuu Reader
+
+* Navigate to your Light Novel reader inside **Tsuu Reader**.
+* Click the **Ruby Remover** icon in your browser toolbar (hint: pin the icon for quicker access).
+* The script instantly cleans the page in the background, allowing you to scan text freely with your target dictionary tools.
+
+---
+
+## Technical Details
+
+The extension is built adhering to the modern **Manifest V3** standard:
+
+* **`activeTab` Permission:** Grants the extension temporary, secure access to the active tab only when you explicitly click its icon, ensuring user privacy.
+
+
+* **`scripting` API:** Allows `content.js` to be injected on-demand by the `background.js` service worker, eliminating the need for a persistent background script that wastes system resources.
+
+
+
+---
+
+What additional information or features would you like to add next? Let me know, and we can refine it further!
+## Disclaimer
+
+The python scripts will probably not run on your system unless you installed all the right packages, some of them might only be supported for older pyhton versions (Python 3.12), debug with AI and install the required packages as needed.
+
+
+---
+
+## Overview
+
+<img width="2266" height="884" alt="image" src="https://github.com/user-attachments/assets/c82f63f2-68ab-4e71-8f36-2b2e8f9c3dfc" />
+
+---
+
+
+## 🌟 What Text Markierer Pro Does (Key Features)
+
+Text Markierer Pro is a Google Chrome extension that scans any website you are reading, automatically finds specific words or patterns from your study list, and highlights them for you.
+
+### 1. Smart Visual Highlighting
+
+Instead of highlighting every word with the same color, it organizes them so you can analyze the text at a glance:
+
+* **Color by Language Type:** It instantly checks how a Japanese word is written. Mixed words (Kanji + Kana) turn **Blue**, pure phonetic words (Hiragana/Katakana) turn **Grün (Green)**, and pure **Kanji** words turn **Rot (Red)**.
+
+
+* **Color by Frequency:** The extension counts how many times a word appears on the page. If a word appears only once or twice, it gets a very light pastel highlight. If it appears frequently, the color automatically becomes much darker and more vibrant.
+
+
+* **Pattern Matching (Regex):** If you search for advanced text patterns rather than exact words, those matches will highlight in **Gold**.
+
+
+
+### 2. The Interactive Dashboard
+
+Whenever you start highlighting, a small blue handle appears on the edge of your webpage. Clicking it opens an analysis panel with three simple views:
+
+* **Frequency:** Shows you a list of your words ranked by how often they appear on the current page.
+
+
+* **Chronological:** Lists the words in the exact order they appear from the top of the page to the bottom. Clicking any word in this list will smoothly scroll your browser right to that paragraph and make it flash purple so you don't lose your place.
+
+
+* **Sorted:** Groups all your discovered words neatly by your original search terms.
+
+
+
+### 3. Quick Navigation & Built-in Safety
+
+* **Double-Click Jump:** If you see a highlighted word in an article and want to find where it appears next, just double-click it. The page will automatically scroll straight to the next occurrence of that word.
+
+
+* **Accidental Flood Protection:** The extension automatically ignores short phonetic words (under 3 characters and only hirangana) so your screen doesn't get flooded with common grammatical particles.
+
+
+* **Auto-Save:** It remembers your search terms and settings automatically every time you open or close it.
+
+
+---
+## Demo
+
+<video src="https://github.com/user-attachments/assets/e962ad63-3a1b-47c9-84d4-3fbccbbb1588" width="854" controls></video>
+
+---
+
+## 🔄 Step-by-Step Workflow: How to Update Your List
+
+To automatically move new words you are learning from your **Anki** flashcards straight into the **Chrome Extension**, you just need to follow these three steps:
+
+### Step 1: Export Your New Words From Anki
+
+1. Open your Anki Browser and search for your current mining cards (using `deck:mining card:pronounciation`).
+2. Sort them by the date they were created so your newest words are at the top.
+3. Select your new cards, open the **"Extract Inject Fields"** add-on menu, and choose **"Extract Fields"**.
+4. Select the `Word` field, choose plain text export, and save the file in your working folder exactly under the name **`extracted_fields1.tsv`**.
+
+https://github.com/user-attachments/assets/e1f7a36a-5fb6-4aff-8836-d2fc8ef7ddb6
+
+### Step 2: Run the Python script vocappend.py
+
+1. Open your computer's Command Prompt (CMD) in the folder where you saved these addon files
+2. Run your Python script (`vocappend.py`). (enter py vocappend.py)
+
+https://github.com/user-attachments/assets/9014ee9d-5d1d-4d8d-9426-3e95aeab5619
+
+### Step 3: Load the Words Into Chrome
+
+1. Click the Text Markierer Pro extension icon in your Google Chrome toolbar.
+2. Click the button labeled **"Liste Importieren"** (`btnLoad`).
+3. Go to the folder where you saved this addon, click on voclist.txt.
+
+Now, whenever you browse any website, the extension will immediately catch, color-code, and track those exact vocabulary words live while you read!
+
+### 📝 Note: How to Manually Remove Words from Your List
+
+If you ever want to stop a specific word from being highlighted, you can easily remove it from your list manually.
+
+For example, to remove the word **"example"**:
+
+1. Open your master text file (**`vocliste.txt`**) on your Desktop.
+2. Use the "Find and Replace" feature (Ctrl + F or Ctrl + H).
+3. Search for the word wrapped in symbols: **`@example@`**
+4. Replace it with just a single symbol: **`@`**
+5. Save the file and click **"Liste Importieren"** in the Chrome extension to update it.
+
+
+---
+
+## Installation & Usage
+
+Since this project is currently hosted on GitHub, you can install it as a developer extension on any Chromium-based browser (Google Chrome, Brave, Microsoft Edge, Vivaldi):
+
+### 1. Download the Extension
+
+* Clone this repository using Git, or download the source code as a ZIP file directly from GitHub and extract it into a local directory.
+
+### 2. Enable Developer Mode
+
+* Open your browser's extension management page by navigating to `chrome://extensions/`.
+* Toggle the **Developer mode** switch in the top-right corner.
+
+### 3. Load the Unpacked Folder
+
+* Click the **"Load unpacked"** button in the top-left corner.
+* Select the local folder containing the files of this repository.
+# Japanese Grammar Analysis Add-on
+
+A powerful, serverless Chrome extension designed to seamlessly integrate Japanese grammar reading practice with Anki. It analyzes webpages for JLPT grammar patterns using advanced regular expressions, highlights them in context, provides comprehensive statistics, and allows you to mine sentences directly into your Anki decks.
+
+---
+
+## Disclaimer
+
+The python scripts will probably not run on your system unless you installed all the right packages, some of them might only be supported for older pyhton versions (Python 3.12), debug with AI and install the required packages as needed.
+
+---
+
+## 🚀 Features
+
+### 🔍 In-Page Grammar Analysis
+
+* **Context Menu Activation:** Right-click on any webpage or text selection and choose "Start Japanese Grammar Analysis" to run the parser.
+* **Smart Regex Parsing:** Highlights recognized grammar patterns directly within the text using optimized regular expressions.
+* **Interactive Highlights:** Hover over matched grammar points to see subtle highlights, and click them to open a detailed, draggable information modal.
+
+### 🎛️ Comprehensive Options Dashboard
+
+* **JLPT Level Filtering:** View and toggle active grammar points categorized by JLPT levels (N5 to N1).
+* **Tag-Based Filtering:** Enable or disable grammar search patterns based on custom tags.
+* **Contrast Grammars Mode:** Select multiple grammar points and open a specialized "Contrast View" in a new window to compare their constructions, examples, and rules side-by-side in a clean grid layout.
+
+### 🟢 Anki Mining Hub (The Green Bubble)
+
+* **Floating Hub:** A draggable green hub that tracks your mined sentences. Click to expand into a full workspace. (Note might load for a while for the first opening/You might have to click a certain point of the green square)
+* **1-Click Sentence Mining:** Click the "+ Anki" button inside any grammar popup to instantly capture the target word, the surrounding sentence context, and the grammar definition.
+* **Dual Tab Interface:**
+* **Individual Cards:** View and edit single mined sentences, complete with frequency, English definitions, and Japanese notes.
+* **Grammar Updates:** View aggregated sentences grouped by their Note ID (NID).
+
+
+* **TSV Export:** Export your collected data with a single click to import them directly into Anki.
+
+### 🟡 Grammar Stats & Navigation (The Yellow Bubble)
+
+* **Page Statistics:** A draggable yellow hub that provides an analytical breakdown of the grammar found on the current page.
+* **Frequency Tab:** Lists the most frequently used grammar points on the page.
+* **Chronological Tab:** Displays grammar points in the exact order they appear in the text.
+* **Sorted Tab:** Groups occurrences by grammar point for easy review.
+* **Jump Links:** Click any match in the stats table to smoothly scroll to its exact location on the webpage.
+
+---
+
+## 🔄 Anki Integration & Workflow
+
+This extension is built to work in tandem with a specific Anki setup, utilizing two distinct note types: `miningsimple` (for your mining deck) and `grammar` (for your overarching grammar database).
+
+### Prerequisites
+
+To use the complete workflow, you will need the following installed in Anki:
+
+* The **Fields Extract Inject** Anki add-on.
+* Your custom **Grammarminer** Anki add-on.
+
+### 📖 1. Daily Mining Workflow
+
+When you are reading Japanese content online and want to mine example sentences:
+
+1. Right-click the page and select **Start Japanese Grammar Analysis**.
+2. Click on highlighted grammar points to read the explanations.
+3. Click **+ Anki** in the popup to add the sentence to your Mining Hub.
+4. Open the green **Anki Mining Hub** on the page and click **Export TSV**.
+5. Import this TSV file into Anki using your **Grammarminer** add-on.
+* *Note: The Grammarminer add-on will automatically create individual Anki cards (`miningsimple`) for the mined sentences. It will also link these sentences back to the base grammar card (`grammar`), ensuring the base card serves as a master database containing all sentences ever mined for that specific pattern.*
+
+
+
+### 🛠️ 2. Updating the Grammar Database
+
+When you modify tags, adjust regex patterns, or add new grammar rules to your `grammar` note type in Anki, you must sync these changes with the browser extension:
+
+1. Open the Anki Browser and search for `deck:grammar` to select all grammar cards.
+2. Activate the **Fields Extract Inject** add-on and choose **Extract**.
+3. Select all fields **except** the "mined sentences" field.
+4. Export the data in **HTML format**.
+* *Crucial: Ensure you create a column for NIDs (Note IDs) when prompted, and include all tags in the export.*
+
+
+5. Save the exported table in the browser extension's root folder, overwriting the existing `simplegrammarregex_fixed.tsv` file.
+6. Open your terminal or command prompt (cmd) in the extension's root directory and run the Python preparation script:
+```bash
+python prepare_data.py
+
+```
+
+
+7. Delete the old JSON files currently located in the `data/` folder of the extension.
+8. Move the newly generated `grammar_data.json` and `patterns_data.json` files into the `data/` folder.
+9. Open Chrome, navigate to `chrome://extensions/`, and reload the add-on to apply the latest database.
+
+---
+
+## 📥 Installation
+
+1. Clone or download this repository to your local machine.
+2. Open Google Chrome and navigate to `chrome://extensions/`.
+3. Enable **Developer mode** in the top right corner.
+4. Click **Load unpacked** and select the folder containing the extension files.
+5. Configure your grammar database following the workflow steps above.
