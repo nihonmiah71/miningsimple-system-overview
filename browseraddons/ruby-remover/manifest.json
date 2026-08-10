@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Ruby Remover Manual",
+  "version": "1.1",
+  "description": "Removes ruby tags and cleans up middle blocks with the click of a button.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_title": "Remove ruby now"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "scripts": ["background.js"]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "ruby-remover-manual@nihonmiah"
+    }
+  }
+}

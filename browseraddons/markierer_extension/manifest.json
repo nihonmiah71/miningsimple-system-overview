@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Text Highlighter Pro",
+  "version": "2.0",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Start Marking"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}

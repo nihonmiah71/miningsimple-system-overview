@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Grammar Add-on Settings</title>
+  <style>
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding: 30px; max-width: 1000px; margin: auto; background-color: #f5f6fa; color: #2f3640; }
+    h2 { color: #2f3542; border-bottom: 2px solid #74b9ff; padding-bottom: 10px; margin-bottom: 20px; }
+    .sticky-bar { position: sticky; top: 0; background: #f5f6fa; padding: 10px 0; z-index: 100; display: flex; align-items: center; gap: 15px; border-bottom: 1px solid #dcdde1; }
+    .group { background: white; border: 1px solid #dcdde1; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+    h3 { margin-top: 0; color: #57606f; font-size: 16px; text-transform: uppercase; letter-spacing: 0.5px; display: flex; justify-content: space-between; align-items: center; }
+    .level-container { margin-bottom: 25px; border-bottom: 1px solid #f1f2f6; padding-bottom: 15px; }
+    .level-container:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+    .level-title { font-size: 15px; font-weight: bold; color: #2f3542; margin-bottom: 10px; background: #eccc68; padding: 4px 10px; border-radius: 4px; display: inline-block; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; }
+    .item { display: flex; align-items: center; background: #f1f2f6; padding: 8px 12px; border-radius: 6px; font-size: 13px; transition: background 0.2s; }
+    .item:hover { background: #dfe4ea; }
+    .item label { margin-left: 8px; cursor: pointer; flex-grow: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .item input[type="checkbox"] { cursor: pointer; }
+    button { background-color: #2ed573; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-weight: bold; font-size: 14px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: background 0.2s; }
+    button:hover { background-color: #26af5f; }
+    .global-actions { display: flex; gap: 8px; }
+    .global-actions button { background-color: #74b9ff; font-size: 12px; padding: 8px 14px; }
+    .global-actions button:hover { background-color: #54a0ff; }
+    #none { background-color: #ff6b81; }
+    #none:hover { background-color: #ff4757; }
+    #all-force { background-color: #a55eea !important; }
+    #all-force:hover { background-color: #8854d0 !important; }
+    #none-force { background-color: #57606f !important; }
+    #none-force:hover { background-color: #2f3542 !important; }
+    #contrast-grammars { background-color: #0984e3 !important; }
+    #contrast-grammars:hover { background-color: #0a7cd2 !important; }
+    #tag-adder { background-color: #f6b93b !important; }
+    #tag-adder:hover { background-color: #e5a92c !important; }
+    #status { color: #2ed573; font-weight: bold; font-size: 16px; }
+    .loading { font-style: italic; color: #a4b0be; }
+  </style>
+</head>
+<body>
+
+  <h2>Japanese Grammar Filter Settings</h2>
+
+  <div class="sticky-bar">
+    <button id="save">Save Settings</button>
+    <div class="global-actions">
+      <button id="all">Activate All</button>
+      <button id="none">Deactivate All</button>
+      <button id="all-force">Activate All Force</button>
+      <button id="none-force">Deactivate All Force</button>
+      <button id="contrast-grammars">Contrast Selected</button>
+      <button id="tag-adder">Tag Adder</button>
+    </div>
+    
+    <div style="display: flex; align-items: center; gap: 8px; margin-left: 15px; border-left: 1px solid #dcdde1; padding-left: 15px;">
+      <input type="checkbox" id="gamify-sounds-cb" style="transform: scale(1.2); cursor: pointer; accent-color: #eccc68;">
+      <label for="gamify-sounds-cb" style="font-weight: bold; color: #57606f; cursor: pointer; user-select: none;">Enable Gamification Sounds</label>
+    </div>
+
+    <div style="display: flex; align-items: center; gap: 8px; margin-left: 15px; border-left: 1px solid #dcdde1; padding-left: 15px;">
+      <input type="checkbox" id="count-lookups-cb" style="transform: scale(1.2); cursor: pointer; accent-color: #74b9ff;">
+      <label for="count-lookups-cb" style="font-weight: bold; color: #57606f; cursor: pointer; user-select: none;">Track Lookups</label>
+    </div>
+
+    <div style="display: flex; align-items: center; gap: 15px; margin-left: 15px; border-left: 1px solid #dcdde1; padding-left: 15px; font-size: 13px; color: #2f3542; font-weight: bold;">
+      <span>All-time: <span id="stat-all-time" style="color: #0984e3;">0</span></span>
+      <span>Session: <span id="stat-session" style="color: #0984e3;">0</span></span>
+    </div>
+
+    <span id="status"></span>
+  </div>
+
+  <div class="group" id="tag-management-container" style="background: #f8f9fa; border: 1px dashed #74b9ff;">
+    <h3 style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+      <span>Activate/Deactivate Groups by Tags</span>
+      <div style="display: flex; gap: 8px;">
+        <button id="intersect-norm" style="padding: 4px 10px; font-size: 11px; background: #2ed573; color: white; border: none; border-radius: 4px; cursor: pointer; font-weight: bold;">Intersection (Norm)</button>
+        <button id="intersect-force" style="padding: 4px 10px; font-size: 11px; background: #8A2BE2; color: white; border: none; border-radius: 4px; cursor: pointer; font-weight: bold;">Intersection (Force)</button>
+      </div>
+    </h3>
+    <div id="tag-buttons-grid" style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 15px;"></div>
+  </div>
+
+  <div class="group">
+    <h3>Grammar Points Setup</h3>
+    <div id="grammar-container" class="loading">Loading configuration data, please wait...</div>
+  </div>
+
+  <script src="options.js"></script>
+</body>
+</html>
