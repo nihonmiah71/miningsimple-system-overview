@@ -29,7 +29,7 @@ def verarbeite_tsv(tsv_pfad, ziel_pfad):
 
 # Define paths
 tsv_datei = "extracted_fields1.tsv"
-ziel_datei = r"C:\Users\user\Desktop\markierer_extension\vocliste.txt"
+ziel_datei = "vocliste.txt"
 
 # Run program
 if __name__ == "__main__":

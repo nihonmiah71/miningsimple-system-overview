@@ -1,0 +1,8 @@
+torch
+torchaudio
+whisperx
+pydub
+pysrt
+pykakasi
+opencv-python
+pandas

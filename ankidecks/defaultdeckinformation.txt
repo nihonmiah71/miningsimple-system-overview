@@ -1,0 +1,55 @@
+deck:mining
+notetype:miningsimple
+fields:
+Dump10
+Dump9
+Dump8
+Dump7
+Dump6
+Dump5
+Dump4
+Dump3
+Dump2
+Dump1
+SiblingSyncInfo
+AlternativeDictionary2
+AlternativeDictionary1
+GrammarDictionary1
+NameDictionary1
+Notes2
+Notes1
+TranslationExampleSentence
+Link to Related Cards
+Source
+SentenceFurigana
+Correct Japanese Definition
+Japanese Definition Overview
+Correct English Definition
+English Definition Overview
+Pronounciation
+HintNotHidden
+Hint(Pronounciation)
+SentencePlain
+Picture
+SoundBack
+SoundFront
+Frequency
+Word
+Note ID
+
+||||||||||||||||||||||||||||||||||||||||||||||
+
+deck:grammar
+notetype:Grammar
+fields:
+mined sentences
+regexpattern
+examplesentences audio
+construction audio
+title audio
+examplesentences
+construction
+Notes
+Connected Grammar Points from jlptsensei (optional)
+Link
+Level And Grammar Point

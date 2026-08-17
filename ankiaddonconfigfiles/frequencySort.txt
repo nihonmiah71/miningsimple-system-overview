@@ -1,0 +1,6 @@
+{
+    "search_to_sort": "deck:mining is:new",
+    "shift_existing": true,
+    "sort_field": "Frequency",
+    "sort_reverse": false
+}

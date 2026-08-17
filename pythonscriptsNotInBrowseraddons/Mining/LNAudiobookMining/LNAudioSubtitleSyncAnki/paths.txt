@@ -1,0 +1,2 @@
+AUDIO_OUTPUT_DIR=C:/Users/user/Desktop/miningsimple-system-overview/pythonscriptsNotInBrowseraddons/Mining/LNAudiobookMining/LNAudioSubtitleSyncAnki/ExtractedAudio
+BACKUP_DIR=C:/Users/user/Desktop/miningsimple-system-overview/pythonscriptsNotInBrowseraddons/Mining/LNAudiobookMining/LNAudioSubtitleSyncAnki/backup
