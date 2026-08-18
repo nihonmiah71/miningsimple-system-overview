@@ -1,6 +1,10 @@
 <h3>7zSetUp.mp4</h3>
 <video src="./TutorialVideos/7zSetUp.mp4" controls width="100%"></video>
 
+### AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists1
+<video src="./TutorialVideos/AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists1.mp4" controls="controls" width="100%">
+</video>
+
 ### AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists1.mp4
 [▶️ AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists1.mp4](./TutorialVideos/AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists1.mp4?raw=true)
 
