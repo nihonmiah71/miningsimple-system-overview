@@ -221,12 +221,6 @@
 
 ## Cards and selfmade Browser Addons Demo
 
-make index of videos
-
-
-
-show finished miningsimple card (with additional functionlaity!), show grammar card, show browseraddon grammar and textmarker activation
-
 <details>
 
 <summary>miningsimple Note</summary>
