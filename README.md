@@ -221,7 +221,63 @@
 
 ## Cards and selfmade Browser Addons Demo
 
+make index of videos
+
+
+
 show finished miningsimple card (with additional functionlaity!), show grammar card, show browseraddon grammar and textmarker activation
+
+<details>
+
+<summary>miningsimple Note</summary>
+
+https://github.com/user-attachments/assets/c42f565e-16dd-431d-9bf4-429a3aa229f1
+
+https://github.com/user-attachments/assets/632813ae-1016-499f-aef5-12f71138dbaa
+
+</details>
+
+<details>
+
+<summary>Grammar Note</summary>
+
+https://github.com/user-attachments/assets/8e763e84-08cc-49cb-ad90-ed1d405500b2
+
+https://github.com/user-attachments/assets/066b23ae-089b-46ab-ae25-be70f85f600b
+
+https://github.com/user-attachments/assets/cf0bf4cb-9ce9-4f32-a238-4cbce4f44252
+
+</details>
+
+<details>
+
+<summary>GrammarBrowserAddon</summary>
+
+https://github.com/user-attachments/assets/b20cc74f-8fb2-4501-8a47-ef85c14ae53b
+
+https://github.com/user-attachments/assets/87107aef-5a34-4e94-b18e-44420dcf9508
+
+</details>
+
+<details>
+
+<summary>MinedWordTextMarkerAddon</summary>
+
+https://github.com/user-attachments/assets/1b5e1ce5-8903-41da-82eb-9d37b4109177
+
+https://github.com/user-attachments/assets/36c6bc2a-6389-4781-bd25-ea017d1f21a4
+
+https://github.com/user-attachments/assets/bfb5b39b-a9b4-4931-b03d-118fe4eb07ae
+
+https://github.com/user-attachments/assets/6e543329-dbdf-4bde-82af-b8e167d186ff
+
+https://github.com/user-attachments/assets/11bd3e91-2998-4fd3-b802-953efca71a33
+
+https://github.com/user-attachments/assets/aef99ec8-fb4c-46fc-bf25-d1b66dcc12a0
+
+https://github.com/user-attachments/assets/ec28d819-ed65-4a97-9a4a-31fb64e0d113
+
+</details>
 
 ## Overview and Main Idea
 
