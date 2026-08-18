@@ -2058,7 +2058,7 @@ https://github.com/user-attachments/assets/c0d73747-a114-478d-8405-bd3ca6769db8
 
 </details>
 
-</details>
+<details>
 <summary>Additional (dated) info (copied from other repos) for reference</summary>
 
 # miningsimple-system-overview
