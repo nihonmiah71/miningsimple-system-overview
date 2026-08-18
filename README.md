@@ -1776,7 +1776,7 @@ https://github.com/user-attachments/assets/f3b37045-9c62-434b-9707-9c9c97adf71b
 </details>
 
 ### UpdateGrammarDataBase
-Short name ID of videos in playlist: U2 U3
+Short name ID of videos in playlist: U2
 <details>
 
 https://github.com/user-attachments/assets/335eac46-1400-4fb0-b3ff-afc1b8e46752
