@@ -1,648 +1,649 @@
-<h3>7zSetUp.mp4</h3>
-<video src="./TutorialVideos/7zSetUp.mp4" controls width="100%"></video>
-<br/>
-<h3>AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists1.mp4</h3>
-<video src="./TutorialVideos/AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists1.mp4" controls width="100%"></video>
-<br/>
-<h3>AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists2.mp4</h3>
-<video src="./TutorialVideos/AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists2.mp4" controls width="100%"></video>
-<br/>
-<h3>AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists3.mp4</h3>
-<video src="./TutorialVideos/AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists3.mp4" controls width="100%"></video>
-<br/>
-<h3>AddonBrowserSelfSetUp1 part 1.mp4</h3>
-<video src="./TutorialVideos/AddonBrowserSelfSetUp1%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>AddonBrowserSelfSetUp1 part 2.mp4</h3>
-<video src="./TutorialVideos/AddonBrowserSelfSetUp1%20part%202.mp4" controls width="100%"></video>
-<br/>
-<h3>AddonBrowserSelfSetUp1 part 3.mp4</h3>
-<video src="./TutorialVideos/AddonBrowserSelfSetUp1%20part%203.mp4" controls width="100%"></video>
-<br/>
-<h3>AddonBrowserSelfSetUp2.mp4</h3>
-<video src="./TutorialVideos/AddonBrowserSelfSetUp2.mp4" controls width="100%"></video>
-<br/>
-<h3>AddonBrowserSelfSetUp3.mp4</h3>
-<video src="./TutorialVideos/AddonBrowserSelfSetUp3.mp4" controls width="100%"></video>
-<br/>
-<h3>ADDtoMiningCardDemoGITHUB.mp4</h3>
-<video src="./TutorialVideos/ADDtoMiningCardDemoGITHUB.mp4" controls width="100%"></video>
-<br/>
-<h3>AnimePictureAudioSubSync1.mp4</h3>
-<video src="./TutorialVideos/AnimePictureAudioSubSync1.mp4" controls width="100%"></video>
-<br/>
-<h3>AnimePictureAudioSubSync2.mp4</h3>
-<video src="./TutorialVideos/AnimePictureAudioSubSync2.mp4" controls width="100%"></video>
-<br/>
-<h3>AnimePictureAudioSubSync3.mp4</h3>
-<video src="./TutorialVideos/AnimePictureAudioSubSync3.mp4" controls width="100%"></video>
-<br/>
-<h3>AnimePictureAudioSubSync4.mp4</h3>
-<video src="./TutorialVideos/AnimePictureAudioSubSync4.mp4" controls width="100%"></video>
-<br/>
-<h3>AnimePictureAudioSubSync5.mp4</h3>
-<video src="./TutorialVideos/AnimePictureAudioSubSync5.mp4" controls width="100%"></video>
-<br/>
-<h3>AnimePictureAudioSubSync6.mp4</h3>
-<video src="./TutorialVideos/AnimePictureAudioSubSync6.mp4" controls width="100%"></video>
-<br/>
-<h3>AnimePrepareSubtitlesForMining1.mp4</h3>
-<video src="./TutorialVideos/AnimePrepareSubtitlesForMining1.mp4" controls width="100%"></video>
-<br/>
-<h3>AnimePrepareSubtitlesForMining2 part 1.mp4</h3>
-<video src="./TutorialVideos/AnimePrepareSubtitlesForMining2%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>AnimePrepareSubtitlesForMining2 part 2 part 1.mp4</h3>
-<video src="./TutorialVideos/AnimePrepareSubtitlesForMining2%20part%202%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>AnimePrepareSubtitlesForMining2 part 2 part 2.mp4</h3>
-<video src="./TutorialVideos/AnimePrepareSubtitlesForMining2%20part%202%20part%202.mp4" controls width="100%"></video>
-<br/>
-<h3>AnimePrepareSubtitlesForMining2 part 3 part 1.mp4</h3>
-<video src="./TutorialVideos/AnimePrepareSubtitlesForMining2%20part%203%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>AnimePrepareSubtitlesForMining2 part 3 part 2_split_1.mp4</h3>
-<video src="./TutorialVideos/AnimePrepareSubtitlesForMining2%20part%203%20part%202_split_1.mp4" controls width="100%"></video>
-<br/>
-<h3>AnimePrepareSubtitlesForMining2 part 3 part 2_split_2.mp4</h3>
-<video src="./TutorialVideos/AnimePrepareSubtitlesForMining2%20part%203%20part%202_split_2.mp4" controls width="100%"></video>
-<br/>
-<h3>AnimePrepareSubtitlesForMining2 part 3 part 2_split_3.mp4</h3>
-<video src="./TutorialVideos/AnimePrepareSubtitlesForMining2%20part%203%20part%202_split_3.mp4" controls width="100%"></video>
-<br/>
-<h3>AnimePrepareSubtitlesForMining3-AnimeSourceMaterialSubtitlesSRT2.mp4</h3>
-<video src="./TutorialVideos/AnimePrepareSubtitlesForMining3-AnimeSourceMaterialSubtitlesSRT2.mp4" controls width="100%"></video>
-<br/>
-<h3>AnimeSourceMaterialSubtitlesSRT1.mp4</h3>
-<video src="./TutorialVideos/AnimeSourceMaterialSubtitlesSRT1.mp4" controls width="100%"></video>
-<br/>
-<h3>AnimeSourceMaterialVideoDownloadHelper1-ChromeStoreBrowserAddons2 part 1.mp4</h3>
-<video src="./TutorialVideos/AnimeSourceMaterialVideoDownloadHelper1-ChromeStoreBrowserAddons2%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>AnimeSourceMaterialVideoDownloadHelper1-ChromeStoreBrowserAddons2 part 2.mp4</h3>
-<video src="./TutorialVideos/AnimeSourceMaterialVideoDownloadHelper1-ChromeStoreBrowserAddons2%20part%202.mp4" controls width="100%"></video>
-<br/>
-<h3>AnimeSourceMaterialVideoDownloadHelper2-ChromeStoreBrowserAddons2,5.mp4</h3>
-<video src="./TutorialVideos/AnimeSourceMaterialVideoDownloadHelper2-ChromeStoreBrowserAddons2%2C5.mp4" controls width="100%"></video>
-<br/>
-<h3>AnkiAddons1.mp4</h3>
-<video src="./TutorialVideos/AnkiAddons1.mp4" controls width="100%"></video>
-<br/>
-<h3>AnkiAddons2.mp4</h3>
-<video src="./TutorialVideos/AnkiAddons2.mp4" controls width="100%"></video>
-<br/>
-<h3>AnkiDownload.mp4</h3>
-<video src="./TutorialVideos/AnkiDownload.mp4" controls width="100%"></video>
-<br/>
-<h3>AudacitySetUp1.mp4</h3>
-<video src="./TutorialVideos/AudacitySetUp1.mp4" controls width="100%"></video>
-<br/>
-<h3>AudacitySetUp2.mp4</h3>
-<video src="./TutorialVideos/AudacitySetUp2.mp4" controls width="100%"></video>
-<br/>
-<h3>CardCreation0.01-tsuureader.mp4</h3>
-<video src="./TutorialVideos/CardCreation0.01-tsuureader.mp4" controls width="100%"></video>
-<br/>
-<h3>CardCreation0.1-ActivationOFRubyDeleterAddonAtBeginningOFReading.mp4</h3>
-<video src="./TutorialVideos/CardCreation0.1-ActivationOFRubyDeleterAddonAtBeginningOFReading.mp4" controls width="100%"></video>
-<br/>
-<h3>CardCreation0.2-ActivationOFGrammarAddonAtBeginningOFReading1.mp4</h3>
-<video src="./TutorialVideos/CardCreation0.2-ActivationOFGrammarAddonAtBeginningOFReading1.mp4" controls width="100%"></video>
-<br/>
-<h3>CardCreation0.3-ActivationOFGrammarAddonAtBeginningOFReading2.mp4</h3>
-<video src="./TutorialVideos/CardCreation0.3-ActivationOFGrammarAddonAtBeginningOFReading2.mp4" controls width="100%"></video>
-<br/>
-<h3>CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading part 1.mp4</h3>
-<video src="./TutorialVideos/CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading part 2 part 1.mp4</h3>
-<video src="./TutorialVideos/CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading%20part%202%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading part 2 part 2.mp4</h3>
-<video src="./TutorialVideos/CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading%20part%202%20part%202.mp4" controls width="100%"></video>
-<br/>
-<h3>CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading part 3 part 1.mp4</h3>
-<video src="./TutorialVideos/CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading%20part%203%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading part 3 part 2_split_1.mp4</h3>
-<video src="./TutorialVideos/CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading%20part%203%20part%202_split_1.mp4" controls width="100%"></video>
-<br/>
-<h3>CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading part 3 part 2_split_2.mp4</h3>
-<video src="./TutorialVideos/CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading%20part%203%20part%202_split_2.mp4" controls width="100%"></video>
-<br/>
-<h3>CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading part 3 part 2_split_3.mp4</h3>
-<video src="./TutorialVideos/CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading%20part%203%20part%202_split_3.mp4" controls width="100%"></video>
-<br/>
-<h3>CardCreation1,LightnovelVocabularyMining1.mp4</h3>
-<video src="./TutorialVideos/CardCreation1%2CLightnovelVocabularyMining1.mp4" controls width="100%"></video>
-<br/>
-<h3>CardCreation1.1-GoogleTranslateAddonUseDuringMining.mp4</h3>
-<video src="./TutorialVideos/CardCreation1.1-GoogleTranslateAddonUseDuringMining.mp4" controls width="100%"></video>
-<br/>
-<h3>CardsCreation,AlternativeTextsources2.5 part 1.mp4</h3>
-<video src="./TutorialVideos/CardsCreation%2CAlternativeTextsources2.5%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>CardsCreation,AlternativeTextsources2.5 part 2.mp4</h3>
-<video src="./TutorialVideos/CardsCreation%2CAlternativeTextsources2.5%20part%202.mp4" controls width="100%"></video>
-<br/>
-<h3>CardsCreation,AlternativeTextsources2.5 part 3 part 1.mp4</h3>
-<video src="./TutorialVideos/CardsCreation%2CAlternativeTextsources2.5%20part%203%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>CardsCreation,AlternativeTextsources2.5 part 3 part 2.mp4</h3>
-<video src="./TutorialVideos/CardsCreation%2CAlternativeTextsources2.5%20part%203%20part%202.mp4" controls width="100%"></video>
-<br/>
-<h3>CardsCreation,ExportingFromBrowserAddonAndUploadWithAnkiAddon3.mp4</h3>
-<video src="./TutorialVideos/CardsCreation%2CExportingFromBrowserAddonAndUploadWithAnkiAddon3.mp4" controls width="100%"></video>
-<br/>
-<h3>CardsCreation,PostMiningPreAddSubSoundPrep4 part 1.mp4</h3>
-<video src="./TutorialVideos/CardsCreation%2CPostMiningPreAddSubSoundPrep4%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>CardsCreation,PostMiningPreAddSubSoundPrep4 part 2.mp4</h3>
-<video src="./TutorialVideos/CardsCreation%2CPostMiningPreAddSubSoundPrep4%20part%202.mp4" controls width="100%"></video>
-<br/>
-<h3>CardsCreation4,5.mp4</h3>
-<video src="./TutorialVideos/CardsCreation4%2C5.mp4" controls width="100%"></video>
-<br/>
-<h3>CardsCreation4,51.mp4</h3>
-<video src="./TutorialVideos/CardsCreation4%2C51.mp4" controls width="100%"></video>
-<br/>
-<h3>CardsCreation4,52.mp4</h3>
-<video src="./TutorialVideos/CardsCreation4%2C52.mp4" controls width="100%"></video>
-<br/>
-<h3>CardsCreation4,75 part 1.mp4</h3>
-<video src="./TutorialVideos/CardsCreation4%2C75%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>CardsCreation4,75 part 2.mp4</h3>
-<video src="./TutorialVideos/CardsCreation4%2C75%20part%202.mp4" controls width="100%"></video>
-<br/>
-<h3>CardsCreation4,751 part 1.mp4</h3>
-<video src="./TutorialVideos/CardsCreation4%2C751%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>CardsCreation4,751 part 2.mp4</h3>
-<video src="./TutorialVideos/CardsCreation4%2C751%20part%202.mp4" controls width="100%"></video>
-<br/>
-<h3>CardsCreationAfterSound Processing1 part 1.mp4</h3>
-<video src="./TutorialVideos/CardsCreationAfterSound%20Processing1%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>CardsCreationAfterSound Processing1 part 2.mp4</h3>
-<video src="./TutorialVideos/CardsCreationAfterSound%20Processing1%20part%202.mp4" controls width="100%"></video>
-<br/>
-<h3>CardsCreationAfterSound Processing2.mp4</h3>
-<video src="./TutorialVideos/CardsCreationAfterSound%20Processing2.mp4" controls width="100%"></video>
-<br/>
-<h3>CardsCreationAfterSound Processing3.mp4</h3>
-<video src="./TutorialVideos/CardsCreationAfterSound%20Processing3.mp4" controls width="100%"></video>
-<br/>
-<h3>CardsCreationAfterSound Processing4.mp4</h3>
-<video src="./TutorialVideos/CardsCreationAfterSound%20Processing4.mp4" controls width="100%"></video>
-<br/>
-<h3>CardsCreationAfterSound Processing5.mp4</h3>
-<video src="./TutorialVideos/CardsCreationAfterSound%20Processing5.mp4" controls width="100%"></video>
-<br/>
-<h3>CardsCreation-TextmarkerAddon2.mp4</h3>
-<video src="./TutorialVideos/CardsCreation-TextmarkerAddon2.mp4" controls width="100%"></video>
-<br/>
-<h3>ChromeStoreBrowserAddons1.mp4</h3>
-<video src="./TutorialVideos/ChromeStoreBrowserAddons1.mp4" controls width="100%"></video>
-<br/>
-<h3>ChromeStoreBrowserAddons3 part 1.mp4</h3>
-<video src="./TutorialVideos/ChromeStoreBrowserAddons3%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>ChromeStoreBrowserAddons3 part 2.mp4</h3>
-<video src="./TutorialVideos/ChromeStoreBrowserAddons3%20part%202.mp4" controls width="100%"></video>
-<br/>
-<h3>ChromeStoreBrowserAddons3 part 3 part 1.mp4</h3>
-<video src="./TutorialVideos/ChromeStoreBrowserAddons3%20part%203%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>ChromeStoreBrowserAddons3 part 3 part 2.mp4</h3>
-<video src="./TutorialVideos/ChromeStoreBrowserAddons3%20part%203%20part%202.mp4" controls width="100%"></video>
-<br/>
-<h3>ChromeStoreBrowserAddons4.mp4</h3>
-<video src="./TutorialVideos/ChromeStoreBrowserAddons4.mp4" controls width="100%"></video>
-<br/>
-<h3>ContrastingGrammarstructuresInTheBrowserAddon.mp4</h3>
-<video src="./TutorialVideos/ContrastingGrammarstructuresInTheBrowserAddon.mp4" controls width="100%"></video>
-<br/>
-<h3>createYourOwnClusters1.mp4</h3>
-<video src="./TutorialVideos/createYourOwnClusters1.mp4" controls width="100%"></video>
-<br/>
-<h3>createYourOwnClusters11-AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists6.mp4</h3>
-<video src="./TutorialVideos/createYourOwnClusters11-AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists6.mp4" controls width="100%"></video>
-<br/>
-<h3>createYourOwnClusters2.mp4</h3>
-<video src="./TutorialVideos/createYourOwnClusters2.mp4" controls width="100%"></video>
-<br/>
-<h3>createYourOwnClusters3.mp4</h3>
-<video src="./TutorialVideos/createYourOwnClusters3.mp4" controls width="100%"></video>
-<br/>
-<h3>createYourOwnClusters5 part 1.mp4</h3>
-<video src="./TutorialVideos/createYourOwnClusters5%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>createYourOwnClusters5 part 2.mp4</h3>
-<video src="./TutorialVideos/createYourOwnClusters5%20part%202.mp4" controls width="100%"></video>
-<br/>
-<h3>createYourOwnClusters6-EditingClusters7 part 1 part 1.mp4</h3>
-<video src="./TutorialVideos/createYourOwnClusters6-EditingClusters7%20part%201%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>createYourOwnClusters6-EditingClusters7 part 1 part 2.mp4</h3>
-<video src="./TutorialVideos/createYourOwnClusters6-EditingClusters7%20part%201%20part%202.mp4" controls width="100%"></video>
-<br/>
-<h3>createYourOwnClusters6-EditingClusters7 part 2 part 1_split_1.mp4</h3>
-<video src="./TutorialVideos/createYourOwnClusters6-EditingClusters7%20part%202%20part%201_split_1.mp4" controls width="100%"></video>
-<br/>
-<h3>createYourOwnClusters6-EditingClusters7 part 2 part 1_split_2.mp4</h3>
-<video src="./TutorialVideos/createYourOwnClusters6-EditingClusters7%20part%202%20part%201_split_2.mp4" controls width="100%"></video>
-<br/>
-<h3>createYourOwnClusters6-EditingClusters7 part 2 part 1_split_3.mp4</h3>
-<video src="./TutorialVideos/createYourOwnClusters6-EditingClusters7%20part%202%20part%201_split_3.mp4" controls width="100%"></video>
-<br/>
-<h3>createYourOwnClusters6-EditingClusters7 part 2 part 2.mp4</h3>
-<video src="./TutorialVideos/createYourOwnClusters6-EditingClusters7%20part%202%20part%202.mp4" controls width="100%"></video>
-<br/>
-<h3>createYourOwnClusters7-EditingClusters8.mp4</h3>
-<video src="./TutorialVideos/createYourOwnClusters7-EditingClusters8.mp4" controls width="100%"></video>
-<br/>
-<h3>demogrammarcard1.mp4</h3>
-<video src="./TutorialVideos/demogrammarcard1.mp4" controls width="100%"></video>
-<br/>
-<h3>demogrammarcard2 part 1.mp4</h3>
-<video src="./TutorialVideos/demogrammarcard2%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>demogrammarcard2 part 2.mp4</h3>
-<video src="./TutorialVideos/demogrammarcard2%20part%202.mp4" controls width="100%"></video>
-<br/>
-<h3>DeskpinSetUp1.mp4</h3>
-<video src="./TutorialVideos/DeskpinSetUp1.mp4" controls width="100%"></video>
-<br/>
-<h3>DeskpinSetUp2.mp4</h3>
-<video src="./TutorialVideos/DeskpinSetUp2.mp4" controls width="100%"></video>
-<br/>
-<h3>EditingClusters6,5.mp4</h3>
-<video src="./TutorialVideos/EditingClusters6%2C5.mp4" controls width="100%"></video>
-<br/>
-<h3>EditingClusters6,75.mp4</h3>
-<video src="./TutorialVideos/EditingClusters6%2C75.mp4" controls width="100%"></video>
-<br/>
-<h3>EditRegex4-GrammarAddonEditingClusters5.mp4</h3>
-<video src="./TutorialVideos/EditRegex4-GrammarAddonEditingClusters5.mp4" controls width="100%"></video>
-<br/>
-<h3>EditRegex5-GrammarAddonEditingClusters6.mp4</h3>
-<video src="./TutorialVideos/EditRegex5-GrammarAddonEditingClusters6.mp4" controls width="100%"></video>
-<br/>
-<h3>FinalResultMining1.mp4</h3>
-<video src="./TutorialVideos/FinalResultMining1.mp4" controls width="100%"></video>
-<br/>
-<h3>FinalResultMining2.mp4</h3>
-<video src="./TutorialVideos/FinalResultMining2.mp4" controls width="100%"></video>
-<br/>
-<h3>FinalResultMining3 part 1.mp4</h3>
-<video src="./TutorialVideos/FinalResultMining3%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>FinalResultMining3 part 2.mp4</h3>
-<video src="./TutorialVideos/FinalResultMining3%20part%202.mp4" controls width="100%"></video>
-<br/>
-<h3>FinalResultMining4.mp4</h3>
-<video src="./TutorialVideos/FinalResultMining4.mp4" controls width="100%"></video>
-<br/>
-<h3>FinalResultMining5 part 1.mp4</h3>
-<video src="./TutorialVideos/FinalResultMining5%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>FinalResultMining5 part 2.mp4</h3>
-<video src="./TutorialVideos/FinalResultMining5%20part%202.mp4" controls width="100%"></video>
-<br/>
-<h3>FinalResultMining5 part 3.mp4</h3>
-<video src="./TutorialVideos/FinalResultMining5%20part%203.mp4" controls width="100%"></video>
-<br/>
-<h3>FindingSemanticalyRelated Structures1.mp4</h3>
-<video src="./TutorialVideos/FindingSemanticalyRelated%20Structures1.mp4" controls width="100%"></video>
-<br/>
-<h3>FindingSemanticalyRelated Structures2.mp4</h3>
-<video src="./TutorialVideos/FindingSemanticalyRelated%20Structures2.mp4" controls width="100%"></video>
-<br/>
-<h3>FindingSemanticalyRelated Structures3.mp4</h3>
-<video src="./TutorialVideos/FindingSemanticalyRelated%20Structures3.mp4" controls width="100%"></video>
-<br/>
-<h3>FindingSemanticalyRelated Structures4.mp4</h3>
-<video src="./TutorialVideos/FindingSemanticalyRelated%20Structures4.mp4" controls width="100%"></video>
-<br/>
-<h3>FindingSemanticalyRelated Structures5 part 1.mp4</h3>
-<video src="./TutorialVideos/FindingSemanticalyRelated%20Structures5%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>FindingSemanticalyRelated Structures5 part 2.mp4</h3>
-<video src="./TutorialVideos/FindingSemanticalyRelated%20Structures5%20part%202.mp4" controls width="100%"></video>
-<br/>
-<h3>FindingSyntacticalyRelatedStructures1 part 1.mp4</h3>
-<video src="./TutorialVideos/FindingSyntacticalyRelatedStructures1%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>FindingSyntacticalyRelatedStructures1 part 2.mp4</h3>
-<video src="./TutorialVideos/FindingSyntacticalyRelatedStructures1%20part%202.mp4" controls width="100%"></video>
-<br/>
-<h3>FindingSyntacticalyRelatedStructures2.mp4</h3>
-<video src="./TutorialVideos/FindingSyntacticalyRelatedStructures2.mp4" controls width="100%"></video>
-<br/>
-<h3>FindingSyntacticalyRelatedStructures3.mp4</h3>
-<video src="./TutorialVideos/FindingSyntacticalyRelatedStructures3.mp4" controls width="100%"></video>
-<br/>
-<h3>ForceDisplayOfSubpattern1.mp4</h3>
-<video src="./TutorialVideos/ForceDisplayOfSubpattern1.mp4" controls width="100%"></video>
-<br/>
-<h3>GitSetup.mp4</h3>
-<video src="./TutorialVideos/GitSetup.mp4" controls width="100%"></video>
-<br/>
-<h3>GrammarAddonDeleteEntryFromBatchList.mp4</h3>
-<video src="./TutorialVideos/GrammarAddonDeleteEntryFromBatchList.mp4" controls width="100%"></video>
-<br/>
-<h3>GrammarAddonEditingClusters1.mp4</h3>
-<video src="./TutorialVideos/GrammarAddonEditingClusters1.mp4" controls width="100%"></video>
-<br/>
-<h3>GrammarAddonEditRegex1-GrammarAddonEditingClusters2.mp4</h3>
-<video src="./TutorialVideos/GrammarAddonEditRegex1-GrammarAddonEditingClusters2.mp4" controls width="100%"></video>
-<br/>
-<h3>GrammarAddonFeatureDealingWithAbiguity.mp4</h3>
-<video src="./TutorialVideos/GrammarAddonFeatureDealingWithAbiguity.mp4" controls width="100%"></video>
-<br/>
-<h3>GrammarAddonFeatureYellowFrequencyNavigation part 1.mp4</h3>
-<video src="./TutorialVideos/GrammarAddonFeatureYellowFrequencyNavigation%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>GrammarAddonFeatureYellowFrequencyNavigation part 2.mp4</h3>
-<video src="./TutorialVideos/GrammarAddonFeatureYellowFrequencyNavigation%20part%202.mp4" controls width="100%"></video>
-<br/>
-<h3>GrammarAddonForceAlign1.mp4</h3>
-<video src="./TutorialVideos/GrammarAddonForceAlign1.mp4" controls width="100%"></video>
-<br/>
-<h3>GrammarAddonForceAlign2.mp4</h3>
-<video src="./TutorialVideos/GrammarAddonForceAlign2.mp4" controls width="100%"></video>
-<br/>
-<h3>GrammarAddonForceAlign3.mp4</h3>
-<video src="./TutorialVideos/GrammarAddonForceAlign3.mp4" controls width="100%"></video>
-<br/>
-<h3>GrammarAddonForceAlign4.mp4</h3>
-<video src="./TutorialVideos/GrammarAddonForceAlign4.mp4" controls width="100%"></video>
-<br/>
-<h3>GrammarAddonForceAlign5.mp4</h3>
-<video src="./TutorialVideos/GrammarAddonForceAlign5.mp4" controls width="100%"></video>
-<br/>
-<h3>GrammarAddonMiningGrammarSentences-CardCreation1.5.mp4</h3>
-<video src="./TutorialVideos/GrammarAddonMiningGrammarSentences-CardCreation1.5.mp4" controls width="100%"></video>
-<br/>
-<h3>GrammarAddonSpecialClusterConceptverbs.mp4</h3>
-<video src="./TutorialVideos/GrammarAddonSpecialClusterConceptverbs.mp4" controls width="100%"></video>
-<br/>
-<h3>HTMLMarkingRemoverAddon-EditRegex3-GrammarAddonEditingClusters4.mp4</h3>
-<video src="./TutorialVideos/HTMLMarkingRemoverAddon-EditRegex3-GrammarAddonEditingClusters4.mp4" controls width="100%"></video>
-<br/>
-<h3>LibationSetUp-ObtaininingPreparingTargetChapterAudio1.mp4</h3>
-<video src="./TutorialVideos/LibationSetUp-ObtaininingPreparingTargetChapterAudio1.mp4" controls width="100%"></video>
-<br/>
-<h3>LightnovelSubtitleCreation1.mp4</h3>
-<video src="./TutorialVideos/LightnovelSubtitleCreation1.mp4" controls width="100%"></video>
-<br/>
-<h3>LightnovelSubtitleCreation10TranscriptCorrection4.mp4</h3>
-<video src="./TutorialVideos/LightnovelSubtitleCreation10TranscriptCorrection4.mp4" controls width="100%"></video>
-<br/>
-<h3>LightnovelSubtitleCreation11TranscriptCorrection5.mp4</h3>
-<video src="./TutorialVideos/LightnovelSubtitleCreation11TranscriptCorrection5.mp4" controls width="100%"></video>
-<br/>
-<h3>LightnovelSubtitleCreation12.mp4</h3>
-<video src="./TutorialVideos/LightnovelSubtitleCreation12.mp4" controls width="100%"></video>
-<br/>
-<h3>LightnovelSubtitleCreation2.mp4</h3>
-<video src="./TutorialVideos/LightnovelSubtitleCreation2.mp4" controls width="100%"></video>
-<br/>
-<h3>LightnovelSubtitleCreation3.mp4</h3>
-<video src="./TutorialVideos/LightnovelSubtitleCreation3.mp4" controls width="100%"></video>
-<br/>
-<h3>LightnovelSubtitleCreation4 part 1.mp4</h3>
-<video src="./TutorialVideos/LightnovelSubtitleCreation4%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>LightnovelSubtitleCreation4 part 2 part 1.mp4</h3>
-<video src="./TutorialVideos/LightnovelSubtitleCreation4%20part%202%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>LightnovelSubtitleCreation4 part 2 part 2.mp4</h3>
-<video src="./TutorialVideos/LightnovelSubtitleCreation4%20part%202%20part%202.mp4" controls width="100%"></video>
-<br/>
-<h3>LightnovelSubtitleCreation4,5.mp4</h3>
-<video src="./TutorialVideos/LightnovelSubtitleCreation4%2C5.mp4" controls width="100%"></video>
-<br/>
-<h3>LightnovelSubtitleCreation5AnalysisOfTranscriptionQuality2.mp4</h3>
-<video src="./TutorialVideos/LightnovelSubtitleCreation5AnalysisOfTranscriptionQuality2.mp4" controls width="100%"></video>
-<br/>
-<h3>LightnovelSubtitleCreation6AnalysisOfTranscriptionQuality1.mp4</h3>
-<video src="./TutorialVideos/LightnovelSubtitleCreation6AnalysisOfTranscriptionQuality1.mp4" controls width="100%"></video>
-<br/>
-<h3>LightnovelSubtitleCreation7TranscriptCorrection1.mp4</h3>
-<video src="./TutorialVideos/LightnovelSubtitleCreation7TranscriptCorrection1.mp4" controls width="100%"></video>
-<br/>
-<h3>LightnovelSubtitleCreation8TranscriptCorrection2 part 1.mp4</h3>
-<video src="./TutorialVideos/LightnovelSubtitleCreation8TranscriptCorrection2%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>LightnovelSubtitleCreation8TranscriptCorrection2 part 2.mp4</h3>
-<video src="./TutorialVideos/LightnovelSubtitleCreation8TranscriptCorrection2%20part%202.mp4" controls width="100%"></video>
-<br/>
-<h3>LightnovelSubtitleCreation9TranscriptCorrection3.mp4</h3>
-<video src="./TutorialVideos/LightnovelSubtitleCreation9TranscriptCorrection3.mp4" controls width="100%"></video>
-<br/>
-<h3>LNAudioSubtitleSyncAnki1.mp4</h3>
-<video src="./TutorialVideos/LNAudioSubtitleSyncAnki1.mp4" controls width="100%"></video>
-<br/>
-<h3>LNAudioSubtitleSyncAnki2.mp4</h3>
-<video src="./TutorialVideos/LNAudioSubtitleSyncAnki2.mp4" controls width="100%"></video>
-<br/>
-<h3>LNAudioSubtitleSyncAnki3.5AnimePictureAudioSubSync6.5.mp4</h3>
-<video src="./TutorialVideos/LNAudioSubtitleSyncAnki3.5AnimePictureAudioSubSync6.5.mp4" controls width="100%"></video>
-<br/>
-<h3>LNAudioSubtitleSyncAnki3.75AnimePictureAudioSubSync6.75.mp4</h3>
-<video src="./TutorialVideos/LNAudioSubtitleSyncAnki3.75AnimePictureAudioSubSync6.75.mp4" controls width="100%"></video>
-<br/>
-<h3>LNAudioSubtitleSyncAnki4AnimePictureAudioSubSync7 part 1 part 1.mp4</h3>
-<video src="./TutorialVideos/LNAudioSubtitleSyncAnki4AnimePictureAudioSubSync7%20part%201%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>LNAudioSubtitleSyncAnki4AnimePictureAudioSubSync7 part 1 part 2.mp4</h3>
-<video src="./TutorialVideos/LNAudioSubtitleSyncAnki4AnimePictureAudioSubSync7%20part%201%20part%202.mp4" controls width="100%"></video>
-<br/>
-<h3>LNAudioSubtitleSyncAnki4AnimePictureAudioSubSync7 part 2.mp4</h3>
-<video src="./TutorialVideos/LNAudioSubtitleSyncAnki4AnimePictureAudioSubSync7%20part%202.mp4" controls width="100%"></video>
-<br/>
-<h3>LNAudioSubtitleSyncAnki4AnimePictureAudioSubSync7 part 3.mp4</h3>
-<video src="./TutorialVideos/LNAudioSubtitleSyncAnki4AnimePictureAudioSubSync7%20part%203.mp4" controls width="100%"></video>
-<br/>
-<h3>LNAudioSubtitleSyncAnki5AnimePictureAudioSubSync8 part 1.mp4</h3>
-<video src="./TutorialVideos/LNAudioSubtitleSyncAnki5AnimePictureAudioSubSync8%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>LNAudioSubtitleSyncAnki5AnimePictureAudioSubSync8 part 2.mp4</h3>
-<video src="./TutorialVideos/LNAudioSubtitleSyncAnki5AnimePictureAudioSubSync8%20part%202.mp4" controls width="100%"></video>
-<br/>
-<h3>LNAudioSubtitleSyncAnki6AnimePictureAudioSubSync9 part 1.mp4</h3>
-<video src="./TutorialVideos/LNAudioSubtitleSyncAnki6AnimePictureAudioSubSync9%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>LNAudioSubtitleSyncAnki6AnimePictureAudioSubSync9 part 2.mp4</h3>
-<video src="./TutorialVideos/LNAudioSubtitleSyncAnki6AnimePictureAudioSubSync9%20part%202.mp4" controls width="100%"></video>
-<br/>
-<h3>LNAudioSubtitleSyncAnki7AnimePictureAudioSubSync10 part 1.mp4</h3>
-<video src="./TutorialVideos/LNAudioSubtitleSyncAnki7AnimePictureAudioSubSync10%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>LNAudioSubtitleSyncAnki7AnimePictureAudioSubSync10 part 2.mp4</h3>
-<video src="./TutorialVideos/LNAudioSubtitleSyncAnki7AnimePictureAudioSubSync10%20part%202.mp4" controls width="100%"></video>
-<br/>
-<h3>LNAudioSubtitleSyncAnki7AnimePictureAudioSubSync10 part 3.mp4</h3>
-<video src="./TutorialVideos/LNAudioSubtitleSyncAnki7AnimePictureAudioSubSync10%20part%203.mp4" controls width="100%"></video>
-<br/>
-<h3>LNAudioSubtitleSyncAnki8AnimePictureAudioSubSyn11 part 1.mp4</h3>
-<video src="./TutorialVideos/LNAudioSubtitleSyncAnki8AnimePictureAudioSubSyn11%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>LNAudioSubtitleSyncAnki8AnimePictureAudioSubSyn11 part 2.mp4</h3>
-<video src="./TutorialVideos/LNAudioSubtitleSyncAnki8AnimePictureAudioSubSyn11%20part%202.mp4" controls width="100%"></video>
-<br/>
-<h3>LosslessCutSetup1.mp4</h3>
-<video src="./TutorialVideos/LosslessCutSetup1.mp4" controls width="100%"></video>
-<br/>
-<h3>LosslessCutSetup2.mp4</h3>
-<video src="./TutorialVideos/LosslessCutSetup2.mp4" controls width="100%"></video>
-<br/>
-<h3>mpvinstallation1.mp4</h3>
-<video src="./TutorialVideos/mpvinstallation1.mp4" controls width="100%"></video>
-<br/>
-<h3>mpvInstallation2.mp4</h3>
-<video src="./TutorialVideos/mpvInstallation2.mp4" controls width="100%"></video>
-<br/>
-<h3>mpvinstallation3.mp4</h3>
-<video src="./TutorialVideos/mpvinstallation3.mp4" controls width="100%"></video>
-<br/>
-<h3>NewLNAudioSubtitleSyncAnki3 part 1.mp4</h3>
-<video src="./TutorialVideos/NewLNAudioSubtitleSyncAnki3%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>NewLNAudioSubtitleSyncAnki3 part 2.mp4</h3>
-<video src="./TutorialVideos/NewLNAudioSubtitleSyncAnki3%20part%202.mp4" controls width="100%"></video>
-<br/>
-<h3>ObtainingRawLightNovelHTMLAndPreperationOfRawChapterText1.mp4</h3>
-<video src="./TutorialVideos/ObtainingRawLightNovelHTMLAndPreperationOfRawChapterText1.mp4" controls width="100%"></video>
-<br/>
-<h3>ObtainingRawLightNovelHTMLAndPreperationOfRawChapterText2,5.mp4</h3>
-<video src="./TutorialVideos/ObtainingRawLightNovelHTMLAndPreperationOfRawChapterText2%2C5.mp4" controls width="100%"></video>
-<br/>
-<h3>ObtainingRawLightNovelHTMLAndPreperationOfRawChapterText2.mp4</h3>
-<video src="./TutorialVideos/ObtainingRawLightNovelHTMLAndPreperationOfRawChapterText2.mp4" controls width="100%"></video>
-<br/>
-<h3>ObtainingRawLightNovelHTMLAndPreperationOfRawChapterText3ObtaininingPreparingTargetChapterAudio3.mp4</h3>
-<video src="./TutorialVideos/ObtainingRawLightNovelHTMLAndPreperationOfRawChapterText3ObtaininingPreparingTargetChapterAudio3.mp4" controls width="100%"></video>
-<br/>
-<h3>ObtaininingPreparingTargetChapterAudio2.mp4</h3>
-<video src="./TutorialVideos/ObtaininingPreparingTargetChapterAudio2.mp4" controls width="100%"></video>
-<br/>
-<h3>Python3.12SetUp1 part 1.mp4</h3>
-<video src="./TutorialVideos/Python3.12SetUp1%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>Python3.12SetUp1 part 2.mp4</h3>
-<video src="./TutorialVideos/Python3.12SetUp1%20part%202.mp4" controls width="100%"></video>
-<br/>
-<h3>Python3.12SetUp2.mp4</h3>
-<video src="./TutorialVideos/Python3.12SetUp2.mp4" controls width="100%"></video>
-<br/>
-<h3>RemoveClusters-EditingClusters10.mp4</h3>
-<video src="./TutorialVideos/RemoveClusters-EditingClusters10.mp4" controls width="100%"></video>
-<br/>
-<h3>ShareXSetUp1.mp4</h3>
-<video src="./TutorialVideos/ShareXSetUp1.mp4" controls width="100%"></video>
-<br/>
-<h3>ShareXSetUp2.mp4</h3>
-<video src="./TutorialVideos/ShareXSetUp2.mp4" controls width="100%"></video>
-<br/>
-<h3>SoundEditing1.mp4</h3>
-<video src="./TutorialVideos/SoundEditing1.mp4" controls width="100%"></video>
-<br/>
-<h3>SoundEditing2AudioConverter.mp4</h3>
-<video src="./TutorialVideos/SoundEditing2AudioConverter.mp4" controls width="100%"></video>
-<br/>
-<h3>SoundEditing3Audacity part 1.mp4</h3>
-<video src="./TutorialVideos/SoundEditing3Audacity%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>SoundEditing3Audacity part 2.mp4</h3>
-<video src="./TutorialVideos/SoundEditing3Audacity%20part%202.mp4" controls width="100%"></video>
-<br/>
-<h3>SoundEditing4 part 1.mp4</h3>
-<video src="./TutorialVideos/SoundEditing4%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>SoundEditing4 part 2.mp4</h3>
-<video src="./TutorialVideos/SoundEditing4%20part%202.mp4" controls width="100%"></video>
-<br/>
-<h3>SoundEditing4 part 3.mp4</h3>
-<video src="./TutorialVideos/SoundEditing4%20part%203.mp4" controls width="100%"></video>
-<br/>
-<h3>TextMarkerAddonDeletionOfTerms1.mp4</h3>
-<video src="./TutorialVideos/TextMarkerAddonDeletionOfTerms1.mp4" controls width="100%"></video>
-<br/>
-<h3>TextMarkerAddonDeletionOfTerms2.mp4</h3>
-<video src="./TutorialVideos/TextMarkerAddonDeletionOfTerms2.mp4" controls width="100%"></video>
-<br/>
-<h3>UpdateGrammarDataBase1.5-GrammarAddonEditRegex2.5-createYourOwnClusters4.5-GrammarAddonEditingClusters3.5-createYourOwnClusters8.5-EtingClusters9.5-itingClusters11.5-ForceDisplayOfSubpatern2.5.mp4</h3>
-<video src="./TutorialVideos/UpdateGrammarDataBase1.5-GrammarAddonEditRegex2.5-createYourOwnClusters4.5-GrammarAddonEditingClusters3.5-createYourOwnClusters8.5-EtingClusters9.5-itingClusters11.5-ForceDisplayOfSubpatern2.5.mp4" controls width="100%"></video>
-<br/>
-<h3>UpdateGrammarDataBase1-GrammarAddonEditRegex2-createYourOwnClusters4-GrammarAddonEditingClusters3-createYourOwnClusters8-EditingClusters9-EditingClusters11-ForceDisplayOfSubpattern2.mp4</h3>
-<video src="./TutorialVideos/UpdateGrammarDataBase1-GrammarAddonEditRegex2-createYourOwnClusters4-GrammarAddonEditingClusters3-createYourOwnClusters8-EditingClusters9-EditingClusters11-ForceDisplayOfSubpattern2.mp4" controls width="100%"></video>
-<br/>
-<h3>UpdateVocabularyListForMarking.mp4</h3>
-<video src="./TutorialVideos/UpdateVocabularyListForMarking.mp4" controls width="100%"></video>
-<br/>
-<h3>VisualizeCluster1.mp4</h3>
-<video src="./TutorialVideos/VisualizeCluster1.mp4" controls width="100%"></video>
-<br/>
-<h3>VisualizeCluster2 part 1.mp4</h3>
-<video src="./TutorialVideos/VisualizeCluster2%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>VisualizeCluster2 part 2.mp4</h3>
-<video src="./TutorialVideos/VisualizeCluster2%20part%202.mp4" controls width="100%"></video>
-<br/>
-<h3>VisualizeCluster3.mp4</h3>
-<video src="./TutorialVideos/VisualizeCluster3.mp4" controls width="100%"></video>
-<br/>
-<h3>VisualizeCluster4 part 1.mp4</h3>
-<video src="./TutorialVideos/VisualizeCluster4%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>VisualizeCluster4 part 2 part 1_split_1.mp4</h3>
-<video src="./TutorialVideos/VisualizeCluster4%20part%202%20part%201_split_1.mp4" controls width="100%"></video>
-<br/>
-<h3>VisualizeCluster4 part 2 part 1_split_2.mp4</h3>
-<video src="./TutorialVideos/VisualizeCluster4%20part%202%20part%201_split_2.mp4" controls width="100%"></video>
-<br/>
-<h3>VisualizeCluster4 part 2 part 1_split_3.mp4</h3>
-<video src="./TutorialVideos/VisualizeCluster4%20part%202%20part%201_split_3.mp4" controls width="100%"></video>
-<br/>
-<h3>VisualizeCluster4 part 2 part 2_split_1.mp4</h3>
-<video src="./TutorialVideos/VisualizeCluster4%20part%202%20part%202_split_1.mp4" controls width="100%"></video>
-<br/>
-<h3>VisualizeCluster4 part 2 part 2_split_2.mp4</h3>
-<video src="./TutorialVideos/VisualizeCluster4%20part%202%20part%202_split_2.mp4" controls width="100%"></video>
-<br/>
-<h3>VisualizeCluster4 part 2 part 2_split_3.mp4</h3>
-<video src="./TutorialVideos/VisualizeCluster4%20part%202%20part%202_split_3.mp4" controls width="100%"></video>
-<br/>
-<h3>VisualizeCluster4 part 2 part 2_split_4.mp4</h3>
-<video src="./TutorialVideos/VisualizeCluster4%20part%202%20part%202_split_4.mp4" controls width="100%"></video>
-<br/>
-<h3>VisualizeCluster4 part 3 part 1_split_1.mp4</h3>
-<video src="./TutorialVideos/VisualizeCluster4%20part%203%20part%201_split_1.mp4" controls width="100%"></video>
-<br/>
-<h3>VisualizeCluster4 part 3 part 1_split_2.mp4</h3>
-<video src="./TutorialVideos/VisualizeCluster4%20part%203%20part%201_split_2.mp4" controls width="100%"></video>
-<br/>
-<h3>VisualizeCluster4 part 3 part 1_split_3.mp4</h3>
-<video src="./TutorialVideos/VisualizeCluster4%20part%203%20part%201_split_3.mp4" controls width="100%"></video>
-<br/>
-<h3>VisualizeCluster4 part 3 part 2.mp4</h3>
-<video src="./TutorialVideos/VisualizeCluster4%20part%203%20part%202.mp4" controls width="100%"></video>
-<br/>
-<h3>VisualizeCluster5-createYourOwnClusters9-AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists4.mp4</h3>
-<video src="./TutorialVideos/VisualizeCluster5-createYourOwnClusters9-AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists4.mp4" controls width="100%"></video>
-<br/>
-<h3>VisualizeCluster6-createYourOwnClusters10-AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists5 part 1.mp4</h3>
-<video src="./TutorialVideos/VisualizeCluster6-createYourOwnClusters10-AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists5%20part%201.mp4" controls width="100%"></video>
-<br/>
-<h3>VisualizeCluster6-createYourOwnClusters10-AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists5 part 2.mp4</h3>
-<video src="./TutorialVideos/VisualizeCluster6-createYourOwnClusters10-AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists5%20part%202.mp4" controls width="100%"></video>
-<br/>
-<h3>VisualStudioCodeSetUP.mp4</h3>
-<video src="./TutorialVideos/VisualStudioCodeSetUP.mp4" controls width="100%"></video>
-<br/>
+### 7zSetUp.mp4
+[▶️ 7zSetUp.mp4](./TutorialVideos/7zSetUp.mp4)
+
+### AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists1.mp4
+[▶️ AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists1.mp4](./TutorialVideos/AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists1.mp4)
+
+### AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists2.mp4
+[▶️ AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists2.mp4](./TutorialVideos/AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists2.mp4)
+
+### AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists3.mp4
+[▶️ AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists3.mp4](./TutorialVideos/AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists3.mp4)
+
+### AddonBrowserSelfSetUp1 part 1.mp4
+[▶️ AddonBrowserSelfSetUp1 part 1.mp4](./TutorialVideos/AddonBrowserSelfSetUp1%20part%201.mp4)
+
+### AddonBrowserSelfSetUp1 part 2.mp4
+[▶️ AddonBrowserSelfSetUp1 part 2.mp4](./TutorialVideos/AddonBrowserSelfSetUp1%20part%202.mp4)
+
+### AddonBrowserSelfSetUp1 part 3.mp4
+[▶️ AddonBrowserSelfSetUp1 part 3.mp4](./TutorialVideos/AddonBrowserSelfSetUp1%20part%203.mp4)
+
+### AddonBrowserSelfSetUp2.mp4
+[▶️ AddonBrowserSelfSetUp2.mp4](./TutorialVideos/AddonBrowserSelfSetUp2.mp4)
+
+### AddonBrowserSelfSetUp3.mp4
+[▶️ AddonBrowserSelfSetUp3.mp4](./TutorialVideos/AddonBrowserSelfSetUp3.mp4)
+
+### ADDtoMiningCardDemoGITHUB.mp4
+[▶️ ADDtoMiningCardDemoGITHUB.mp4](./TutorialVideos/ADDtoMiningCardDemoGITHUB.mp4)
+
+### AnimePictureAudioSubSync1.mp4
+[▶️ AnimePictureAudioSubSync1.mp4](./TutorialVideos/AnimePictureAudioSubSync1.mp4)
+
+### AnimePictureAudioSubSync2.mp4
+[▶️ AnimePictureAudioSubSync2.mp4](./TutorialVideos/AnimePictureAudioSubSync2.mp4)
+
+### AnimePictureAudioSubSync3.mp4
+[▶️ AnimePictureAudioSubSync3.mp4](./TutorialVideos/AnimePictureAudioSubSync3.mp4)
+
+### AnimePictureAudioSubSync4.mp4
+[▶️ AnimePictureAudioSubSync4.mp4](./TutorialVideos/AnimePictureAudioSubSync4.mp4)
+
+### AnimePictureAudioSubSync5.mp4
+[▶️ AnimePictureAudioSubSync5.mp4](./TutorialVideos/AnimePictureAudioSubSync5.mp4)
+
+### AnimePictureAudioSubSync6.mp4
+[▶️ AnimePictureAudioSubSync6.mp4](./TutorialVideos/AnimePictureAudioSubSync6.mp4)
+
+### AnimePrepareSubtitlesForMining1.mp4
+[▶️ AnimePrepareSubtitlesForMining1.mp4](./TutorialVideos/AnimePrepareSubtitlesForMining1.mp4)
+
+### AnimePrepareSubtitlesForMining2 part 1.mp4
+[▶️ AnimePrepareSubtitlesForMining2 part 1.mp4](./TutorialVideos/AnimePrepareSubtitlesForMining2%20part%201.mp4)
+
+### AnimePrepareSubtitlesForMining2 part 2 part 1.mp4
+[▶️ AnimePrepareSubtitlesForMining2 part 2 part 1.mp4](./TutorialVideos/AnimePrepareSubtitlesForMining2%20part%202%20part%201.mp4)
+
+### AnimePrepareSubtitlesForMining2 part 2 part 2.mp4
+[▶️ AnimePrepareSubtitlesForMining2 part 2 part 2.mp4](./TutorialVideos/AnimePrepareSubtitlesForMining2%20part%202%20part%202.mp4)
+
+### AnimePrepareSubtitlesForMining2 part 3 part 1.mp4
+[▶️ AnimePrepareSubtitlesForMining2 part 3 part 1.mp4](./TutorialVideos/AnimePrepareSubtitlesForMining2%20part%203%20part%201.mp4)
+
+### AnimePrepareSubtitlesForMining2 part 3 part 2_split_1.mp4
+[▶️ AnimePrepareSubtitlesForMining2 part 3 part 2_split_1.mp4](./TutorialVideos/AnimePrepareSubtitlesForMining2%20part%203%20part%202_split_1.mp4)
+
+### AnimePrepareSubtitlesForMining2 part 3 part 2_split_2.mp4
+[▶️ AnimePrepareSubtitlesForMining2 part 3 part 2_split_2.mp4](./TutorialVideos/AnimePrepareSubtitlesForMining2%20part%203%20part%202_split_2.mp4)
+
+### AnimePrepareSubtitlesForMining2 part 3 part 2_split_3.mp4
+[▶️ AnimePrepareSubtitlesForMining2 part 3 part 2_split_3.mp4](./TutorialVideos/AnimePrepareSubtitlesForMining2%20part%203%20part%202_split_3.mp4)
+
+### AnimePrepareSubtitlesForMining3-AnimeSourceMaterialSubtitlesSRT2.mp4
+[▶️ AnimePrepareSubtitlesForMining3-AnimeSourceMaterialSubtitlesSRT2.mp4](./TutorialVideos/AnimePrepareSubtitlesForMining3-AnimeSourceMaterialSubtitlesSRT2.mp4)
+
+### AnimeSourceMaterialSubtitlesSRT1.mp4
+[▶️ AnimeSourceMaterialSubtitlesSRT1.mp4](./TutorialVideos/AnimeSourceMaterialSubtitlesSRT1.mp4)
+
+### AnimeSourceMaterialVideoDownloadHelper1-ChromeStoreBrowserAddons2 part 1.mp4
+[▶️ AnimeSourceMaterialVideoDownloadHelper1-ChromeStoreBrowserAddons2 part 1.mp4](./TutorialVideos/AnimeSourceMaterialVideoDownloadHelper1-ChromeStoreBrowserAddons2%20part%201.mp4)
+
+### AnimeSourceMaterialVideoDownloadHelper1-ChromeStoreBrowserAddons2 part 2.mp4
+[▶️ AnimeSourceMaterialVideoDownloadHelper1-ChromeStoreBrowserAddons2 part 2.mp4](./TutorialVideos/AnimeSourceMaterialVideoDownloadHelper1-ChromeStoreBrowserAddons2%20part%202.mp4)
+
+### AnimeSourceMaterialVideoDownloadHelper2-ChromeStoreBrowserAddons2,5.mp4
+[▶️ AnimeSourceMaterialVideoDownloadHelper2-ChromeStoreBrowserAddons2,5.mp4](./TutorialVideos/AnimeSourceMaterialVideoDownloadHelper2-ChromeStoreBrowserAddons2%2C5.mp4)
+
+### AnkiAddons1.mp4
+[▶️ AnkiAddons1.mp4](./TutorialVideos/AnkiAddons1.mp4)
+
+### AnkiAddons2.mp4
+[▶️ AnkiAddons2.mp4](./TutorialVideos/AnkiAddons2.mp4)
+
+### AnkiDownload.mp4
+[▶️ AnkiDownload.mp4](./TutorialVideos/AnkiDownload.mp4)
+
+### AudacitySetUp1.mp4
+[▶️ AudacitySetUp1.mp4](./TutorialVideos/AudacitySetUp1.mp4)
+
+### AudacitySetUp2.mp4
+[▶️ AudacitySetUp2.mp4](./TutorialVideos/AudacitySetUp2.mp4)
+
+### CardCreation0.01-tsuureader.mp4
+[▶️ CardCreation0.01-tsuureader.mp4](./TutorialVideos/CardCreation0.01-tsuureader.mp4)
+
+### CardCreation0.1-ActivationOFRubyDeleterAddonAtBeginningOFReading.mp4
+[▶️ CardCreation0.1-ActivationOFRubyDeleterAddonAtBeginningOFReading.mp4](./TutorialVideos/CardCreation0.1-ActivationOFRubyDeleterAddonAtBeginningOFReading.mp4)
+
+### CardCreation0.2-ActivationOFGrammarAddonAtBeginningOFReading1.mp4
+[▶️ CardCreation0.2-ActivationOFGrammarAddonAtBeginningOFReading1.mp4](./TutorialVideos/CardCreation0.2-ActivationOFGrammarAddonAtBeginningOFReading1.mp4)
+
+### CardCreation0.3-ActivationOFGrammarAddonAtBeginningOFReading2.mp4
+[▶️ CardCreation0.3-ActivationOFGrammarAddonAtBeginningOFReading2.mp4](./TutorialVideos/CardCreation0.3-ActivationOFGrammarAddonAtBeginningOFReading2.mp4)
+
+### CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading part 1.mp4
+[▶️ CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading part 1.mp4](./TutorialVideos/CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading%20part%201.mp4)
+
+### CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading part 2 part 1.mp4
+[▶️ CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading part 2 part 1.mp4](./TutorialVideos/CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading%20part%202%20part%201.mp4)
+
+### CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading part 2 part 2.mp4
+[▶️ CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading part 2 part 2.mp4](./TutorialVideos/CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading%20part%202%20part%202.mp4)
+
+### CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading part 3 part 1.mp4
+[▶️ CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading part 3 part 1.mp4](./TutorialVideos/CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading%20part%203%20part%201.mp4)
+
+### CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading part 3 part 2_split_1.mp4
+[▶️ CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading part 3 part 2_split_1.mp4](./TutorialVideos/CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading%20part%203%20part%202_split_1.mp4)
+
+### CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading part 3 part 2_split_2.mp4
+[▶️ CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading part 3 part 2_split_2.mp4](./TutorialVideos/CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading%20part%203%20part%202_split_2.mp4)
+
+### CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading part 3 part 2_split_3.mp4
+[▶️ CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading part 3 part 2_split_3.mp4](./TutorialVideos/CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading%20part%203%20part%202_split_3.mp4)
+
+### CardCreation1,LightnovelVocabularyMining1.mp4
+[▶️ CardCreation1,LightnovelVocabularyMining1.mp4](./TutorialVideos/CardCreation1%2CLightnovelVocabularyMining1.mp4)
+
+### CardCreation1.1-GoogleTranslateAddonUseDuringMining.mp4
+[▶️ CardCreation1.1-GoogleTranslateAddonUseDuringMining.mp4](./TutorialVideos/CardCreation1.1-GoogleTranslateAddonUseDuringMining.mp4)
+
+### CardsCreation,AlternativeTextsources2.5 part 1.mp4
+[▶️ CardsCreation,AlternativeTextsources2.5 part 1.mp4](./TutorialVideos/CardsCreation%2CAlternativeTextsources2.5%20part%201.mp4)
+
+### CardsCreation,AlternativeTextsources2.5 part 2.mp4
+[▶️ CardsCreation,AlternativeTextsources2.5 part 2.mp4](./TutorialVideos/CardsCreation%2CAlternativeTextsources2.5%20part%202.mp4)
+
+### CardsCreation,AlternativeTextsources2.5 part 3 part 1.mp4
+[▶️ CardsCreation,AlternativeTextsources2.5 part 3 part 1.mp4](./TutorialVideos/CardsCreation%2CAlternativeTextsources2.5%20part%203%20part%201.mp4)
+
+### CardsCreation,AlternativeTextsources2.5 part 3 part 2.mp4
+[▶️ CardsCreation,AlternativeTextsources2.5 part 3 part 2.mp4](./TutorialVideos/CardsCreation%2CAlternativeTextsources2.5%20part%203%20part%202.mp4)
+
+### CardsCreation,ExportingFromBrowserAddonAndUploadWithAnkiAddon3.mp4
+[▶️ CardsCreation,ExportingFromBrowserAddonAndUploadWithAnkiAddon3.mp4](./TutorialVideos/CardsCreation%2CExportingFromBrowserAddonAndUploadWithAnkiAddon3.mp4)
+
+### CardsCreation,PostMiningPreAddSubSoundPrep4 part 1.mp4
+[▶️ CardsCreation,PostMiningPreAddSubSoundPrep4 part 1.mp4](./TutorialVideos/CardsCreation%2CPostMiningPreAddSubSoundPrep4%20part%201.mp4)
+
+### CardsCreation,PostMiningPreAddSubSoundPrep4 part 2.mp4
+[▶️ CardsCreation,PostMiningPreAddSubSoundPrep4 part 2.mp4](./TutorialVideos/CardsCreation%2CPostMiningPreAddSubSoundPrep4%20part%202.mp4)
+
+### CardsCreation4,5.mp4
+[▶️ CardsCreation4,5.mp4](./TutorialVideos/CardsCreation4%2C5.mp4)
+
+### CardsCreation4,51.mp4
+[▶️ CardsCreation4,51.mp4](./TutorialVideos/CardsCreation4%2C51.mp4)
+
+### CardsCreation4,52.mp4
+[▶️ CardsCreation4,52.mp4](./TutorialVideos/CardsCreation4%2C52.mp4)
+
+### CardsCreation4,75 part 1.mp4
+[▶️ CardsCreation4,75 part 1.mp4](./TutorialVideos/CardsCreation4%2C75%20part%201.mp4)
+
+### CardsCreation4,75 part 2.mp4
+[▶️ CardsCreation4,75 part 2.mp4](./TutorialVideos/CardsCreation4%2C75%20part%202.mp4)
+
+### CardsCreation4,751 part 1.mp4
+[▶️ CardsCreation4,751 part 1.mp4](./TutorialVideos/CardsCreation4%2C751%20part%201.mp4)
+
+### CardsCreation4,751 part 2.mp4
+[▶️ CardsCreation4,751 part 2.mp4](./TutorialVideos/CardsCreation4%2C751%20part%202.mp4)
+
+### CardsCreationAfterSound Processing1 part 1.mp4
+[▶️ CardsCreationAfterSound Processing1 part 1.mp4](./TutorialVideos/CardsCreationAfterSound%20Processing1%20part%201.mp4)
+
+### CardsCreationAfterSound Processing1 part 2.mp4
+[▶️ CardsCreationAfterSound Processing1 part 2.mp4](./TutorialVideos/CardsCreationAfterSound%20Processing1%20part%202.mp4)
+
+### CardsCreationAfterSound Processing2.mp4
+[▶️ CardsCreationAfterSound Processing2.mp4](./TutorialVideos/CardsCreationAfterSound%20Processing2.mp4)
+
+### CardsCreationAfterSound Processing3.mp4
+[▶️ CardsCreationAfterSound Processing3.mp4](./TutorialVideos/CardsCreationAfterSound%20Processing3.mp4)
+
+### CardsCreationAfterSound Processing4.mp4
+[▶️ CardsCreationAfterSound Processing4.mp4](./TutorialVideos/CardsCreationAfterSound%20Processing4.mp4)
+
+### CardsCreationAfterSound Processing5.mp4
+[▶️ CardsCreationAfterSound Processing5.mp4](./TutorialVideos/CardsCreationAfterSound%20Processing5.mp4)
+
+### CardsCreation-TextmarkerAddon2.mp4
+[▶️ CardsCreation-TextmarkerAddon2.mp4](./TutorialVideos/CardsCreation-TextmarkerAddon2.mp4)
+
+### ChromeStoreBrowserAddons1.mp4
+[▶️ ChromeStoreBrowserAddons1.mp4](./TutorialVideos/ChromeStoreBrowserAddons1.mp4)
+
+### ChromeStoreBrowserAddons3 part 1.mp4
+[▶️ ChromeStoreBrowserAddons3 part 1.mp4](./TutorialVideos/ChromeStoreBrowserAddons3%20part%201.mp4)
+
+### ChromeStoreBrowserAddons3 part 2.mp4
+[▶️ ChromeStoreBrowserAddons3 part 2.mp4](./TutorialVideos/ChromeStoreBrowserAddons3%20part%202.mp4)
+
+### ChromeStoreBrowserAddons3 part 3 part 1.mp4
+[▶️ ChromeStoreBrowserAddons3 part 3 part 1.mp4](./TutorialVideos/ChromeStoreBrowserAddons3%20part%203%20part%201.mp4)
+
+### ChromeStoreBrowserAddons3 part 3 part 2.mp4
+[▶️ ChromeStoreBrowserAddons3 part 3 part 2.mp4](./TutorialVideos/ChromeStoreBrowserAddons3%20part%203%20part%202.mp4)
+
+### ChromeStoreBrowserAddons4.mp4
+[▶️ ChromeStoreBrowserAddons4.mp4](./TutorialVideos/ChromeStoreBrowserAddons4.mp4)
+
+### ContrastingGrammarstructuresInTheBrowserAddon.mp4
+[▶️ ContrastingGrammarstructuresInTheBrowserAddon.mp4](./TutorialVideos/ContrastingGrammarstructuresInTheBrowserAddon.mp4)
+
+### createYourOwnClusters1.mp4
+[▶️ createYourOwnClusters1.mp4](./TutorialVideos/createYourOwnClusters1.mp4)
+
+### createYourOwnClusters11-AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists6.mp4
+[▶️ createYourOwnClusters11-AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists6.mp4](./TutorialVideos/createYourOwnClusters11-AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists6.mp4)
+
+### createYourOwnClusters2.mp4
+[▶️ createYourOwnClusters2.mp4](./TutorialVideos/createYourOwnClusters2.mp4)
+
+### createYourOwnClusters3.mp4
+[▶️ createYourOwnClusters3.mp4](./TutorialVideos/createYourOwnClusters3.mp4)
+
+### createYourOwnClusters5 part 1.mp4
+[▶️ createYourOwnClusters5 part 1.mp4](./TutorialVideos/createYourOwnClusters5%20part%201.mp4)
+
+### createYourOwnClusters5 part 2.mp4
+[▶️ createYourOwnClusters5 part 2.mp4](./TutorialVideos/createYourOwnClusters5%20part%202.mp4)
+
+### createYourOwnClusters6-EditingClusters7 part 1 part 1.mp4
+[▶️ createYourOwnClusters6-EditingClusters7 part 1 part 1.mp4](./TutorialVideos/createYourOwnClusters6-EditingClusters7%20part%201%20part%201.mp4)
+
+### createYourOwnClusters6-EditingClusters7 part 1 part 2.mp4
+[▶️ createYourOwnClusters6-EditingClusters7 part 1 part 2.mp4](./TutorialVideos/createYourOwnClusters6-EditingClusters7%20part%201%20part%202.mp4)
+
+### createYourOwnClusters6-EditingClusters7 part 2 part 1_split_1.mp4
+[▶️ createYourOwnClusters6-EditingClusters7 part 2 part 1_split_1.mp4](./TutorialVideos/createYourOwnClusters6-EditingClusters7%20part%202%20part%201_split_1.mp4)
+
+### createYourOwnClusters6-EditingClusters7 part 2 part 1_split_2.mp4
+[▶️ createYourOwnClusters6-EditingClusters7 part 2 part 1_split_2.mp4](./TutorialVideos/createYourOwnClusters6-EditingClusters7%20part%202%20part%201_split_2.mp4)
+
+### createYourOwnClusters6-EditingClusters7 part 2 part 1_split_3.mp4
+[▶️ createYourOwnClusters6-EditingClusters7 part 2 part 1_split_3.mp4](./TutorialVideos/createYourOwnClusters6-EditingClusters7%20part%202%20part%201_split_3.mp4)
+
+### createYourOwnClusters6-EditingClusters7 part 2 part 2.mp4
+[▶️ createYourOwnClusters6-EditingClusters7 part 2 part 2.mp4](./TutorialVideos/createYourOwnClusters6-EditingClusters7%20part%202%20part%202.mp4)
+
+### createYourOwnClusters7-EditingClusters8.mp4
+[▶️ createYourOwnClusters7-EditingClusters8.mp4](./TutorialVideos/createYourOwnClusters7-EditingClusters8.mp4)
+
+### demogrammarcard1.mp4
+[▶️ demogrammarcard1.mp4](./TutorialVideos/demogrammarcard1.mp4)
+
+### demogrammarcard2 part 1.mp4
+[▶️ demogrammarcard2 part 1.mp4](./TutorialVideos/demogrammarcard2%20part%201.mp4)
+
+### demogrammarcard2 part 2.mp4
+[▶️ demogrammarcard2 part 2.mp4](./TutorialVideos/demogrammarcard2%20part%202.mp4)
+
+### DeskpinSetUp1.mp4
+[▶️ DeskpinSetUp1.mp4](./TutorialVideos/DeskpinSetUp1.mp4)
+
+### DeskpinSetUp2.mp4
+[▶️ DeskpinSetUp2.mp4](./TutorialVideos/DeskpinSetUp2.mp4)
+
+### EditingClusters6,5.mp4
+[▶️ EditingClusters6,5.mp4](./TutorialVideos/EditingClusters6%2C5.mp4)
+
+### EditingClusters6,75.mp4
+[▶️ EditingClusters6,75.mp4](./TutorialVideos/EditingClusters6%2C75.mp4)
+
+### EditRegex4-GrammarAddonEditingClusters5.mp4
+[▶️ EditRegex4-GrammarAddonEditingClusters5.mp4](./TutorialVideos/EditRegex4-GrammarAddonEditingClusters5.mp4)
+
+### EditRegex5-GrammarAddonEditingClusters6.mp4
+[▶️ EditRegex5-GrammarAddonEditingClusters6.mp4](./TutorialVideos/EditRegex5-GrammarAddonEditingClusters6.mp4)
+
+### FinalResultMining1.mp4
+[▶️ FinalResultMining1.mp4](./TutorialVideos/FinalResultMining1.mp4)
+
+### FinalResultMining2.mp4
+[▶️ FinalResultMining2.mp4](./TutorialVideos/FinalResultMining2.mp4)
+
+### FinalResultMining3 part 1.mp4
+[▶️ FinalResultMining3 part 1.mp4](./TutorialVideos/FinalResultMining3%20part%201.mp4)
+
+### FinalResultMining3 part 2.mp4
+[▶️ FinalResultMining3 part 2.mp4](./TutorialVideos/FinalResultMining3%20part%202.mp4)
+
+### FinalResultMining4.mp4
+[▶️ FinalResultMining4.mp4](./TutorialVideos/FinalResultMining4.mp4)
+
+### FinalResultMining5 part 1.mp4
+[▶️ FinalResultMining5 part 1.mp4](./TutorialVideos/FinalResultMining5%20part%201.mp4)
+
+### FinalResultMining5 part 2.mp4
+[▶️ FinalResultMining5 part 2.mp4](./TutorialVideos/FinalResultMining5%20part%202.mp4)
+
+### FinalResultMining5 part 3.mp4
+[▶️ FinalResultMining5 part 3.mp4](./TutorialVideos/FinalResultMining5%20part%203.mp4)
+
+### FindingSemanticalyRelated Structures1.mp4
+[▶️ FindingSemanticalyRelated Structures1.mp4](./TutorialVideos/FindingSemanticalyRelated%20Structures1.mp4)
+
+### FindingSemanticalyRelated Structures2.mp4
+[▶️ FindingSemanticalyRelated Structures2.mp4](./TutorialVideos/FindingSemanticalyRelated%20Structures2.mp4)
+
+### FindingSemanticalyRelated Structures3.mp4
+[▶️ FindingSemanticalyRelated Structures3.mp4](./TutorialVideos/FindingSemanticalyRelated%20Structures3.mp4)
+
+### FindingSemanticalyRelated Structures4.mp4
+[▶️ FindingSemanticalyRelated Structures4.mp4](./TutorialVideos/FindingSemanticalyRelated%20Structures4.mp4)
+
+### FindingSemanticalyRelated Structures5 part 1.mp4
+[▶️ FindingSemanticalyRelated Structures5 part 1.mp4](./TutorialVideos/FindingSemanticalyRelated%20Structures5%20part%201.mp4)
+
+### FindingSemanticalyRelated Structures5 part 2.mp4
+[▶️ FindingSemanticalyRelated Structures5 part 2.mp4](./TutorialVideos/FindingSemanticalyRelated%20Structures5%20part%202.mp4)
+
+### FindingSyntacticalyRelatedStructures1 part 1.mp4
+[▶️ FindingSyntacticalyRelatedStructures1 part 1.mp4](./TutorialVideos/FindingSyntacticalyRelatedStructures1%20part%201.mp4)
+
+### FindingSyntacticalyRelatedStructures1 part 2.mp4
+[▶️ FindingSyntacticalyRelatedStructures1 part 2.mp4](./TutorialVideos/FindingSyntacticalyRelatedStructures1%20part%202.mp4)
+
+### FindingSyntacticalyRelatedStructures2.mp4
+[▶️ FindingSyntacticalyRelatedStructures2.mp4](./TutorialVideos/FindingSyntacticalyRelatedStructures2.mp4)
+
+### FindingSyntacticalyRelatedStructures3.mp4
+[▶️ FindingSyntacticalyRelatedStructures3.mp4](./TutorialVideos/FindingSyntacticalyRelatedStructures3.mp4)
+
+### ForceDisplayOfSubpattern1.mp4
+[▶️ ForceDisplayOfSubpattern1.mp4](./TutorialVideos/ForceDisplayOfSubpattern1.mp4)
+
+### GitSetup.mp4
+[▶️ GitSetup.mp4](./TutorialVideos/GitSetup.mp4)
+
+### GrammarAddonDeleteEntryFromBatchList.mp4
+[▶️ GrammarAddonDeleteEntryFromBatchList.mp4](./TutorialVideos/GrammarAddonDeleteEntryFromBatchList.mp4)
+
+### GrammarAddonEditingClusters1.mp4
+[▶️ GrammarAddonEditingClusters1.mp4](./TutorialVideos/GrammarAddonEditingClusters1.mp4)
+
+### GrammarAddonEditRegex1-GrammarAddonEditingClusters2.mp4
+[▶️ GrammarAddonEditRegex1-GrammarAddonEditingClusters2.mp4](./TutorialVideos/GrammarAddonEditRegex1-GrammarAddonEditingClusters2.mp4)
+
+### GrammarAddonFeatureDealingWithAbiguity.mp4
+[▶️ GrammarAddonFeatureDealingWithAbiguity.mp4](./TutorialVideos/GrammarAddonFeatureDealingWithAbiguity.mp4)
+
+### GrammarAddonFeatureYellowFrequencyNavigation part 1.mp4
+[▶️ GrammarAddonFeatureYellowFrequencyNavigation part 1.mp4](./TutorialVideos/GrammarAddonFeatureYellowFrequencyNavigation%20part%201.mp4)
+
+### GrammarAddonFeatureYellowFrequencyNavigation part 2.mp4
+[▶️ GrammarAddonFeatureYellowFrequencyNavigation part 2.mp4](./TutorialVideos/GrammarAddonFeatureYellowFrequencyNavigation%20part%202.mp4)
+
+### GrammarAddonForceAlign1.mp4
+[▶️ GrammarAddonForceAlign1.mp4](./TutorialVideos/GrammarAddonForceAlign1.mp4)
+
+### GrammarAddonForceAlign2.mp4
+[▶️ GrammarAddonForceAlign2.mp4](./TutorialVideos/GrammarAddonForceAlign2.mp4)
+
+### GrammarAddonForceAlign3.mp4
+[▶️ GrammarAddonForceAlign3.mp4](./TutorialVideos/GrammarAddonForceAlign3.mp4)
+
+### GrammarAddonForceAlign4.mp4
+[▶️ GrammarAddonForceAlign4.mp4](./TutorialVideos/GrammarAddonForceAlign4.mp4)
+
+### GrammarAddonForceAlign5.mp4
+[▶️ GrammarAddonForceAlign5.mp4](./TutorialVideos/GrammarAddonForceAlign5.mp4)
+
+### GrammarAddonMiningGrammarSentences-CardCreation1.5.mp4
+[▶️ GrammarAddonMiningGrammarSentences-CardCreation1.5.mp4](./TutorialVideos/GrammarAddonMiningGrammarSentences-CardCreation1.5.mp4)
+
+### GrammarAddonSpecialClusterConceptverbs.mp4
+[▶️ GrammarAddonSpecialClusterConceptverbs.mp4](./TutorialVideos/GrammarAddonSpecialClusterConceptverbs.mp4)
+
+### HTMLMarkingRemoverAddon-EditRegex3-GrammarAddonEditingClusters4.mp4
+[▶️ HTMLMarkingRemoverAddon-EditRegex3-GrammarAddonEditingClusters4.mp4](./TutorialVideos/HTMLMarkingRemoverAddon-EditRegex3-GrammarAddonEditingClusters4.mp4)
+
+### LibationSetUp-ObtaininingPreparingTargetChapterAudio1.mp4
+[▶️ LibationSetUp-ObtaininingPreparingTargetChapterAudio1.mp4](./TutorialVideos/LibationSetUp-ObtaininingPreparingTargetChapterAudio1.mp4)
+
+### LightnovelSubtitleCreation1.mp4
+[▶️ LightnovelSubtitleCreation1.mp4](./TutorialVideos/LightnovelSubtitleCreation1.mp4)
+
+### LightnovelSubtitleCreation10TranscriptCorrection4.mp4
+[▶️ LightnovelSubtitleCreation10TranscriptCorrection4.mp4](./TutorialVideos/LightnovelSubtitleCreation10TranscriptCorrection4.mp4)
+
+### LightnovelSubtitleCreation11TranscriptCorrection5.mp4
+[▶️ LightnovelSubtitleCreation11TranscriptCorrection5.mp4](./TutorialVideos/LightnovelSubtitleCreation11TranscriptCorrection5.mp4)
+
+### LightnovelSubtitleCreation12.mp4
+[▶️ LightnovelSubtitleCreation12.mp4](./TutorialVideos/LightnovelSubtitleCreation12.mp4)
+
+### LightnovelSubtitleCreation2.mp4
+[▶️ LightnovelSubtitleCreation2.mp4](./TutorialVideos/LightnovelSubtitleCreation2.mp4)
+
+### LightnovelSubtitleCreation3.mp4
+[▶️ LightnovelSubtitleCreation3.mp4](./TutorialVideos/LightnovelSubtitleCreation3.mp4)
+
+### LightnovelSubtitleCreation4 part 1.mp4
+[▶️ LightnovelSubtitleCreation4 part 1.mp4](./TutorialVideos/LightnovelSubtitleCreation4%20part%201.mp4)
+
+### LightnovelSubtitleCreation4 part 2 part 1.mp4
+[▶️ LightnovelSubtitleCreation4 part 2 part 1.mp4](./TutorialVideos/LightnovelSubtitleCreation4%20part%202%20part%201.mp4)
+
+### LightnovelSubtitleCreation4 part 2 part 2.mp4
+[▶️ LightnovelSubtitleCreation4 part 2 part 2.mp4](./TutorialVideos/LightnovelSubtitleCreation4%20part%202%20part%202.mp4)
+
+### LightnovelSubtitleCreation4,5.mp4
+[▶️ LightnovelSubtitleCreation4,5.mp4](./TutorialVideos/LightnovelSubtitleCreation4%2C5.mp4)
+
+### LightnovelSubtitleCreation5AnalysisOfTranscriptionQuality2.mp4
+[▶️ LightnovelSubtitleCreation5AnalysisOfTranscriptionQuality2.mp4](./TutorialVideos/LightnovelSubtitleCreation5AnalysisOfTranscriptionQuality2.mp4)
+
+### LightnovelSubtitleCreation6AnalysisOfTranscriptionQuality1.mp4
+[▶️ LightnovelSubtitleCreation6AnalysisOfTranscriptionQuality1.mp4](./TutorialVideos/LightnovelSubtitleCreation6AnalysisOfTranscriptionQuality1.mp4)
+
+### LightnovelSubtitleCreation7TranscriptCorrection1.mp4
+[▶️ LightnovelSubtitleCreation7TranscriptCorrection1.mp4](./TutorialVideos/LightnovelSubtitleCreation7TranscriptCorrection1.mp4)
+
+### LightnovelSubtitleCreation8TranscriptCorrection2 part 1.mp4
+[▶️ LightnovelSubtitleCreation8TranscriptCorrection2 part 1.mp4](./TutorialVideos/LightnovelSubtitleCreation8TranscriptCorrection2%20part%201.mp4)
+
+### LightnovelSubtitleCreation8TranscriptCorrection2 part 2.mp4
+[▶️ LightnovelSubtitleCreation8TranscriptCorrection2 part 2.mp4](./TutorialVideos/LightnovelSubtitleCreation8TranscriptCorrection2%20part%202.mp4)
+
+### LightnovelSubtitleCreation9TranscriptCorrection3.mp4
+[▶️ LightnovelSubtitleCreation9TranscriptCorrection3.mp4](./TutorialVideos/LightnovelSubtitleCreation9TranscriptCorrection3.mp4)
+
+### LNAudioSubtitleSyncAnki1.mp4
+[▶️ LNAudioSubtitleSyncAnki1.mp4](./TutorialVideos/LNAudioSubtitleSyncAnki1.mp4)
+
+### LNAudioSubtitleSyncAnki2.mp4
+[▶️ LNAudioSubtitleSyncAnki2.mp4](./TutorialVideos/LNAudioSubtitleSyncAnki2.mp4)
+
+### LNAudioSubtitleSyncAnki3.5AnimePictureAudioSubSync6.5.mp4
+[▶️ LNAudioSubtitleSyncAnki3.5AnimePictureAudioSubSync6.5.mp4](./TutorialVideos/LNAudioSubtitleSyncAnki3.5AnimePictureAudioSubSync6.5.mp4)
+
+### LNAudioSubtitleSyncAnki3.75AnimePictureAudioSubSync6.75.mp4
+[▶️ LNAudioSubtitleSyncAnki3.75AnimePictureAudioSubSync6.75.mp4](./TutorialVideos/LNAudioSubtitleSyncAnki3.75AnimePictureAudioSubSync6.75.mp4)
+
+### LNAudioSubtitleSyncAnki4AnimePictureAudioSubSync7 part 1 part 1.mp4
+[▶️ LNAudioSubtitleSyncAnki4AnimePictureAudioSubSync7 part 1 part 1.mp4](./TutorialVideos/LNAudioSubtitleSyncAnki4AnimePictureAudioSubSync7%20part%201%20part%201.mp4)
+
+### LNAudioSubtitleSyncAnki4AnimePictureAudioSubSync7 part 1 part 2.mp4
+[▶️ LNAudioSubtitleSyncAnki4AnimePictureAudioSubSync7 part 1 part 2.mp4](./TutorialVideos/LNAudioSubtitleSyncAnki4AnimePictureAudioSubSync7%20part%201%20part%202.mp4)
+
+### LNAudioSubtitleSyncAnki4AnimePictureAudioSubSync7 part 2.mp4
+[▶️ LNAudioSubtitleSyncAnki4AnimePictureAudioSubSync7 part 2.mp4](./TutorialVideos/LNAudioSubtitleSyncAnki4AnimePictureAudioSubSync7%20part%202.mp4)
+
+### LNAudioSubtitleSyncAnki4AnimePictureAudioSubSync7 part 3.mp4
+[▶️ LNAudioSubtitleSyncAnki4AnimePictureAudioSubSync7 part 3.mp4](./TutorialVideos/LNAudioSubtitleSyncAnki4AnimePictureAudioSubSync7%20part%203.mp4)
+
+### LNAudioSubtitleSyncAnki5AnimePictureAudioSubSync8 part 1.mp4
+[▶️ LNAudioSubtitleSyncAnki5AnimePictureAudioSubSync8 part 1.mp4](./TutorialVideos/LNAudioSubtitleSyncAnki5AnimePictureAudioSubSync8%20part%201.mp4)
+
+### LNAudioSubtitleSyncAnki5AnimePictureAudioSubSync8 part 2.mp4
+[▶️ LNAudioSubtitleSyncAnki5AnimePictureAudioSubSync8 part 2.mp4](./TutorialVideos/LNAudioSubtitleSyncAnki5AnimePictureAudioSubSync8%20part%202.mp4)
+
+### LNAudioSubtitleSyncAnki6AnimePictureAudioSubSync9 part 1.mp4
+[▶️ LNAudioSubtitleSyncAnki6AnimePictureAudioSubSync9 part 1.mp4](./TutorialVideos/LNAudioSubtitleSyncAnki6AnimePictureAudioSubSync9%20part%201.mp4)
+
+### LNAudioSubtitleSyncAnki6AnimePictureAudioSubSync9 part 2.mp4
+[▶️ LNAudioSubtitleSyncAnki6AnimePictureAudioSubSync9 part 2.mp4](./TutorialVideos/LNAudioSubtitleSyncAnki6AnimePictureAudioSubSync9%20part%202.mp4)
+
+### LNAudioSubtitleSyncAnki7AnimePictureAudioSubSync10 part 1.mp4
+[▶️ LNAudioSubtitleSyncAnki7AnimePictureAudioSubSync10 part 1.mp4](./TutorialVideos/LNAudioSubtitleSyncAnki7AnimePictureAudioSubSync10%20part%201.mp4)
+
+### LNAudioSubtitleSyncAnki7AnimePictureAudioSubSync10 part 2.mp4
+[▶️ LNAudioSubtitleSyncAnki7AnimePictureAudioSubSync10 part 2.mp4](./TutorialVideos/LNAudioSubtitleSyncAnki7AnimePictureAudioSubSync10%20part%202.mp4)
+
+### LNAudioSubtitleSyncAnki7AnimePictureAudioSubSync10 part 3.mp4
+[▶️ LNAudioSubtitleSyncAnki7AnimePictureAudioSubSync10 part 3.mp4](./TutorialVideos/LNAudioSubtitleSyncAnki7AnimePictureAudioSubSync10%20part%203.mp4)
+
+### LNAudioSubtitleSyncAnki8AnimePictureAudioSubSyn11 part 1.mp4
+[▶️ LNAudioSubtitleSyncAnki8AnimePictureAudioSubSyn11 part 1.mp4](./TutorialVideos/LNAudioSubtitleSyncAnki8AnimePictureAudioSubSyn11%20part%201.mp4)
+
+### LNAudioSubtitleSyncAnki8AnimePictureAudioSubSyn11 part 2.mp4
+[▶️ LNAudioSubtitleSyncAnki8AnimePictureAudioSubSyn11 part 2.mp4](./TutorialVideos/LNAudioSubtitleSyncAnki8AnimePictureAudioSubSyn11%20part%202.mp4)
+
+### LosslessCutSetup1.mp4
+[▶️ LosslessCutSetup1.mp4](./TutorialVideos/LosslessCutSetup1.mp4)
+
+### LosslessCutSetup2.mp4
+[▶️ LosslessCutSetup2.mp4](./TutorialVideos/LosslessCutSetup2.mp4)
+
+### mpvinstallation1.mp4
+[▶️ mpvinstallation1.mp4](./TutorialVideos/mpvinstallation1.mp4)
+
+### mpvInstallation2.mp4
+[▶️ mpvInstallation2.mp4](./TutorialVideos/mpvInstallation2.mp4)
+
+### mpvinstallation3.mp4
+[▶️ mpvinstallation3.mp4](./TutorialVideos/mpvinstallation3.mp4)
+
+### NewLNAudioSubtitleSyncAnki3 part 1.mp4
+[▶️ NewLNAudioSubtitleSyncAnki3 part 1.mp4](./TutorialVideos/NewLNAudioSubtitleSyncAnki3%20part%201.mp4)
+
+### NewLNAudioSubtitleSyncAnki3 part 2.mp4
+[▶️ NewLNAudioSubtitleSyncAnki3 part 2.mp4](./TutorialVideos/NewLNAudioSubtitleSyncAnki3%20part%202.mp4)
+
+### ObtainingRawLightNovelHTMLAndPreperationOfRawChapterText1.mp4
+[▶️ ObtainingRawLightNovelHTMLAndPreperationOfRawChapterText1.mp4](./TutorialVideos/ObtainingRawLightNovelHTMLAndPreperationOfRawChapterText1.mp4)
+
+### ObtainingRawLightNovelHTMLAndPreperationOfRawChapterText2,5.mp4
+[▶️ ObtainingRawLightNovelHTMLAndPreperationOfRawChapterText2,5.mp4](./TutorialVideos/ObtainingRawLightNovelHTMLAndPreperationOfRawChapterText2%2C5.mp4)
+
+### ObtainingRawLightNovelHTMLAndPreperationOfRawChapterText2.mp4
+[▶️ ObtainingRawLightNovelHTMLAndPreperationOfRawChapterText2.mp4](./TutorialVideos/ObtainingRawLightNovelHTMLAndPreperationOfRawChapterText2.mp4)
+
+### ObtainingRawLightNovelHTMLAndPreperationOfRawChapterText3ObtaininingPreparingTargetChapterAudio3.mp4
+[▶️ ObtainingRawLightNovelHTMLAndPreperationOfRawChapterText3ObtaininingPreparingTargetChapterAudio3.mp4](./TutorialVideos/ObtainingRawLightNovelHTMLAndPreperationOfRawChapterText3ObtaininingPreparingTargetChapterAudio3.mp4)
+
+### ObtaininingPreparingTargetChapterAudio2.mp4
+[▶️ ObtaininingPreparingTargetChapterAudio2.mp4](./TutorialVideos/ObtaininingPreparingTargetChapterAudio2.mp4)
+
+### Python3.12SetUp1 part 1.mp4
+[▶️ Python3.12SetUp1 part 1.mp4](./TutorialVideos/Python3.12SetUp1%20part%201.mp4)
+
+### Python3.12SetUp1 part 2.mp4
+[▶️ Python3.12SetUp1 part 2.mp4](./TutorialVideos/Python3.12SetUp1%20part%202.mp4)
+
+### Python3.12SetUp2.mp4
+[▶️ Python3.12SetUp2.mp4](./TutorialVideos/Python3.12SetUp2.mp4)
+
+### RemoveClusters-EditingClusters10.mp4
+[▶️ RemoveClusters-EditingClusters10.mp4](./TutorialVideos/RemoveClusters-EditingClusters10.mp4)
+
+### ShareXSetUp1.mp4
+[▶️ ShareXSetUp1.mp4](./TutorialVideos/ShareXSetUp1.mp4)
+
+### ShareXSetUp2.mp4
+[▶️ ShareXSetUp2.mp4](./TutorialVideos/ShareXSetUp2.mp4)
+
+### SoundEditing1.mp4
+[▶️ SoundEditing1.mp4](./TutorialVideos/SoundEditing1.mp4)
+
+### SoundEditing2AudioConverter.mp4
+[▶️ SoundEditing2AudioConverter.mp4](./TutorialVideos/SoundEditing2AudioConverter.mp4)
+
+### SoundEditing3Audacity part 1.mp4
+[▶️ SoundEditing3Audacity part 1.mp4](./TutorialVideos/SoundEditing3Audacity%20part%201.mp4)
+
+### SoundEditing3Audacity part 2.mp4
+[▶️ SoundEditing3Audacity part 2.mp4](./TutorialVideos/SoundEditing3Audacity%20part%202.mp4)
+
+### SoundEditing4 part 1.mp4
+[▶️ SoundEditing4 part 1.mp4](./TutorialVideos/SoundEditing4%20part%201.mp4)
+
+### SoundEditing4 part 2.mp4
+[▶️ SoundEditing4 part 2.mp4](./TutorialVideos/SoundEditing4%20part%202.mp4)
+
+### SoundEditing4 part 3.mp4
+[▶️ SoundEditing4 part 3.mp4](./TutorialVideos/SoundEditing4%20part%203.mp4)
+
+### TextMarkerAddonDeletionOfTerms1.mp4
+[▶️ TextMarkerAddonDeletionOfTerms1.mp4](./TutorialVideos/TextMarkerAddonDeletionOfTerms1.mp4)
+
+### TextMarkerAddonDeletionOfTerms2.mp4
+[▶️ TextMarkerAddonDeletionOfTerms2.mp4](./TutorialVideos/TextMarkerAddonDeletionOfTerms2.mp4)
+
+### UpdateGrammarDataBase1.5-GrammarAddonEditRegex2.5-createYourOwnClusters4.5-GrammarAddonEditingClusters3.5-createYourOwnClusters8.5-EtingClusters9.5-itingClusters11.5-ForceDisplayOfSubpatern2.5.mp4
+[▶️ UpdateGrammarDataBase1.5-GrammarAddonEditRegex2.5-createYourOwnClusters4.5-GrammarAddonEditingClusters3.5-createYourOwnClusters8.5-EtingClusters9.5-itingClusters11.5-ForceDisplayOfSubpatern2.5.mp4](./TutorialVideos/UpdateGrammarDataBase1.5-GrammarAddonEditRegex2.5-createYourOwnClusters4.5-GrammarAddonEditingClusters3.5-createYourOwnClusters8.5-EtingClusters9.5-itingClusters11.5-ForceDisplayOfSubpatern2.5.mp4)
+
+### UpdateGrammarDataBase1-GrammarAddonEditRegex2-createYourOwnClusters4-GrammarAddonEditingClusters3-createYourOwnClusters8-EditingClusters9-EditingClusters11-ForceDisplayOfSubpattern2.mp4
+[▶️ UpdateGrammarDataBase1-GrammarAddonEditRegex2-createYourOwnClusters4-GrammarAddonEditingClusters3-createYourOwnClusters8-EditingClusters9-EditingClusters11-ForceDisplayOfSubpattern2.mp4](./TutorialVideos/UpdateGrammarDataBase1-GrammarAddonEditRegex2-createYourOwnClusters4-GrammarAddonEditingClusters3-createYourOwnClusters8-EditingClusters9-EditingClusters11-ForceDisplayOfSubpattern2.mp4)
+
+### UpdateVocabularyListForMarking.mp4
+[▶️ UpdateVocabularyListForMarking.mp4](./TutorialVideos/UpdateVocabularyListForMarking.mp4)
+
+### VisualizeCluster1.mp4
+[▶️ VisualizeCluster1.mp4](./TutorialVideos/VisualizeCluster1.mp4)
+
+### VisualizeCluster2 part 1.mp4
+[▶️ VisualizeCluster2 part 1.mp4](./TutorialVideos/VisualizeCluster2%20part%201.mp4)
+
+### VisualizeCluster2 part 2.mp4
+[▶️ VisualizeCluster2 part 2.mp4](./TutorialVideos/VisualizeCluster2%20part%202.mp4)
+
+### VisualizeCluster3.mp4
+[▶️ VisualizeCluster3.mp4](./TutorialVideos/VisualizeCluster3.mp4)
+
+### VisualizeCluster4 part 1.mp4
+[▶️ VisualizeCluster4 part 1.mp4](./TutorialVideos/VisualizeCluster4%20part%201.mp4)
+
+### VisualizeCluster4 part 2 part 1_split_1.mp4
+[▶️ VisualizeCluster4 part 2 part 1_split_1.mp4](./TutorialVideos/VisualizeCluster4%20part%202%20part%201_split_1.mp4)
+
+### VisualizeCluster4 part 2 part 1_split_2.mp4
+[▶️ VisualizeCluster4 part 2 part 1_split_2.mp4](./TutorialVideos/VisualizeCluster4%20part%202%20part%201_split_2.mp4)
+
+### VisualizeCluster4 part 2 part 1_split_3.mp4
+[▶️ VisualizeCluster4 part 2 part 1_split_3.mp4](./TutorialVideos/VisualizeCluster4%20part%202%20part%201_split_3.mp4)
+
+### VisualizeCluster4 part 2 part 2_split_1.mp4
+[▶️ VisualizeCluster4 part 2 part 2_split_1.mp4](./TutorialVideos/VisualizeCluster4%20part%202%20part%202_split_1.mp4)
+
+### VisualizeCluster4 part 2 part 2_split_2.mp4
+[▶️ VisualizeCluster4 part 2 part 2_split_2.mp4](./TutorialVideos/VisualizeCluster4%20part%202%20part%202_split_2.mp4)
+
+### VisualizeCluster4 part 2 part 2_split_3.mp4
+[▶️ VisualizeCluster4 part 2 part 2_split_3.mp4](./TutorialVideos/VisualizeCluster4%20part%202%20part%202_split_3.mp4)
+
+### VisualizeCluster4 part 2 part 2_split_4.mp4
+[▶️ VisualizeCluster4 part 2 part 2_split_4.mp4](./TutorialVideos/VisualizeCluster4%20part%202%20part%202_split_4.mp4)
+
+### VisualizeCluster4 part 3 part 1_split_1.mp4
+[▶️ VisualizeCluster4 part 3 part 1_split_1.mp4](./TutorialVideos/VisualizeCluster4%20part%203%20part%201_split_1.mp4)
+
+### VisualizeCluster4 part 3 part 1_split_2.mp4
+[▶️ VisualizeCluster4 part 3 part 1_split_2.mp4](./TutorialVideos/VisualizeCluster4%20part%203%20part%201_split_2.mp4)
+
+### VisualizeCluster4 part 3 part 1_split_3.mp4
+[▶️ VisualizeCluster4 part 3 part 1_split_3.mp4](./TutorialVideos/VisualizeCluster4%20part%203%20part%201_split_3.mp4)
+
+### VisualizeCluster4 part 3 part 2.mp4
+[▶️ VisualizeCluster4 part 3 part 2.mp4](./TutorialVideos/VisualizeCluster4%20part%203%20part%202.mp4)
+
+### VisualizeCluster5-createYourOwnClusters9-AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists4.mp4
+[▶️ VisualizeCluster5-createYourOwnClusters9-AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists4.mp4](./TutorialVideos/VisualizeCluster5-createYourOwnClusters9-AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists4.mp4)
+
+### VisualizeCluster6-createYourOwnClusters10-AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists5 part 1.mp4
+[▶️ VisualizeCluster6-createYourOwnClusters10-AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists5 part 1.mp4](./TutorialVideos/VisualizeCluster6-createYourOwnClusters10-AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists5%20part%201.mp4)
+
+### VisualizeCluster6-createYourOwnClusters10-AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists5 part 2.mp4
+[▶️ VisualizeCluster6-createYourOwnClusters10-AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists5 part 2.mp4](./TutorialVideos/VisualizeCluster6-createYourOwnClusters10-AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists5%20part%202.mp4)
+
+### VisualStudioCodeSetUP.mp4
+[▶️ VisualStudioCodeSetUP.mp4](./TutorialVideos/VisualStudioCodeSetUP.mp4)
+
+
 
 
 
