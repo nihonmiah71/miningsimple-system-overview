@@ -234,7 +234,10 @@ The main idea of the system is to create cards for Anki with a good format for l
 ### Set Up: 
 
 In this part we will install the system on your computer
-CardCreation: We will demonstrate how to create cards, this step actualy consists of 3 subparts, in the first part the cards are mined from the source, in the second part we will use pyhton scripts in order to connect the mined vocabulary with the source: this means on the one hand that we will extract media from the source into our cards and on the the other hand that we will create a special subtitlefile so that the mined vocabulary with definition and pronounciation is inserted into the source and can be played with it, in the last part we will review the final product and explain some learning strategies.
+
+### CardCreation: 
+
+We will demonstrate how to create cards, this step actualy consists of 3 subparts, in the first part the cards are mined from the source, in the second part we will use pyhton scripts in order to connect the mined vocabulary with the source: this means on the one hand that we will extract media from the source into our cards and on the the other hand that we will create a special subtitlefile so that the mined vocabulary with definition and pronounciation is inserted into the source and can be played with it, in the last part we will review the final product and explain some learning strategies.
 
 ### MediaExtaction: 
 
@@ -249,7 +252,7 @@ We will explain in detail the basic capabilities and possibilites of the browser
 This is an optional extension to the system and looks even deeper into the capabilities of the Grammar Addon and the connection with the Anki backend and provides different possibilites for further personalization.
 
 
-### Playlists
+#### Playlists
 <details>
    
 #### 7zSetUp
