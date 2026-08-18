@@ -1130,8 +1130,7 @@ https://github.com/user-attachments/assets/f547a64d-464a-4cb5-be0e-dbc0b5918c2f
 
 # Main Content
 
-<details>
-<summary>Additional (dated) info (copied from other repos) for reference</summary>
+
 
 ## Playlists
 
@@ -1837,7 +1836,8 @@ https://github.com/user-attachments/assets/762bc1db-4d5d-42ba-9549-5be16dc666aa
 https://github.com/user-attachments/assets/c0d73747-a114-478d-8405-bd3ca6769db8
 
 </details>
-
+<details>
+<summary>Additional (dated) info (copied from other repos) for reference</summary>
 # miningsimple-system-overview
 Connects several repos of this profile together and introduces an efficient and experience-based learning system with multiple mining workflows to acquire the Japanese language most efficiently.
 
