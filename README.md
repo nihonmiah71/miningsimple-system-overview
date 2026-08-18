@@ -26,7 +26,6 @@
 | AnimePictureAudioSubSync3.mp4 | A21 | https://github.com/user-attachments/assets/9505d3e0-5e08-40a2-87e2-79d06a453a71 |
 | AnimePictureAudioSubSync2.mp4 | A22 | https://github.com/user-attachments/assets/cb842d07-f844-483d-b520-fb4a4e9031d6 |
 | AnimePictureAudioSubSync1.mp4 | A23 | https://github.com/user-attachments/assets/dbcd52ed-8212-4766-be50-b57b81457283 |
-| ADDtoMiningCardDemoGITHUB.mp4 | A24 | https://github.com/user-attachments/assets/632813ae-1016-499f-aef5-12f71138dbaa |
 | AddonBrowserSelfSetUp3.mp4 | A25 | https://github.com/user-attachments/assets/721a5461-92fa-4eb6-a720-c3aae486b30d |
 | AddonBrowserSelfSetUp2.mp4 | A26 | https://github.com/user-attachments/assets/314c8866-54ec-403b-bc67-2933655943ef |
 | AddonBrowserSelfSetUp1.part.3.mp4 | A27 | https://github.com/user-attachments/assets/060bbb23-7eef-4576-aa68-82f0657ecca5 |
@@ -93,9 +92,6 @@
 | createYourOwnClusters6-EditingClusters7.part.2.part.1_split_3.mp4 | C54 | https://github.com/user-attachments/assets/8ab2260c-436a-41f9-8a35-a6405f7b80ca |
 | DeskpinSetUp2.mp4 | D1 | https://github.com/user-attachments/assets/976fe04b-0df9-4cc0-b6a5-d453fb9e0cea |
 | DeskpinSetUp1.mp4 | D2 | https://github.com/user-attachments/assets/b7441eda-d31b-4728-a128-f545d1bab73c |
-| demogrammarcard2.part.2.mp4 | D3 | https://github.com/user-attachments/assets/cf0bf4cb-9ce9-4f32-a238-4cbce4f44252 |
-| demogrammarcard2.part.1.mp4 | D4 | https://github.com/user-attachments/assets/066b23ae-089b-46ab-ae25-be70f85f600b |
-| demogrammarcard1.mp4 | D5 | https://github.com/user-attachments/assets/8e763e84-08cc-49cb-ad90-ed1d405500b2 |
 | EditRegex5-GrammarAddonEditingClusters6.mp4 | E1 | https://github.com/user-attachments/assets/83ccf7a8-e4d1-46bd-8dcf-d34d0d5864bc |
 | EditRegex4-GrammarAddonEditingClusters5.mp4 | E2 | https://github.com/user-attachments/assets/a0f0d752-be63-4422-afd0-ab1ae7d244af |
 | EditingClusters6.75.mp4 | E3 | https://github.com/user-attachments/assets/cbe9842e-51e3-491a-81dc-74bb470f008c |
@@ -648,18 +644,6 @@ https://github.com/user-attachments/assets/762bc1db-4d5d-42ba-9549-5be16dc666aa
 https://github.com/user-attachments/assets/c0d73747-a114-478d-8405-bd3ca6769db8
 
 https://github.com/user-attachments/assets/7de65c1f-ae99-4e7c-b278-4046377fde8c
-
-</details>
-
-#### demogrammarcard
-Short name ID of videos in playlist: D5 D4 D3
-<details>
-
-https://github.com/user-attachments/assets/8e763e84-08cc-49cb-ad90-ed1d405500b2
-
-https://github.com/user-attachments/assets/066b23ae-089b-46ab-ae25-be70f85f600b
-
-https://github.com/user-attachments/assets/cf0bf4cb-9ce9-4f32-a238-4cbce4f44252
 
 </details>
 
