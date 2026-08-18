@@ -1,3 +1,6 @@
+<details>
+<summary>tutorial videos alphanumericaly odered</summary>
+
 # A
 
 
@@ -900,6 +903,14 @@ https://github.com/user-attachments/assets/a804cf75-daaf-4585-99a8-7ece7bf75576
 
 
 https://github.com/user-attachments/assets/f547a64d-464a-4cb5-be0e-dbc0b5918c2f
+
+</details>
+
+# Main Content
+
+<details>
+<summary>Additional (dated) info (copied from other repos) for reference</summary>
+
 # miningsimple-system-overview
 Connects several repos of this profile together and introduces an efficient and experience-based learning system with multiple mining workflows to acquire the Japanese language most efficiently.
 
@@ -2200,3 +2211,4 @@ python prepare_data.py
 3. Enable **Developer mode** in the top right corner.
 4. Click **Load unpacked** and select the folder containing the extension files.
 5. Configure your grammar database following the workflow steps above.
+</details>
