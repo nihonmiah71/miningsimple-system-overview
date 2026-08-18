@@ -1,5 +1,5 @@
 <details>
-<summary>tutorial videos in table with names and unique identifiers</summary>
+<summary>tutorial videos in table with names and unique identifiers (overview for reference)</summary>
    
 | Video Name | ID | Link |
 | :--- | :--- | :--- |
@@ -223,6 +223,30 @@
 
 # Main Content
 
+## Cards Demo and Final Result
+
+show finished miningsimple card (with additional functionlaity!), show grammar card, show browseraddon grammar and textmarker activation
+
+## Overview and Main Idea
+
+The main idea of the system is to create cards for Anki with a good format for learning Japanese which were mined from either Lightnovels or Anime. We prepared 2 main addons that can be used during the mining process, a grammar parser that marks selected grammar patterns and a vocabulary marker that marks all the words in the text that have been mined before at least once. In order to learn grammar more efficiently also a seperate notetype has been integrated in the system. The system has 5 main components:
+
+### Set Up: 
+
+In this part we will install the system on your computer
+CardCreation: We will demonstrate how to create cards, this step actualy consists of 3 subparts, in the first part the cards are mined from the source, in the second part we will use pyhton scripts in order to connect the mined vocabulary with the source: this means on the one hand that we will extract media from the source into our cards and on the the other hand that we will create a special subtitlefile so that the mined vocabulary with definition and pronounciation is inserted into the source and can be played with it, in the last part we will review the final product and explain some learning strategies.
+
+### MediaExtaction: 
+
+This is actualy the second part of the card creation, we will explain in detail how to use the Phtyhon Scripts in order to extract the media, i.e. inject the mined definitons into the source. We will also explain how we actualy obtain the source material and prepare it properly. We split this process in a Anime branch and a Lightnovel branch
+
+### Operating the Browser Addons: 
+
+We will explain in detail the basic capabilities and possibilites of the browseraddons we created ourselves which we are using during the minning process
+
+### Configuring the Grammar Addon: 
+
+This is an optional extension to the system and looks even deeper into the capabilities of the Grammar Addon and the connection with the Anki backend and provides different possibilites for further personalization.
 
 
 ### Playlists
