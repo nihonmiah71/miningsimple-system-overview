@@ -219,7 +219,7 @@
 
 # Main Content
 
-## Cards Demo and Final Result
+## Cards and selfmade Browser Addons Demo
 
 show finished miningsimple card (with additional functionlaity!), show grammar card, show browseraddon grammar and textmarker activation
 
