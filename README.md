@@ -2,8 +2,7 @@
 <video src="./TutorialVideos/7zSetUp.mp4" controls width="100%"></video>
 
 ### AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists1
-<video src="./TutorialVideos/AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists1.mp4" controls="controls" width="100%">
-</video>
+[▶️ **Click here to watch video**](https://raw.githubusercontent.com/nihonmiah71/miningsimple-system-overview/main/TutorialVideos/AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists1.mp4)
 
 ### AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists1.mp4
 [▶️ AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists1.mp4](./TutorialVideos/AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists1.mp4?raw=true)
