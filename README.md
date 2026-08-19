@@ -661,6 +661,109 @@ Throughout the system you also have to set up various workflows by setting the p
 </details>
 ------
 
+## CardsCreation
+
+<details>
+<summary>CardsCreation</summary>
+
+We assume you already have the necessary source material ready, which in the
+case of the light novel is: the epub, the audio from the audiobook seperated by
+chapters and the respective subtitle file, in case of anime it would be the
+video, and the subtitlefile, for reference also look at the subplaylists of the
+Media Extraction Process (Preperation)
+
+https://github.com/user-attachments/assets/f3b37045-9c62-434b-9707-9c9c97adf71b
+
+https://github.com/user-attachments/assets/aa5380be-85a2-4b27-bfcc-60fc9bc0e618
+
+https://github.com/user-attachments/assets/b20cc74f-8fb2-4501-8a47-ef85c14ae53b
+
+https://github.com/user-attachments/assets/87107aef-5a34-4e94-b18e-44420dcf9508
+
+https://github.com/user-attachments/assets/1b5e1ce5-8903-41da-82eb-9d37b4109177
+
+https://github.com/user-attachments/assets/36c6bc2a-6389-4781-bd25-ea017d1f21a4
+
+https://github.com/user-attachments/assets/bfb5b39b-a9b4-4931-b03d-118fe4eb07ae
+
+https://github.com/user-attachments/assets/6e543329-dbdf-4bde-82af-b8e167d186ff
+
+https://github.com/user-attachments/assets/11bd3e91-2998-4fd3-b802-953efca71a33
+
+https://github.com/user-attachments/assets/aef99ec8-fb4c-46fc-bf25-d1b66dcc12a0
+
+https://github.com/user-attachments/assets/ec28d819-ed65-4a97-9a4a-31fb64e0d113
+
+https://github.com/user-attachments/assets/b037318e-7ced-44f4-8596-0cdbe1b018d5
+
+https://github.com/user-attachments/assets/aa20fb12-f736-4bb2-af29-29bbb65db721
+
+https://github.com/user-attachments/assets/1bd414d0-1b28-4116-9cca-bb67d77e55f6
+
+https://github.com/user-attachments/assets/4eb4aa16-88d3-4cd2-a824-fec2b4d197f1
+
+https://github.com/user-attachments/assets/a742e9ba-28c9-4762-9676-5ef4ebcbfcef
+
+https://github.com/user-attachments/assets/bf5ee65c-71bc-4ec3-9f7a-401cda1617ed
+
+https://github.com/user-attachments/assets/d0558d3b-7f67-4f97-92c1-824601a4fbfd
+
+https://github.com/user-attachments/assets/11e21315-180a-42c6-9f9e-9221c6802e01
+
+https://github.com/user-attachments/assets/dc20e5c1-0e83-4f02-b62f-d5bca4268cd2
+
+https://github.com/user-attachments/assets/8a239cc8-c660-4025-85ff-3a1c589d5926
+
+https://github.com/user-attachments/assets/98de2d3d-8ef4-4e62-81db-9418cf49fb04
+
+https://github.com/user-attachments/assets/14001dd2-c2ce-4e6b-9516-04e4f35c83ba
+
+https://github.com/user-attachments/assets/4f6a8200-f8cb-479a-afcd-e66224371de2
+
+https://github.com/user-attachments/assets/fcb9f4b3-0c3c-4475-9224-6a3e614e091e
+
+https://github.com/user-attachments/assets/b0a7ef3f-412c-49b5-9a29-e5a63f59ca67
+
+https://github.com/user-attachments/assets/2be5a4bf-e8ef-4a51-9642-275b89b8a53f
+
+https://github.com/user-attachments/assets/7f506e9e-2f4b-4103-aeed-653ca8fa8c79
+
+After that you are supposed to extract the media for the cards (and create a
+special subtitle file with your mined words), see MediaExtraction for reference
+
+After you have finished the MediaExtraction Process, continue with
+
+https://github.com/user-attachments/assets/7619e61a-111a-44bb-8871-742118629b91
+
+https://github.com/user-attachments/assets/7e4a3501-9445-4305-b260-fa38c14f9c0e
+
+https://github.com/user-attachments/assets/18e0ae05-9d4a-4abf-a005-efc8ebf77c5b
+
+https://github.com/user-attachments/assets/1c9d398e-6c82-4a6b-8776-5ef36cccc050
+
+https://github.com/user-attachments/assets/f7b00139-bf77-4edb-8e68-aa6b5ba1dbbf
+
+https://github.com/user-attachments/assets/881876bf-b55d-4b27-945a-2bc81c80f42d
+
+https://github.com/user-attachments/assets/5ab1b2e8-ddd1-4dd7-878e-beb8dc540545
+
+https://github.com/user-attachments/assets/3816602d-7b88-4024-a4dc-7e0bd565a169
+
+https://github.com/user-attachments/assets/1fe6f865-8a72-47c4-8003-0eaf257f0b66
+
+https://github.com/user-attachments/assets/dd211a4d-ebd8-4748-9cff-66fde2b1ab27
+
+https://github.com/user-attachments/assets/983c6d62-dc4f-4220-af56-809f92edbca6
+
+https://github.com/user-attachments/assets/5b946672-3b51-4b39-a7e8-177c302e8b35
+
+https://github.com/user-attachments/assets/50b4b591-16f7-4c9b-bcf1-f17229ec509f
+
+https://github.com/user-attachments/assets/92be4d49-5a23-4b81-ac66-ce3d7cd5c556
+
+</details>
+</details>
+
 #### Playlists
 <details>
    
