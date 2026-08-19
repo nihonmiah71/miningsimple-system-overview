@@ -299,7 +299,10 @@ This is an optional extension to the system and looks even deeper into the capab
 
 ------
 
-## Set UP
+## Set Up
+<details>
+
+<summary>Set Up</summary>
 
 The outline of the setup is as follows
 
@@ -655,7 +658,7 @@ https://github.com/user-attachments/assets/2e4b967c-db5c-491f-85a3-99bf0da3b34f
 Finaly you are going to install additional Chromw Browser Addons (and a Firefox Addon optionaly), especialy yomitan is important for mining and a dedicated walkthrough for installation and supplementary configuration files (yomitan config settings json, yomitan dictionary collection json) were provided.
 
 Throughout the system you also have to set up various workflows by setting the paths when you first use a component, how to do that will be explained in the guides when the functionality is actualy being used, but in most cases your are simply being prompted to just select a directory or a certain file with the fileexplorer. Also there are some optional programs and Addons where the installation will be explained in case you want to make use of the functionalities in which they are used (ShareX, Audacity,LosslessCut,Libation, Video Download Helper)
-
+</details>
 ------
 
 #### Playlists
