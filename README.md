@@ -307,10 +307,11 @@ This is an optional extension to the system and looks even deeper into the capab
 The outline of the setup is as follows
 
 1. Installation of external programs
-2. Python Set Up
-3. cloning repository
-4. Anki Set Up
-5. Addons Set Up
+2. cloning repository
+3. Python Set Up
+4. Anki and Addons Set Up
+
+<details><summary>1. Installation of external programs</summary>
 
 You have to download and install the following programs:
 necessary: 7Zip,Git,Anki,mpv Player,Chrome recommended:Deskpins, VisualStudioCode, Firefox
@@ -333,7 +334,9 @@ https://github.com/user-attachments/assets/50503aef-7cd6-43c7-b591-09b74ea2d66c
 
 <details>
 <summary>7zSetUp</summary>
+   
 #### 7zSetUp
+
 Short name ID of videos in playlist: A33
 
 https://github.com/user-attachments/assets/04b4ffeb-6b58-462b-b87d-e3d25df9aac8
@@ -343,7 +346,9 @@ https://github.com/user-attachments/assets/04b4ffeb-6b58-462b-b87d-e3d25df9aac8
 
 <details>
 <summary>DeskpinSetUp</summary>
+   
 #### DeskpinSetUp
+
 Short name ID of videos in playlist: D2 D1
 
 https://github.com/user-attachments/assets/b7441eda-d31b-4728-a128-f545d1bab73c
@@ -354,7 +359,9 @@ https://github.com/user-attachments/assets/976fe04b-0df9-4cc0-b6a5-d453fb9e0cea
 
 <details>
 <summary>GitSetup</summary>
+   
 #### GitSetup
+
 Short name ID of videos in playlist: G14
 
 https://github.com/user-attachments/assets/c8ebacf9-f422-4990-bbac-f9a9cc7614f3
@@ -364,6 +371,7 @@ https://github.com/user-attachments/assets/c8ebacf9-f422-4990-bbac-f9a9cc7614f3
 
 <details>
 <summary>mpvinstallation</summary>
+   
 #### mpvinstallation
 Short name ID of videos in playlist: M3 M2 M1
 
@@ -379,15 +387,17 @@ https://github.com/user-attachments/assets/12401250-c6c7-4491-9437-e0188ebb5d2b
 
 <details>
 <summary>VisualStudioCodeSetUP</summary>
+   
 #### VisualStudioCodeSetUP
 Short name ID of videos in playlist: V1
 
 https://github.com/user-attachments/assets/70ae43ed-7fc6-496d-95fd-026aefa23c41
 
 </details>
-
-
 </details>
+</details>
+
+<details><summary>2. cloning repository</summary>
 
 After that you have to clone the repository with git, use the following command in your shell
 
@@ -395,7 +405,7 @@ git clone https://github.com/nihonmiah71/miningsimple-system-overview.git
 
 <details>
 
-<summary>TODO Repositort Cloning</summary>
+<summary>TODO Repository Cloning</summary>
 
 #### TODO
 Short name ID of videos in playlist: P3 P2 P1
@@ -407,6 +417,9 @@ https://github.com/user-attachments/assets/798d8bfa-8d2a-4847-acbd-8afac2dd00dd
 https://github.com/user-attachments/assets/2e4b967c-db5c-491f-85a3-99bf0da3b34f
 
 </details>
+</details>
+
+<details><summary>3. Python Set Up</summary>
 
 Then you have to set up python, the following guide can be used as a reference, also an alternative playlist was created in case the guide did not work, in case the guide did not work we recommend to run the python scripts each one time and debug with AI the error message if the code did not work and install the necessary packages.
 
@@ -637,6 +650,10 @@ https://github.com/user-attachments/assets/798d8bfa-8d2a-4847-acbd-8afac2dd00dd
 https://github.com/user-attachments/assets/2e4b967c-db5c-491f-85a3-99bf0da3b34f
 
 </details>
+</details>
+
+<details>
+<summary>4. Anki and Addons Set Up</summary>
 
 Then you have to import in Anki the notetypes, you can also rename in this step the properties like the name of the deck, the notetypes, the cardtypes and the fields but we recommend using the default names as they are. Next install the Anki Addons and configure them and also run the basic initial configuration process through a combination of designated Anki Addons and Python Scripts and you make the the self hosted browser Addons ready to use.
 
@@ -659,7 +676,7 @@ Finaly you are going to install additional Chromw Browser Addons (and a Firefox 
 
 Throughout the system you also have to set up various workflows by setting the paths when you first use a component, how to do that will be explained in the guides when the functionality is actualy being used, but in most cases your are simply being prompted to just select a directory or a certain file with the fileexplorer. Also there are some optional programs and Addons where the installation will be explained in case you want to make use of the functionalities in which they are used (ShareX, Audacity,LosslessCut,Libation, Video Download Helper)
 </details>
-
+</details>
 ------
 
 ## CardsCreation
