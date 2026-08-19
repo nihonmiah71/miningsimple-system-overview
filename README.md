@@ -312,9 +312,98 @@ The outline of the setup is as follows
 You have to download and install the following programs:
 necessary: 7Zip,Git,Anki,mpv Player,Chrome recommended:Deskpins, VisualStudioCode, Firefox
 
+<details>
+
+<summary>Installation of supplementary programs</summary>
+
+<details>
+<summary>AnkiDownload</summary>
+
+#### AnkiDownload
+Short name ID of videos in playlist: A2
+
+
+https://github.com/user-attachments/assets/50503aef-7cd6-43c7-b591-09b74ea2d66c
+
+</details>
+
+
+<details>
+<summary>7zSetUp</summary>
+#### 7zSetUp
+Short name ID of videos in playlist: A33
+
+https://github.com/user-attachments/assets/04b4ffeb-6b58-462b-b87d-e3d25df9aac8
+
+</details>
+
+
+<details>
+<summary>DeskpinSetUp</summary>
+#### DeskpinSetUp
+Short name ID of videos in playlist: D2 D1
+
+https://github.com/user-attachments/assets/b7441eda-d31b-4728-a128-f545d1bab73c
+
+https://github.com/user-attachments/assets/976fe04b-0df9-4cc0-b6a5-d453fb9e0cea
+
+</details>
+
+<details>
+<summary>GitSetup</summary>
+#### GitSetup
+Short name ID of videos in playlist: G14
+
+https://github.com/user-attachments/assets/c8ebacf9-f422-4990-bbac-f9a9cc7614f3
+
+</details>
+
+
+<details>
+<summary>mpvinstallation</summary>
+#### mpvinstallation
+Short name ID of videos in playlist: M3 M2 M1
+
+https://github.com/user-attachments/assets/65473328-205a-47a9-8950-9074c74d94aa
+
+https://github.com/user-attachments/assets/fc7d64cf-ab6c-4480-87a4-6986c385e20a
+
+https://github.com/user-attachments/assets/12401250-c6c7-4491-9437-e0188ebb5d2b
+
+</details>
+
+
+
+<details>
+<summary>VisualStudioCodeSetUP</summary>
+#### VisualStudioCodeSetUP
+Short name ID of videos in playlist: V1
+
+https://github.com/user-attachments/assets/70ae43ed-7fc6-496d-95fd-026aefa23c41
+
+</details>
+
+
+</details>
+
 After that you have to clone the repository with git, use the following command in your shell
 
 git clone https://github.com/nihonmiah71/miningsimple-system-overview.git
+
+<details>
+
+<summary>TODO Repositort Cloning</summary>
+
+#### TODO
+Short name ID of videos in playlist: P3 P2 P1
+
+https://github.com/user-attachments/assets/01d4c3e8-1d88-4c2a-a43b-325ae22f7432
+
+https://github.com/user-attachments/assets/798d8bfa-8d2a-4847-acbd-8afac2dd00dd
+
+https://github.com/user-attachments/assets/2e4b967c-db5c-491f-85a3-99bf0da3b34f
+
+</details>
 
 Then you have to set up python, the following guide can be used as a reference, also an alternative playlist was created in case the guide did not work, in case the guide did not work we recommend to run the python scripts each one time and debug with AI the error message if the code did not work and install the necessary packages.
 
@@ -331,7 +420,7 @@ Because several scripts in this codebase invoke `subprocess.Popen(["python", scr
 
 ---
 
-### 📦 Unified `requirements.txt`
+### 📦 Unified `requirements.txt` (already in cloned directory)
 First, create a `requirements.txt` file in your project root with the following content:
 
 ```text
@@ -548,6 +637,21 @@ https://github.com/user-attachments/assets/2e4b967c-db5c-491f-85a3-99bf0da3b34f
 
 Then you have to import in Anki the notetypes, you can also rename in this step the properties like the name of the deck, the notetypes, the cardtypes and the fields but we recommend using the default names as they are. Next install the Anki Addons and configure them and also run the basic initial configuration process through a combination of designated Anki Addons and Python Scripts and you make the the self hosted browser Addons ready to use.
 
+<details>
+
+<summary>TODO Anki Start Up and Initial Configuration</summary>
+
+#### TODO
+Short name ID of videos in playlist: P3 P2 P1
+
+https://github.com/user-attachments/assets/01d4c3e8-1d88-4c2a-a43b-325ae22f7432
+
+https://github.com/user-attachments/assets/798d8bfa-8d2a-4847-acbd-8afac2dd00dd
+
+https://github.com/user-attachments/assets/2e4b967c-db5c-491f-85a3-99bf0da3b34f
+
+</details>
+
 Finaly you are going to install additional Chromw Browser Addons (and a Firefox Addon optionaly), especialy yomitan is important for mining and a dedicated walkthrough for installation and supplementary configuration files (yomitan config settings json, yomitan dictionary collection json) were provided.
 
 Throughout the system you also have to set up various workflows by setting the paths when you first use a component, how to do that will be explained in the guides when the functionality is actualy being used, but in most cases your are simply being prompted to just select a directory or a certain file with the fileexplorer. Also there are some optional programs and Addons where the installation will be explained in case you want to make use of the functionalities in which they are used (ShareX, Audacity,LosslessCut,Libation, Video Download Helper)
@@ -557,13 +661,7 @@ Throughout the system you also have to set up various workflows by setting the p
 #### Playlists
 <details>
    
-#### 7zSetUp
-Short name ID of videos in playlist: A33
-<details>
 
-https://github.com/user-attachments/assets/04b4ffeb-6b58-462b-b87d-e3d25df9aac8
-
-</details>
 
 #### ActivationOFGrammarAddonAtBeginningOFReading
 Short name ID of videos in playlist: C48 C47
@@ -620,14 +718,6 @@ https://github.com/user-attachments/assets/762bc1db-4d5d-42ba-9549-5be16dc666aa
 https://github.com/user-attachments/assets/c0d73747-a114-478d-8405-bd3ca6769db8
 
 https://github.com/user-attachments/assets/7de65c1f-ae99-4e7c-b278-4046377fde8c
-
-</details>
-
-#### ADDtoMiningCardDemoGITHUB
-Short name ID of videos in playlist: A24
-<details>
-
-https://github.com/user-attachments/assets/632813ae-1016-499f-aef5-12f71138dbaa
 
 </details>
 
@@ -761,23 +851,7 @@ https://github.com/user-attachments/assets/7c417db8-6d88-4440-8a60-de332de1e8a1
 
 </details>
 
-#### AnkiDownload
-Short name ID of videos in playlist: A2
-<details>
 
-https://github.com/user-attachments/assets/50503aef-7cd6-43c7-b591-09b74ea2d66c
-
-</details>
-
-#### AudacitySetUp
-Short name ID of videos in playlist: A1 A34
-<details>
-
-https://github.com/user-attachments/assets/0e56d6ea-856a-4e60-a615-62aa88767409
-
-https://github.com/user-attachments/assets/172b4a42-6632-466f-a2d3-e4474627c649
-
-</details>
 
 #### CardCreation
 Short name ID of videos in playlist: C50 C49 C48 C47 C46 C45 C44 C43 C42 C41 C40 C39 C38 G2
@@ -953,15 +1027,7 @@ https://github.com/user-attachments/assets/7de65c1f-ae99-4e7c-b278-4046377fde8c
 
 </details>
 
-#### DeskpinSetUp
-Short name ID of videos in playlist: D2 D1
-<details>
 
-https://github.com/user-attachments/assets/b7441eda-d31b-4728-a128-f545d1bab73c
-
-https://github.com/user-attachments/assets/976fe04b-0df9-4cc0-b6a5-d453fb9e0cea
-
-</details>
 
 #### EditingClusters
 Short name ID of videos in playlist: E4 E3 C4 C3 C2 C1 C54 C53 C52 U2 R1 U2
@@ -1073,13 +1139,7 @@ https://github.com/user-attachments/assets/335eac46-1400-4fb0-b3ff-afc1b8e46752
 
 </details>
 
-#### GitSetup
-Short name ID of videos in playlist: G14
-<details>
 
-https://github.com/user-attachments/assets/c8ebacf9-f422-4990-bbac-f9a9cc7614f3
-
-</details>
 
 #### GoogleTranslateAddonUseDuringMining
 Short name ID of videos in playlist: C38
@@ -1269,17 +1329,7 @@ https://github.com/user-attachments/assets/28bc32a6-1da6-4106-a8d2-d8c51bda108b
 
 </details>
 
-#### mpvinstallation
-Short name ID of videos in playlist: M3 M2 M1
-<details>
 
-https://github.com/user-attachments/assets/65473328-205a-47a9-8950-9074c74d94aa
-
-https://github.com/user-attachments/assets/fc7d64cf-ab6c-4480-87a4-6986c385e20a
-
-https://github.com/user-attachments/assets/12401250-c6c7-4491-9437-e0188ebb5d2b
-
-</details>
 
 #### NewLNAudioSubtitleSyncAnki
 Short name ID of videos in playlist: N2 N1
@@ -1409,13 +1459,7 @@ https://github.com/user-attachments/assets/188888d7-f64e-41c0-8715-0db275f66dbb
 
 </details>
 
-#### VisualStudioCodeSetUP
-Short name ID of videos in playlist: V1
-<details>
 
-https://github.com/user-attachments/assets/70ae43ed-7fc6-496d-95fd-026aefa23c41
-
-</details>
 
 #### VisualizeCluster
 Short name ID of videos in playlist: V20 V19 V18 V17 V16 V15 V14 V13 V12 V11 V10 V9 V8 V7 V6 V5 V4 V3 V2
@@ -1458,6 +1502,17 @@ https://github.com/user-attachments/assets/ad9838ac-91ca-4071-9f2a-43dcf1211dba
 https://github.com/user-attachments/assets/762bc1db-4d5d-42ba-9549-5be16dc666aa
 
 https://github.com/user-attachments/assets/c0d73747-a114-478d-8405-bd3ca6769db8
+
+</details>
+
+
+#### AudacitySetUp
+Short name ID of videos in playlist: A1 A34
+<details>
+
+https://github.com/user-attachments/assets/0e56d6ea-856a-4e60-a615-62aa88767409
+
+https://github.com/user-attachments/assets/172b4a42-6632-466f-a2d3-e4474627c649
 
 </details>
 
