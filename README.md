@@ -674,6 +674,29 @@ https://github.com/user-attachments/assets/2e4b967c-db5c-491f-85a3-99bf0da3b34f
 
 Finaly you are going to install additional Chromw Browser Addons (and a Firefox Addon optionaly), especialy yomitan is important for mining and a dedicated walkthrough for installation and supplementary configuration files (yomitan config settings json, yomitan dictionary collection json) were provided.
 
+<details><summary>List of Chrome Browser Addons</summary>
+
+Clipboard Manager and Text Expander - Clipboard History Pro
+https://chromewebstore.google.com/detail/clipboard-manager-and-tex/ajiejmhbejpdgkkigpddefnjmgcbkenk
+
+Copy as Plain Text - Format Cleaner
+https://chromewebstore.google.com/detail/copy-as-plain-text-format/eepndigbgjjgaikknekkghiinanoiaai
+
+Google Translate
+https://chromewebstore.google.com/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb
+
+HTML Copy
+https://chromewebstore.google.com/detail/html-copy/mkneclfoofncoidopgeiphnjnpcjelia
+
+Super Simple Highlighter
+https://chromewebstore.google.com/detail/super-simple-highlighter/hhlhjgianpocpoppaiihmlpgcoehlhio
+
+Yomitan Popup Dictionary
+https://chromewebstore.google.com/detail/yomitan-popup-dictionary/likgccmbimhjbgkjambclfkhldnlhbnn
+
+Refer to the the following to set up Yomitan, there is also a seperate link where you can download the dictionary collection that matches the configuration file (TODO Add Link)
+
+</details>
 Throughout the system you also have to set up various workflows by setting the paths when you first use a component, how to do that will be explained in the guides when the functionality is actualy being used, but in most cases your are simply being prompted to just select a directory or a certain file with the fileexplorer. Also there are some optional programs and Addons where the installation will be explained in case you want to make use of the functionalities in which they are used (ShareX, Audacity,LosslessCut,Libation, Video Download Helper)
 </details>
 </details>
@@ -797,43 +820,11 @@ https://github.com/user-attachments/assets/92be4d49-5a23-4b81-ac66-ce3d7cd5c556
    
 
 
-#### ActivationOFGrammarAddonAtBeginningOFReading
-Short name ID of videos in playlist: C48 C47
-<details>
 
-https://github.com/user-attachments/assets/b20cc74f-8fb2-4501-8a47-ef85c14ae53b
 
-https://github.com/user-attachments/assets/87107aef-5a34-4e94-b18e-44420dcf9508
 
-</details>
 
-#### ActivationOFRubyDeleterAddonAtBeginningOFReading
-Short name ID of videos in playlist: C49
-<details>
 
-https://github.com/user-attachments/assets/aa5380be-85a2-4b27-bfcc-60fc9bc0e618
-
-</details>
-
-#### ActivationOFTextMarkerAddonAtBeginningOFReading
-Short name ID of videos in playlist: C46 C45 C44 C43 C42 C41 C40
-<details>
-
-https://github.com/user-attachments/assets/1b5e1ce5-8903-41da-82eb-9d37b4109177
-
-https://github.com/user-attachments/assets/36c6bc2a-6389-4781-bd25-ea017d1f21a4
-
-https://github.com/user-attachments/assets/bfb5b39b-a9b4-4931-b03d-118fe4eb07ae
-
-https://github.com/user-attachments/assets/6e543329-dbdf-4bde-82af-b8e167d186ff
-
-https://github.com/user-attachments/assets/11bd3e91-2998-4fd3-b802-953efca71a33
-
-https://github.com/user-attachments/assets/aef99ec8-fb4c-46fc-bf25-d1b66dcc12a0
-
-https://github.com/user-attachments/assets/ec28d819-ed65-4a97-9a4a-31fb64e0d113
-
-</details>
 
 #### AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists
 Short name ID of videos in playlist: A32 A31 A30 V4 V3 V2 C51
