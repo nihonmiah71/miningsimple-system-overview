@@ -677,6 +677,7 @@ Finaly you are going to install additional Chromw Browser Addons (and a Firefox 
 Throughout the system you also have to set up various workflows by setting the paths when you first use a component, how to do that will be explained in the guides when the functionality is actualy being used, but in most cases your are simply being prompted to just select a directory or a certain file with the fileexplorer. Also there are some optional programs and Addons where the installation will be explained in case you want to make use of the functionalities in which they are used (ShareX, Audacity,LosslessCut,Libation, Video Download Helper)
 </details>
 </details>
+
 ------
 
 ## CardsCreation
