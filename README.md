@@ -673,6 +673,9 @@ chapters and the respective subtitle file, in case of anime it would be the
 video, and the subtitlefile, for reference also look at the subplaylists of the
 Media Extraction Process (Preperation)
 
+<details>
+<summary>CardsCreation1</summary>
+
 https://github.com/user-attachments/assets/f3b37045-9c62-434b-9707-9c9c97adf71b
 
 https://github.com/user-attachments/assets/aa5380be-85a2-4b27-bfcc-60fc9bc0e618
@@ -729,10 +732,15 @@ https://github.com/user-attachments/assets/2be5a4bf-e8ef-4a51-9642-275b89b8a53f
 
 https://github.com/user-attachments/assets/7f506e9e-2f4b-4103-aeed-653ca8fa8c79
 
+</details>
+
 After that you are supposed to extract the media for the cards (and create a
 special subtitle file with your mined words), see MediaExtraction for reference
 
 After you have finished the MediaExtraction Process, continue with
+
+<details>
+<summary>CardsCreation2</summary>
 
 https://github.com/user-attachments/assets/7619e61a-111a-44bb-8871-742118629b91
 
@@ -762,6 +770,7 @@ https://github.com/user-attachments/assets/50b4b591-16f7-4c9b-bcf1-f17229ec509f
 
 https://github.com/user-attachments/assets/92be4d49-5a23-4b81-ac66-ce3d7cd5c556
 
+</details>
 </details>
 </details>
 
