@@ -297,6 +297,34 @@ We will explain in detail the basic capabilities and possibilites of the browser
 
 This is an optional extension to the system and looks even deeper into the capabilities of the Grammar Addon and the connection with the Anki backend and provides different possibilites for further personalization.
 
+------
+
+## Set UP
+
+The outline of the setup is as follows
+
+1. Installation of external programs
+2. Python Set Up
+3. cloning repository
+4. Anki Set Up
+5. Addons Set Up
+
+You have to download and install the following programs:
+necessary: 7Zip,Git,Anki,mpv Player,Chrome recommended:Deskpins, VisualStudioCode, Firefox
+
+After that you have to clone the repository with git, use the following command in your shell
+
+
+
+Then you have to set up python, the following guide can be used as a reference, also an alternative playlist was created in case the guide did not work, in case the guide did not work we recommend to run the python scripts each one time and debug with AI the error message if the code did not work and install the necessary packages.
+
+Then you have to import in Anki the notetypes, you can also rename in this step the properties like the name of the deck, the notetypes, the cardtypes and the fields but we recommend using the default names as they are. Next install the Anki Addons and configure them and also run the basic initial configuration process through a combination of designated Anki Addons and Python Scripts and you make the the self hosted browser Addons ready to use.
+
+Finaly you are going to install additional Chromw Browser Addons (and a Firefox Addon optionaly), especialy yomitan is important for mining and a dedicated walkthrough for installation and supplementary configuration files (yomitan config settings json, yomitan dictionary collection json) were provided.
+
+Throughout the system you also have to set up various workflows by setting the paths when you first use a component, how to do that will be explained in the guides when the functionality is actualy being used, but in most cases your are simply being prompted to just select a directory or a certain file with the fileexplorer. Also there are some optional programs and Addons where the installation will be explained in case you want to make use of the functionalities in which they are used (ShareX, Audacity,LosslessCut,Libation, Video Download Helper)
+
+------
 
 #### Playlists
 <details>
