@@ -844,6 +844,10 @@ https://github.com/user-attachments/assets/f7b00139-bf77-4edb-8e68-aa6b5ba1dbbf
 
 https://github.com/user-attachments/assets/881876bf-b55d-4b27-945a-2bc81c80f42d
 
+https://github.com/user-attachments/assets/edc29f46-f66c-4a74-9963-85830933cc8c
+
+https://github.com/user-attachments/assets/b4cc6a95-5dad-40e9-b2b9-6cae682e13f1
+
 https://github.com/user-attachments/assets/5ab1b2e8-ddd1-4dd7-878e-beb8dc540545
 
 https://github.com/user-attachments/assets/3816602d-7b88-4024-a4dc-7e0bd565a169
@@ -1165,143 +1169,43 @@ https://github.com/user-attachments/assets/172b4a42-6632-466f-a2d3-e4474627c649
 
 </details>
 
-#### Playlists
 
-<details>
-   
+----------------------
 
+## Operating the Browser Addons
 
-
-
+<details><summary>Operating the Browser Addons</summary>
 
 
-
-
-#### AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists
-Short name ID of videos in playlist: A32 A31 A30 V4 V3 V2 C51
-<details>
-
-https://github.com/user-attachments/assets/15f5e5cb-b297-4b21-8f18-295782948c20
-
-https://github.com/user-attachments/assets/3f527d1c-1fdd-43cf-8309-677f67b93474
-
-https://github.com/user-attachments/assets/e3324923-7210-4e74-8381-61e8144f6b05
-
-https://github.com/user-attachments/assets/ad9838ac-91ca-4071-9f2a-43dcf1211dba
-
-https://github.com/user-attachments/assets/762bc1db-4d5d-42ba-9549-5be16dc666aa
-
-https://github.com/user-attachments/assets/c0d73747-a114-478d-8405-bd3ca6769db8
-
-https://github.com/user-attachments/assets/7de65c1f-ae99-4e7c-b278-4046377fde8c
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#### ContrastingGrammarstructuresInTheBrowserAddon
-Short name ID of videos in playlist: C10
-<details>
+https://github.com/user-attachments/assets/188888d7-f64e-41c0-8715-0db275f66dbb
 
 https://github.com/user-attachments/assets/20df12d5-231f-44b3-baf4-3c0dab613f8c
 
-</details>
+https://github.com/user-attachments/assets/1bd414d0-1b28-4116-9cca-bb67d77e55f6
 
-#### createYourOwnClusters
-Short name ID of videos in playlist: C9 C8 C7 U2 C6 C5 C4 C3 C2 C1 C54 C53 C52 U2 V4 V3 V2 C51
-<details>
+https://github.com/user-attachments/assets/1b5e1ce5-8903-41da-82eb-9d37b4109177
 
-https://github.com/user-attachments/assets/742a7e0f-45af-4106-ae35-cd97f6dfcb54
+https://github.com/user-attachments/assets/36c6bc2a-6389-4781-bd25-ea017d1f21a4
 
-https://github.com/user-attachments/assets/9a287568-dbc0-41da-a109-48afb32585a6
+https://github.com/user-attachments/assets/bfb5b39b-a9b4-4931-b03d-118fe4eb07ae
 
-https://github.com/user-attachments/assets/4a1dc158-4458-4b15-94be-3d42082c70df
+https://github.com/user-attachments/assets/6e543329-dbdf-4bde-82af-b8e167d186ff
 
-https://github.com/user-attachments/assets/335eac46-1400-4fb0-b3ff-afc1b8e46752
+https://github.com/user-attachments/assets/11bd3e91-2998-4fd3-b802-953efca71a33
 
-https://github.com/user-attachments/assets/3dd16b5c-6578-4a0a-ab14-cab7e0a88544
+https://github.com/user-attachments/assets/aef99ec8-fb4c-46fc-bf25-d1b66dcc12a0
 
-https://github.com/user-attachments/assets/c0a87c21-26bb-447f-b685-8a41220e2146
+https://github.com/user-attachments/assets/ec28d819-ed65-4a97-9a4a-31fb64e0d113
 
-https://github.com/user-attachments/assets/50922a46-725a-4a41-b9f9-32b4c9d6eba5
+https://github.com/user-attachments/assets/490cafab-62a1-4315-a30b-e7fdc0d00b4e
 
-https://github.com/user-attachments/assets/56e9e0c7-6e57-44e4-bce2-91767802b9ec
+https://github.com/user-attachments/assets/8c2bebd4-205d-4dc9-a224-704b110b3339
 
-https://github.com/user-attachments/assets/e333fe26-4c65-42a2-a4bb-075bc1e1d56b
+https://github.com/user-attachments/assets/b20cc74f-8fb2-4501-8a47-ef85c14ae53b
 
-https://github.com/user-attachments/assets/7ab9e851-a331-4727-99d9-46f1820b6c42
+https://github.com/user-attachments/assets/87107aef-5a34-4e94-b18e-44420dcf9508
 
-https://github.com/user-attachments/assets/8ab2260c-436a-41f9-8a35-a6405f7b80ca
-
-https://github.com/user-attachments/assets/cda4148a-0f90-4875-a6a8-09637e65d3b6
-
-https://github.com/user-attachments/assets/d079fbd6-dfdf-4c17-b832-5148c4c17d18
-
-https://github.com/user-attachments/assets/335eac46-1400-4fb0-b3ff-afc1b8e46752
-
-https://github.com/user-attachments/assets/ad9838ac-91ca-4071-9f2a-43dcf1211dba
-
-https://github.com/user-attachments/assets/762bc1db-4d5d-42ba-9549-5be16dc666aa
-
-https://github.com/user-attachments/assets/c0d73747-a114-478d-8405-bd3ca6769db8
-
-https://github.com/user-attachments/assets/7de65c1f-ae99-4e7c-b278-4046377fde8c
-
-</details>
-
-
-
-#### EditingClusters
-Short name ID of videos in playlist: E4 E3 C4 C3 C2 C1 C54 C53 C52 U2 R1 U2
-<details>
-
-https://github.com/user-attachments/assets/af9f4fad-b54f-47ff-a8dc-88ec4b98e4cc
-
-https://github.com/user-attachments/assets/cbe9842e-51e3-491a-81dc-74bb470f008c
-
-https://github.com/user-attachments/assets/50922a46-725a-4a41-b9f9-32b4c9d6eba5
-
-https://github.com/user-attachments/assets/56e9e0c7-6e57-44e4-bce2-91767802b9ec
-
-https://github.com/user-attachments/assets/e333fe26-4c65-42a2-a4bb-075bc1e1d56b
-
-https://github.com/user-attachments/assets/7ab9e851-a331-4727-99d9-46f1820b6c42
-
-https://github.com/user-attachments/assets/8ab2260c-436a-41f9-8a35-a6405f7b80ca
-
-https://github.com/user-attachments/assets/cda4148a-0f90-4875-a6a8-09637e65d3b6
-
-https://github.com/user-attachments/assets/d079fbd6-dfdf-4c17-b832-5148c4c17d18
-
-https://github.com/user-attachments/assets/335eac46-1400-4fb0-b3ff-afc1b8e46752
-
-https://github.com/user-attachments/assets/c3b28e99-dda1-4289-8f88-797ff8a77221
-
-https://github.com/user-attachments/assets/335eac46-1400-4fb0-b3ff-afc1b8e46752
-
-</details>
-
-#### EditRegex
-Short name ID of videos in playlist: G11 U2 H1 E2 E1
-<details>
+https://github.com/user-attachments/assets/57bcb023-de96-4de6-b35a-729643380bca
 
 https://github.com/user-attachments/assets/c9565c31-1d90-4f9e-b647-46393f36876d
 
@@ -1313,8 +1217,43 @@ https://github.com/user-attachments/assets/a0f0d752-be63-4422-afd0-ab1ae7d244af
 
 https://github.com/user-attachments/assets/83ccf7a8-e4d1-46bd-8dcf-d34d0d5864bc
 
+https://github.com/user-attachments/assets/c9565c31-1d90-4f9e-b647-46393f36876d
+
+https://github.com/user-attachments/assets/335eac46-1400-4fb0-b3ff-afc1b8e46752
+
+https://github.com/user-attachments/assets/4c149010-1ace-425e-a38b-a748fe623779
+
+https://github.com/user-attachments/assets/a0f0d752-be63-4422-afd0-ab1ae7d244af
+
+https://github.com/user-attachments/assets/83ccf7a8-e4d1-46bd-8dcf-d34d0d5864bc
+
+https://github.com/user-attachments/assets/5de70631-1b57-4690-bf3c-a8a4ae176406
+
+https://github.com/user-attachments/assets/89202d1f-e211-4861-962f-d5c64a7bb7f8
+
+https://github.com/user-attachments/assets/a8c8ce29-2927-4766-8b60-4be02dcaa083
+
+https://github.com/user-attachments/assets/515d36c9-bf7e-4c5a-9cdb-51a89eab6e28
+
+https://github.com/user-attachments/assets/ffbe7433-8aed-4b1b-bc45-c9a057b1b904
+
+https://github.com/user-attachments/assets/c4bf803c-8219-41ce-9288-0d1729381b74
+
+https://github.com/user-attachments/assets/8fc401e3-4f46-4fbe-ac10-d0e23c80363b
+
+https://github.com/user-attachments/assets/8234878b-363b-4b1e-bf97-5c0c6cac241a
+
+https://github.com/user-attachments/assets/189f3155-87da-42ee-a9f0-338248578e1f
+
+https://github.com/user-attachments/assets/4c149010-1ace-425e-a38b-a748fe623779
+
 </details>
 
+----------------------
+
+## Configuring the Grammar Addon
+
+<details><summary>Configuring the Grammar Addon</summary>
 
 #### FindingSemanticalyRelatedStructures
 Short name ID of videos in playlist: F11 F10 F9 F8 F7 F6
@@ -1348,25 +1287,35 @@ https://github.com/user-attachments/assets/91534d4e-aa55-4676-a89b-64c5e9d2375e
 
 </details>
 
-#### ForceDisplayOfSubpattern
-Short name ID of videos in playlist: F1 U2
+#### UpdateGrammarDataBase
+Short name ID of videos in playlist: U2
 <details>
-
-https://github.com/user-attachments/assets/c8887885-df0a-4977-a2bc-2f52f029c36b
 
 https://github.com/user-attachments/assets/335eac46-1400-4fb0-b3ff-afc1b8e46752
 
 </details>
 
-
-
-
-
-#### GrammarAddonDeleteEntryFromBatchList
-Short name ID of videos in playlist: G13
+#### ContrastingGrammarstructuresInTheBrowserAddon
+Short name ID of videos in playlist: C10
 <details>
 
-https://github.com/user-attachments/assets/8234878b-363b-4b1e-bf97-5c0c6cac241a
+https://github.com/user-attachments/assets/20df12d5-231f-44b3-baf4-3c0dab613f8c
+
+</details>
+
+#### EditRegex
+Short name ID of videos in playlist: G11 U2 H1 E2 E1
+<details>
+
+https://github.com/user-attachments/assets/c9565c31-1d90-4f9e-b647-46393f36876d
+
+https://github.com/user-attachments/assets/335eac46-1400-4fb0-b3ff-afc1b8e46752
+
+https://github.com/user-attachments/assets/4c149010-1ace-425e-a38b-a748fe623779
+
+https://github.com/user-attachments/assets/a0f0d752-be63-4422-afd0-ab1ae7d244af
+
+https://github.com/user-attachments/assets/83ccf7a8-e4d1-46bd-8dcf-d34d0d5864bc
 
 </details>
 
@@ -1388,60 +1337,6 @@ https://github.com/user-attachments/assets/83ccf7a8-e4d1-46bd-8dcf-d34d0d5864bc
 
 </details>
 
-#### GrammarAddonFeatureDealingWithAbiguity
-Short name ID of videos in playlist: G10
-<details>
-
-https://github.com/user-attachments/assets/8fc401e3-4f46-4fbe-ac10-d0e23c80363b
-
-</details>
-
-#### GrammarAddonFeatureYellowFrequencyNavigation
-Short name ID of videos in playlist: G9 G8
-<details>
-
-https://github.com/user-attachments/assets/fd4cf6e9-e21b-4e9e-bf4d-530db7c450bc
-
-https://github.com/user-attachments/assets/2ecf2848-05c8-4409-94ab-7f1892b2acd4
-
-</details>
-
-#### GrammarAddonForceAlign
-Short name ID of videos in playlist: G7 G6 G5 G4 G3
-<details>
-
-https://github.com/user-attachments/assets/5de70631-1b57-4690-bf3c-a8a4ae176406
-
-https://github.com/user-attachments/assets/89202d1f-e211-4861-962f-d5c64a7bb7f8
-
-https://github.com/user-attachments/assets/a8c8ce29-2927-4766-8b60-4be02dcaa083
-
-https://github.com/user-attachments/assets/515d36c9-bf7e-4c5a-9cdb-51a89eab6e28
-
-https://github.com/user-attachments/assets/ffbe7433-8aed-4b1b-bc45-c9a057b1b904
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #### RemoveClusters
 Short name ID of videos in playlist: R1
 <details>
@@ -1450,36 +1345,45 @@ https://github.com/user-attachments/assets/c3b28e99-dda1-4289-8f88-797ff8a77221
 
 </details>
 
-#### ShareXSetUp
-Short name ID of videos in playlist: S9 S8
+#### ForceDisplayOfSubpattern
+Short name ID of videos in playlist: F1 U2
 <details>
 
-https://github.com/user-attachments/assets/edc29f46-f66c-4a74-9963-85830933cc8c
+https://github.com/user-attachments/assets/c8887885-df0a-4977-a2bc-2f52f029c36b
 
-https://github.com/user-attachments/assets/b4cc6a95-5dad-40e9-b2b9-6cae682e13f1
+https://github.com/user-attachments/assets/335eac46-1400-4fb0-b3ff-afc1b8e46752
 
 </details>
 
-
-
-#### TextMarkerAddonDeletionOfTerms
-Short name ID of videos in playlist: T2 T1
+#### EditingClusters
+Short name ID of videos in playlist: E4 E3 C4 C3 C2 C1 C54 C53 C52 U2 R1 U2
 <details>
 
-https://github.com/user-attachments/assets/490cafab-62a1-4315-a30b-e7fdc0d00b4e
+https://github.com/user-attachments/assets/af9f4fad-b54f-47ff-a8dc-88ec4b98e4cc
 
-https://github.com/user-attachments/assets/8c2bebd4-205d-4dc9-a224-704b110b3339
+https://github.com/user-attachments/assets/cbe9842e-51e3-491a-81dc-74bb470f008c
+
+https://github.com/user-attachments/assets/50922a46-725a-4a41-b9f9-32b4c9d6eba5
+
+https://github.com/user-attachments/assets/56e9e0c7-6e57-44e4-bce2-91767802b9ec
+
+https://github.com/user-attachments/assets/e333fe26-4c65-42a2-a4bb-075bc1e1d56b
+
+https://github.com/user-attachments/assets/7ab9e851-a331-4727-99d9-46f1820b6c42
+
+https://github.com/user-attachments/assets/8ab2260c-436a-41f9-8a35-a6405f7b80ca
+
+https://github.com/user-attachments/assets/cda4148a-0f90-4875-a6a8-09637e65d3b6
+
+https://github.com/user-attachments/assets/d079fbd6-dfdf-4c17-b832-5148c4c17d18
+
+https://github.com/user-attachments/assets/335eac46-1400-4fb0-b3ff-afc1b8e46752
+
+https://github.com/user-attachments/assets/c3b28e99-dda1-4289-8f88-797ff8a77221
+
+https://github.com/user-attachments/assets/335eac46-1400-4fb0-b3ff-afc1b8e46752
 
 </details>
-
-
-
-
-
-
-
-
-
 
 #### VisualizeCluster
 Short name ID of videos in playlist: V20 V19 V18 V17 V16 V15 V14 V13 V12 V11 V10 V9 V8 V7 V6 V5 V4 V3 V2
@@ -1525,7 +1429,72 @@ https://github.com/user-attachments/assets/c0d73747-a114-478d-8405-bd3ca6769db8
 
 </details>
 
+#### createYourOwnClusters
+Short name ID of videos in playlist: C9 C8 C7 U2 C6 C5 C4 C3 C2 C1 C54 C53 C52 U2 V4 V3 V2 C51
+<details>
+
+https://github.com/user-attachments/assets/742a7e0f-45af-4106-ae35-cd97f6dfcb54
+
+https://github.com/user-attachments/assets/9a287568-dbc0-41da-a109-48afb32585a6
+
+https://github.com/user-attachments/assets/4a1dc158-4458-4b15-94be-3d42082c70df
+
+https://github.com/user-attachments/assets/335eac46-1400-4fb0-b3ff-afc1b8e46752
+
+https://github.com/user-attachments/assets/3dd16b5c-6578-4a0a-ab14-cab7e0a88544
+
+https://github.com/user-attachments/assets/c0a87c21-26bb-447f-b685-8a41220e2146
+
+https://github.com/user-attachments/assets/50922a46-725a-4a41-b9f9-32b4c9d6eba5
+
+https://github.com/user-attachments/assets/56e9e0c7-6e57-44e4-bce2-91767802b9ec
+
+https://github.com/user-attachments/assets/e333fe26-4c65-42a2-a4bb-075bc1e1d56b
+
+https://github.com/user-attachments/assets/7ab9e851-a331-4727-99d9-46f1820b6c42
+
+https://github.com/user-attachments/assets/8ab2260c-436a-41f9-8a35-a6405f7b80ca
+
+https://github.com/user-attachments/assets/cda4148a-0f90-4875-a6a8-09637e65d3b6
+
+https://github.com/user-attachments/assets/d079fbd6-dfdf-4c17-b832-5148c4c17d18
+
+https://github.com/user-attachments/assets/335eac46-1400-4fb0-b3ff-afc1b8e46752
+
+https://github.com/user-attachments/assets/ad9838ac-91ca-4071-9f2a-43dcf1211dba
+
+https://github.com/user-attachments/assets/762bc1db-4d5d-42ba-9549-5be16dc666aa
+
+https://github.com/user-attachments/assets/c0d73747-a114-478d-8405-bd3ca6769db8
+
+https://github.com/user-attachments/assets/7de65c1f-ae99-4e7c-b278-4046377fde8c
+
 </details>
+
+#### AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists
+Short name ID of videos in playlist: A32 A31 A30 V4 V3 V2 C51
+<details>
+
+https://github.com/user-attachments/assets/15f5e5cb-b297-4b21-8f18-295782948c20
+
+https://github.com/user-attachments/assets/3f527d1c-1fdd-43cf-8309-677f67b93474
+
+https://github.com/user-attachments/assets/e3324923-7210-4e74-8381-61e8144f6b05
+
+https://github.com/user-attachments/assets/ad9838ac-91ca-4071-9f2a-43dcf1211dba
+
+https://github.com/user-attachments/assets/762bc1db-4d5d-42ba-9549-5be16dc666aa
+
+https://github.com/user-attachments/assets/c0d73747-a114-478d-8405-bd3ca6769db8
+
+https://github.com/user-attachments/assets/7de65c1f-ae99-4e7c-b278-4046377fde8c
+
+</details>
+
+</details>
+
+
+
 
 <details>
 <summary>Additional (dated) info (copied from other repos) for reference</summary>
