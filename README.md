@@ -219,7 +219,7 @@
 
 # Main Content
 
-## Cards and selfmade Browser Addons Demo
+## Cards and selfhosted Browser Addons Demo
 
 <details>
 
@@ -661,14 +661,35 @@ Then you have to import in Anki the notetypes, you can also rename in this step 
 
 <summary>TODO Anki Start Up and Initial Configuration</summary>
 
-#### TODO
-Short name ID of videos in playlist: P3 P2 P1
+#### TODO (only configuration addon left)
 
-https://github.com/user-attachments/assets/01d4c3e8-1d88-4c2a-a43b-325ae22f7432
+#### AnkiAddons
+Short name ID of videos in playlist: A4 A3
+<details>
 
-https://github.com/user-attachments/assets/798d8bfa-8d2a-4847-acbd-8afac2dd00dd
+https://github.com/user-attachments/assets/67520a00-e254-4974-9a29-f5c27550638a
 
-https://github.com/user-attachments/assets/2e4b967c-db5c-491f-85a3-99bf0da3b34f
+https://github.com/user-attachments/assets/7c417db8-6d88-4440-8a60-de332de1e8a1
+
+</details>
+
+#### Initial Configuration (TODO)
+
+#### AddonBrowserSelfSetUp
+Short name ID of videos in playlist: A29 A28 A27 A26 A25
+<details>
+
+https://github.com/user-attachments/assets/754455d5-f437-47d6-948d-789be830004f
+
+https://github.com/user-attachments/assets/e82a5ab8-935b-4541-b17c-213aec8de79c
+
+https://github.com/user-attachments/assets/060bbb23-7eef-4576-aa68-82f0657ecca5
+
+https://github.com/user-attachments/assets/314c8866-54ec-403b-bc67-2933655943ef
+
+https://github.com/user-attachments/assets/721a5461-92fa-4eb6-a720-c3aae486b30d
+
+</details>
 
 </details>
 
@@ -695,6 +716,34 @@ Yomitan Popup Dictionary
 https://chromewebstore.google.com/detail/yomitan-popup-dictionary/likgccmbimhjbgkjambclfkhldnlhbnn
 
 Refer to the the following to set up Yomitan, there is also a seperate link where you can download the dictionary collection that matches the configuration file (TODO Add Link)
+
+<details> <summary>Yomitan Set Up</summary>
+
+#### ChromeStoreBrowserAddons
+Short name ID of videos in playlist: C16 A7 A6 A5 C15 C14 C13 C12 C11
+<details>
+
+https://github.com/user-attachments/assets/34939804-7827-4487-8e28-8b108d19c2e5
+
+https://github.com/user-attachments/assets/e0c90431-9226-4eb2-8e03-1d8616e000f9
+
+https://github.com/user-attachments/assets/692dd797-c62d-40ac-a737-41f3c7c593dc
+
+https://github.com/user-attachments/assets/facd0142-be2c-40ce-b818-edf0c08e2847
+
+https://github.com/user-attachments/assets/f5f800a5-fa3a-420e-87ad-282bbe3e9a50
+
+https://github.com/user-attachments/assets/1f451dd6-65ce-4393-a772-adbef9dae5e6
+
+https://github.com/user-attachments/assets/fd4edfc7-7b5e-44b8-9503-fe652d466159
+
+https://github.com/user-attachments/assets/640b0464-3a37-42b5-b0bf-973c3af1a7ff
+
+https://github.com/user-attachments/assets/7359bff8-0708-441a-b723-5772ed992aa0
+
+</details>
+
+</details>
 
 </details>
 Throughout the system you also have to set up various workflows by setting the paths when you first use a component, how to do that will be explained in the guides when the functionality is actualy being used, but in most cases your are simply being prompted to just select a directory or a certain file with the fileexplorer. Also there are some optional programs and Addons where the installation will be explained in case you want to make use of the functionalities in which they are used (ShareX, Audacity,LosslessCut,Libation, Video Download Helper)
@@ -815,60 +864,61 @@ https://github.com/user-attachments/assets/92be4d49-5a23-4b81-ac66-ce3d7cd5c556
 </details>
 </details>
 
-#### Playlists
+----------------
+
+## MediaExtraction
+
 <details>
-   
+<summary>MediaExtraction</summary>
 
+### Anime
 
+<details>
+<summary>Anime</summary>
 
-
-
-
-
-
-#### AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists
-Short name ID of videos in playlist: A32 A31 A30 V4 V3 V2 C51
+#### AnimeSourceMaterialVideoDownloadHelper
+Short name ID of videos in playlist: A7 A6 A5
 <details>
 
-https://github.com/user-attachments/assets/15f5e5cb-b297-4b21-8f18-295782948c20
+https://github.com/user-attachments/assets/e0c90431-9226-4eb2-8e03-1d8616e000f9
 
-https://github.com/user-attachments/assets/3f527d1c-1fdd-43cf-8309-677f67b93474
+https://github.com/user-attachments/assets/692dd797-c62d-40ac-a737-41f3c7c593dc
 
-https://github.com/user-attachments/assets/e3324923-7210-4e74-8381-61e8144f6b05
-
-https://github.com/user-attachments/assets/ad9838ac-91ca-4071-9f2a-43dcf1211dba
-
-https://github.com/user-attachments/assets/762bc1db-4d5d-42ba-9549-5be16dc666aa
-
-https://github.com/user-attachments/assets/c0d73747-a114-478d-8405-bd3ca6769db8
-
-https://github.com/user-attachments/assets/7de65c1f-ae99-4e7c-b278-4046377fde8c
+https://github.com/user-attachments/assets/facd0142-be2c-40ce-b818-edf0c08e2847
 
 </details>
 
-#### AddonBrowserSelfSetUp
-Short name ID of videos in playlist: A29 A28 A27 A26 A25
+#### AnimeSourceMaterialSubtitlesSRT
+Short name ID of videos in playlist: A8 A9
 <details>
 
-https://github.com/user-attachments/assets/754455d5-f437-47d6-948d-789be830004f
+https://github.com/user-attachments/assets/d5f0fe38-1fff-40e6-ae18-93f7bb53b893
 
-https://github.com/user-attachments/assets/e82a5ab8-935b-4541-b17c-213aec8de79c
-
-https://github.com/user-attachments/assets/060bbb23-7eef-4576-aa68-82f0657ecca5
-
-https://github.com/user-attachments/assets/314c8866-54ec-403b-bc67-2933655943ef
-
-https://github.com/user-attachments/assets/721a5461-92fa-4eb6-a720-c3aae486b30d
+https://github.com/user-attachments/assets/ebea91c9-5d77-4a95-8fc8-1b8743480ac8
 
 </details>
 
-#### AnalysisOfTranscriptionQuality
-Short name ID of videos in playlist: L27 L28
+#### AnimePrepareSubtitlesForMining
+Short name ID of videos in playlist: A17 A16 A15 A14 A13 A12 A11 A10 A9
 <details>
 
-https://github.com/user-attachments/assets/efd24d52-4218-459f-90a0-43a01aae8fb8
+https://github.com/user-attachments/assets/abe57854-8ebd-430b-8ca8-b414e336409c
 
-https://github.com/user-attachments/assets/035e7006-bda1-436f-befc-f59fcc35afff
+https://github.com/user-attachments/assets/3c086b6b-f7d4-4fcc-8d8b-e6b367006d89
+
+https://github.com/user-attachments/assets/240d3d28-fb01-4c68-a073-4cab244bcb0a
+
+https://github.com/user-attachments/assets/0fd828a7-7711-49c5-8a67-6a3e4d7fbcc7
+
+https://github.com/user-attachments/assets/59c5621d-18ae-4e98-b3fb-809b010265c7
+
+https://github.com/user-attachments/assets/6a99a55c-d137-4d3e-9ded-f01e3e540937
+
+https://github.com/user-attachments/assets/0a086b90-b7bc-44ad-b37b-272e5d587db6
+
+https://github.com/user-attachments/assets/afa1f1b6-0b73-48df-999c-b2a1f6063035
+
+https://github.com/user-attachments/assets/ebea91c9-5d77-4a95-8fc8-1b8743480ac8
 
 </details>
 
@@ -919,60 +969,231 @@ https://github.com/user-attachments/assets/c49242dc-f8c0-48a2-bdfa-a7b1a27a885e
 https://github.com/user-attachments/assets/0580e2bd-a17e-4b95-a52c-5d899fb7bd04
 
 </details>
+   
+</details>
 
-#### AnimePrepareSubtitlesForMining
-Short name ID of videos in playlist: A17 A16 A15 A14 A13 A12 A11 A10 A9
+### Lightnovel
+
+<details>
+<summary>Lightnovel</summary>
+
+#### LibationSetUp
+Short name ID of videos in playlist: L36
 <details>
 
-https://github.com/user-attachments/assets/abe57854-8ebd-430b-8ca8-b414e336409c
-
-https://github.com/user-attachments/assets/3c086b6b-f7d4-4fcc-8d8b-e6b367006d89
-
-https://github.com/user-attachments/assets/240d3d28-fb01-4c68-a073-4cab244bcb0a
-
-https://github.com/user-attachments/assets/0fd828a7-7711-49c5-8a67-6a3e4d7fbcc7
-
-https://github.com/user-attachments/assets/59c5621d-18ae-4e98-b3fb-809b010265c7
-
-https://github.com/user-attachments/assets/6a99a55c-d137-4d3e-9ded-f01e3e540937
-
-https://github.com/user-attachments/assets/0a086b90-b7bc-44ad-b37b-272e5d587db6
-
-https://github.com/user-attachments/assets/afa1f1b6-0b73-48df-999c-b2a1f6063035
-
-https://github.com/user-attachments/assets/ebea91c9-5d77-4a95-8fc8-1b8743480ac8
+https://github.com/user-attachments/assets/5375428f-11d9-470f-b51a-6411d444920b
 
 </details>
 
-#### AnimeSourceMaterialSubtitlesSRT
-Short name ID of videos in playlist: A8 A9
+#### ObtaininingPreparingTargetChapterAudio
+Short name ID of videos in playlist: L36 O1 O2
 <details>
 
-https://github.com/user-attachments/assets/d5f0fe38-1fff-40e6-ae18-93f7bb53b893
+https://github.com/user-attachments/assets/5375428f-11d9-470f-b51a-6411d444920b
 
-https://github.com/user-attachments/assets/ebea91c9-5d77-4a95-8fc8-1b8743480ac8
+https://github.com/user-attachments/assets/84a6cfd6-9695-4882-a333-8bd2599d3c00
+
+https://github.com/user-attachments/assets/9df82663-1a37-4651-a5fb-ea7148180c22
 
 </details>
 
-#### AnimeSourceMaterialVideoDownloadHelper
-Short name ID of videos in playlist: A7 A6 A5
+#### ObtainingRawLightNovelHTMLAndPreperationOfRawChapterText
+Short name ID of videos in playlist: O5 O4 O3 O2
 <details>
 
-https://github.com/user-attachments/assets/e0c90431-9226-4eb2-8e03-1d8616e000f9
+https://github.com/user-attachments/assets/bbb876f2-dd94-473b-b9b0-bd3be93d36d2
 
-https://github.com/user-attachments/assets/692dd797-c62d-40ac-a737-41f3c7c593dc
+https://github.com/user-attachments/assets/5fbd6f99-13fe-484b-9b96-e3be458365f4
 
-https://github.com/user-attachments/assets/facd0142-be2c-40ce-b818-edf0c08e2847
+https://github.com/user-attachments/assets/0cbcca09-c0a1-4bea-940b-cea8680288c9
+
+https://github.com/user-attachments/assets/9df82663-1a37-4651-a5fb-ea7148180c22
 
 </details>
 
-#### AnkiAddons
-Short name ID of videos in playlist: A4 A3
+#### LightnovelSubtitleCreation
+Short name ID of videos in playlist: L35 L34 L33 L32 L31 L30 L29 L28 L27 L26 L25 L24 L23 L22 L21 L20
 <details>
 
-https://github.com/user-attachments/assets/67520a00-e254-4974-9a29-f5c27550638a
+https://github.com/user-attachments/assets/c94ba185-f5d7-4735-8527-5ffc7e86fc7a
 
-https://github.com/user-attachments/assets/7c417db8-6d88-4440-8a60-de332de1e8a1
+https://github.com/user-attachments/assets/490ed658-6e57-44cd-9cb8-898c4ecdd1a8
+
+https://github.com/user-attachments/assets/676d7c42-ad48-41b0-b397-8909f2cbb003
+
+https://github.com/user-attachments/assets/f6db2fbf-0124-42a2-935a-c67049a146ee
+
+https://github.com/user-attachments/assets/98b67258-7ac1-4636-9064-e4fd94c8bfe2
+
+https://github.com/user-attachments/assets/2c78277e-500e-4d56-932d-275fa2177530
+
+https://github.com/user-attachments/assets/fb180404-1284-40ee-b57e-f737b05abd5f
+
+https://github.com/user-attachments/assets/035e7006-bda1-436f-befc-f59fcc35afff
+
+https://github.com/user-attachments/assets/efd24d52-4218-459f-90a0-43a01aae8fb8
+
+https://github.com/user-attachments/assets/31be491d-fcd1-4b3b-884e-3ea25e507865
+
+https://github.com/user-attachments/assets/579c060e-77c0-4f97-bf34-05b842f31fa8
+
+https://github.com/user-attachments/assets/bf4fdadc-5bed-4f25-a346-c8c4c5503ec1
+
+https://github.com/user-attachments/assets/cf417a83-b2da-4283-926c-0654e21c02c5
+
+https://github.com/user-attachments/assets/1c5bce63-476f-4f3b-a953-c557df249264
+
+https://github.com/user-attachments/assets/14d8deb9-fe6a-4cf6-b0d2-685f689ac631
+
+https://github.com/user-attachments/assets/a96e3999-3e50-4aa7-9213-87a8dc408c52
+
+</details>
+
+#### AnalysisOfTranscriptionQuality
+Short name ID of videos in playlist: L27 L28
+<details>
+
+https://github.com/user-attachments/assets/efd24d52-4218-459f-90a0-43a01aae8fb8
+
+https://github.com/user-attachments/assets/035e7006-bda1-436f-befc-f59fcc35afff
+
+</details>
+
+#### TranscriptCorrection
+Short name ID of videos in playlist: L26 L25 L24 L23 L22 L21
+<details>
+
+https://github.com/user-attachments/assets/31be491d-fcd1-4b3b-884e-3ea25e507865
+
+https://github.com/user-attachments/assets/579c060e-77c0-4f97-bf34-05b842f31fa8
+
+https://github.com/user-attachments/assets/bf4fdadc-5bed-4f25-a346-c8c4c5503ec1
+
+https://github.com/user-attachments/assets/cf417a83-b2da-4283-926c-0654e21c02c5
+
+https://github.com/user-attachments/assets/1c5bce63-476f-4f3b-a953-c557df249264
+
+https://github.com/user-attachments/assets/14d8deb9-fe6a-4cf6-b0d2-685f689ac631
+
+</details>
+
+#### LNAudioSubtitleSyncAnki
+Short name ID of videos in playlist: L19 L18 L17 L16 L15 L14 L13 L12 L11 L10 L9 L8 L7 L6 L5 L4 L3 N2 N1
+<details>
+
+https://github.com/user-attachments/assets/97e3e6cf-dfae-4a8a-873a-246e08710fda
+
+https://github.com/user-attachments/assets/2ae3306c-3e88-4571-b055-560d4afae473
+
+https://github.com/user-attachments/assets/868aac35-737b-4dcf-9524-1aff98dff01c
+
+https://github.com/user-attachments/assets/b11f591a-81cf-4438-9cd7-4e3cbb9565e6
+
+https://github.com/user-attachments/assets/f0553c49-2836-4ce0-af1d-d5123ac9cd7d
+
+https://github.com/user-attachments/assets/b319ab83-8fcd-41b8-9128-429c8c41e3ad
+
+https://github.com/user-attachments/assets/74a88f04-d8a6-4ba4-aaa1-1fd618e0e4f6
+
+https://github.com/user-attachments/assets/2deb620b-9e0d-4d9b-ae6a-7a1e04f9176c
+
+https://github.com/user-attachments/assets/d61c7a58-5ed0-4ce3-a75d-1d5d335859e0
+
+https://github.com/user-attachments/assets/9f8b8187-906e-4700-abf0-ec7671559026
+
+https://github.com/user-attachments/assets/eb3e594f-8d2f-4393-a5ae-131aab095a5f
+
+https://github.com/user-attachments/assets/2c1681cf-c641-420a-96df-cb0d53255278
+
+https://github.com/user-attachments/assets/dbfdf82b-65a8-4e37-b661-fa1c80cd52c2
+
+https://github.com/user-attachments/assets/b79420e9-6e9f-4070-b1ab-a19b9d41c2e3
+
+https://github.com/user-attachments/assets/2b63125c-4dde-43a0-affa-f5f8367e4761
+
+https://github.com/user-attachments/assets/c49242dc-f8c0-48a2-bdfa-a7b1a27a885e
+
+https://github.com/user-attachments/assets/0580e2bd-a17e-4b95-a52c-5d899fb7bd04
+
+https://github.com/user-attachments/assets/1687a10b-610a-4fbc-89af-5591b1810fc2
+
+https://github.com/user-attachments/assets/5667cf82-92bb-4735-b3f6-b99c4c714632
+
+</details>
+
+#### SoundEditing
+Short name ID of videos in playlist: S7 S6 S5 S4 S3 S2 S1
+<details>
+
+https://github.com/user-attachments/assets/3b541619-9c44-4d23-825e-3491a4941a09
+
+https://github.com/user-attachments/assets/ac989da9-a452-418e-8ce6-4e303f957f70
+
+https://github.com/user-attachments/assets/c10e195f-ca29-44c5-8581-5264c2e820cf
+
+https://github.com/user-attachments/assets/e3f1599c-76a5-4126-bf05-f669a9bb7549
+
+https://github.com/user-attachments/assets/ffe00c8c-a925-4ff4-8e89-43518a6eeeab
+
+https://github.com/user-attachments/assets/5f94e9b2-3532-473e-bb4f-79d4d935ac04
+
+https://github.com/user-attachments/assets/cc285e27-3cbd-4ed6-b7f4-c2447ad45dbb
+
+</details>
+
+#### LosslessCutSetup
+Short name ID of videos in playlist: L2 L1
+<details>
+
+https://github.com/user-attachments/assets/295826f8-b234-4729-8c3d-0415f85c09ce
+
+https://github.com/user-attachments/assets/28bc32a6-1da6-4106-a8d2-d8c51bda108b
+
+</details>
+
+#### AudacitySetUp
+Short name ID of videos in playlist: A1 A34
+<details>
+
+https://github.com/user-attachments/assets/0e56d6ea-856a-4e60-a615-62aa88767409
+
+https://github.com/user-attachments/assets/172b4a42-6632-466f-a2d3-e4474627c649
+
+</details>
+
+</details>
+
+</details>
+
+#### Playlists
+
+<details>
+   
+
+
+
+
+
+
+
+
+#### AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists
+Short name ID of videos in playlist: A32 A31 A30 V4 V3 V2 C51
+<details>
+
+https://github.com/user-attachments/assets/15f5e5cb-b297-4b21-8f18-295782948c20
+
+https://github.com/user-attachments/assets/3f527d1c-1fdd-43cf-8309-677f67b93474
+
+https://github.com/user-attachments/assets/e3324923-7210-4e74-8381-61e8144f6b05
+
+https://github.com/user-attachments/assets/ad9838ac-91ca-4071-9f2a-43dcf1211dba
+
+https://github.com/user-attachments/assets/762bc1db-4d5d-42ba-9549-5be16dc666aa
+
+https://github.com/user-attachments/assets/c0d73747-a114-478d-8405-bd3ca6769db8
+
+https://github.com/user-attachments/assets/7de65c1f-ae99-4e7c-b278-4046377fde8c
 
 </details>
 
@@ -982,29 +1203,19 @@ https://github.com/user-attachments/assets/7c417db8-6d88-4440-8a60-de332de1e8a1
 
 
 
-#### ChromeStoreBrowserAddons
-Short name ID of videos in playlist: C16 A7 A6 A5 C15 C14 C13 C12 C11
-<details>
 
-https://github.com/user-attachments/assets/34939804-7827-4487-8e28-8b108d19c2e5
 
-https://github.com/user-attachments/assets/e0c90431-9226-4eb2-8e03-1d8616e000f9
 
-https://github.com/user-attachments/assets/692dd797-c62d-40ac-a737-41f3c7c593dc
 
-https://github.com/user-attachments/assets/facd0142-be2c-40ce-b818-edf0c08e2847
 
-https://github.com/user-attachments/assets/f5f800a5-fa3a-420e-87ad-282bbe3e9a50
 
-https://github.com/user-attachments/assets/1f451dd6-65ce-4393-a772-adbef9dae5e6
 
-https://github.com/user-attachments/assets/fd4edfc7-7b5e-44b8-9503-fe652d466159
 
-https://github.com/user-attachments/assets/640b0464-3a37-42b5-b0bf-973c3af1a7ff
 
-https://github.com/user-attachments/assets/7359bff8-0708-441a-b723-5772ed992aa0
 
-</details>
+
+
+
 
 #### ContrastingGrammarstructuresInTheBrowserAddon
 Short name ID of videos in playlist: C10
@@ -1215,139 +1426,19 @@ https://github.com/user-attachments/assets/ffbe7433-8aed-4b1b-bc45-c9a057b1b904
 
 
 
-#### LibationSetUp
-Short name ID of videos in playlist: L36
-<details>
-
-https://github.com/user-attachments/assets/5375428f-11d9-470f-b51a-6411d444920b
-
-</details>
-
-#### LightnovelSubtitleCreation
-Short name ID of videos in playlist: L35 L34 L33 L32 L31 L30 L29 L28 L27 L26 L25 L24 L23 L22 L21 L20
-<details>
-
-https://github.com/user-attachments/assets/c94ba185-f5d7-4735-8527-5ffc7e86fc7a
-
-https://github.com/user-attachments/assets/490ed658-6e57-44cd-9cb8-898c4ecdd1a8
-
-https://github.com/user-attachments/assets/676d7c42-ad48-41b0-b397-8909f2cbb003
-
-https://github.com/user-attachments/assets/f6db2fbf-0124-42a2-935a-c67049a146ee
-
-https://github.com/user-attachments/assets/98b67258-7ac1-4636-9064-e4fd94c8bfe2
-
-https://github.com/user-attachments/assets/2c78277e-500e-4d56-932d-275fa2177530
-
-https://github.com/user-attachments/assets/fb180404-1284-40ee-b57e-f737b05abd5f
-
-https://github.com/user-attachments/assets/035e7006-bda1-436f-befc-f59fcc35afff
-
-https://github.com/user-attachments/assets/efd24d52-4218-459f-90a0-43a01aae8fb8
-
-https://github.com/user-attachments/assets/31be491d-fcd1-4b3b-884e-3ea25e507865
-
-https://github.com/user-attachments/assets/579c060e-77c0-4f97-bf34-05b842f31fa8
-
-https://github.com/user-attachments/assets/bf4fdadc-5bed-4f25-a346-c8c4c5503ec1
-
-https://github.com/user-attachments/assets/cf417a83-b2da-4283-926c-0654e21c02c5
-
-https://github.com/user-attachments/assets/1c5bce63-476f-4f3b-a953-c557df249264
-
-https://github.com/user-attachments/assets/14d8deb9-fe6a-4cf6-b0d2-685f689ac631
-
-https://github.com/user-attachments/assets/a96e3999-3e50-4aa7-9213-87a8dc408c52
-
-</details>
-
-#### LNAudioSubtitleSyncAnki
-Short name ID of videos in playlist: L19 L18 L17 L16 L15 L14 L13 L12 L11 L10 L9 L8 L7 L6 L5 L4 L3
-<details>
-
-https://github.com/user-attachments/assets/97e3e6cf-dfae-4a8a-873a-246e08710fda
-
-https://github.com/user-attachments/assets/2ae3306c-3e88-4571-b055-560d4afae473
-
-https://github.com/user-attachments/assets/868aac35-737b-4dcf-9524-1aff98dff01c
-
-https://github.com/user-attachments/assets/b11f591a-81cf-4438-9cd7-4e3cbb9565e6
-
-https://github.com/user-attachments/assets/f0553c49-2836-4ce0-af1d-d5123ac9cd7d
-
-https://github.com/user-attachments/assets/b319ab83-8fcd-41b8-9128-429c8c41e3ad
-
-https://github.com/user-attachments/assets/74a88f04-d8a6-4ba4-aaa1-1fd618e0e4f6
-
-https://github.com/user-attachments/assets/2deb620b-9e0d-4d9b-ae6a-7a1e04f9176c
-
-https://github.com/user-attachments/assets/d61c7a58-5ed0-4ce3-a75d-1d5d335859e0
-
-https://github.com/user-attachments/assets/9f8b8187-906e-4700-abf0-ec7671559026
-
-https://github.com/user-attachments/assets/eb3e594f-8d2f-4393-a5ae-131aab095a5f
-
-https://github.com/user-attachments/assets/2c1681cf-c641-420a-96df-cb0d53255278
-
-https://github.com/user-attachments/assets/dbfdf82b-65a8-4e37-b661-fa1c80cd52c2
-
-https://github.com/user-attachments/assets/b79420e9-6e9f-4070-b1ab-a19b9d41c2e3
-
-https://github.com/user-attachments/assets/2b63125c-4dde-43a0-affa-f5f8367e4761
-
-https://github.com/user-attachments/assets/c49242dc-f8c0-48a2-bdfa-a7b1a27a885e
-
-https://github.com/user-attachments/assets/0580e2bd-a17e-4b95-a52c-5d899fb7bd04
-
-</details>
-
-#### LosslessCutSetup
-Short name ID of videos in playlist: L2 L1
-<details>
-
-https://github.com/user-attachments/assets/295826f8-b234-4729-8c3d-0415f85c09ce
-
-https://github.com/user-attachments/assets/28bc32a6-1da6-4106-a8d2-d8c51bda108b
-
-</details>
 
 
 
-#### NewLNAudioSubtitleSyncAnki
-Short name ID of videos in playlist: N2 N1
-<details>
 
-https://github.com/user-attachments/assets/1687a10b-610a-4fbc-89af-5591b1810fc2
 
-https://github.com/user-attachments/assets/5667cf82-92bb-4735-b3f6-b99c4c714632
 
-</details>
 
-#### ObtaininingPreparingTargetChapterAudio
-Short name ID of videos in playlist: L36 O1 O2
-<details>
 
-https://github.com/user-attachments/assets/5375428f-11d9-470f-b51a-6411d444920b
 
-https://github.com/user-attachments/assets/84a6cfd6-9695-4882-a333-8bd2599d3c00
 
-https://github.com/user-attachments/assets/9df82663-1a37-4651-a5fb-ea7148180c22
 
-</details>
 
-#### ObtainingRawLightNovelHTMLAndPreperationOfRawChapterText
-Short name ID of videos in playlist: O5 O4 O3 O2
-<details>
 
-https://github.com/user-attachments/assets/bbb876f2-dd94-473b-b9b0-bd3be93d36d2
-
-https://github.com/user-attachments/assets/5fbd6f99-13fe-484b-9b96-e3be458365f4
-
-https://github.com/user-attachments/assets/0cbcca09-c0a1-4bea-940b-cea8680288c9
-
-https://github.com/user-attachments/assets/9df82663-1a37-4651-a5fb-ea7148180c22
-
-</details>
 
 
 
@@ -1369,25 +1460,7 @@ https://github.com/user-attachments/assets/b4cc6a95-5dad-40e9-b2b9-6cae682e13f1
 
 </details>
 
-#### SoundEditing
-Short name ID of videos in playlist: S7 S6 S5 S4 S3 S2 S1
-<details>
 
-https://github.com/user-attachments/assets/3b541619-9c44-4d23-825e-3491a4941a09
-
-https://github.com/user-attachments/assets/ac989da9-a452-418e-8ce6-4e303f957f70
-
-https://github.com/user-attachments/assets/c10e195f-ca29-44c5-8581-5264c2e820cf
-
-https://github.com/user-attachments/assets/e3f1599c-76a5-4126-bf05-f669a9bb7549
-
-https://github.com/user-attachments/assets/ffe00c8c-a925-4ff4-8e89-43518a6eeeab
-
-https://github.com/user-attachments/assets/5f94e9b2-3532-473e-bb4f-79d4d935ac04
-
-https://github.com/user-attachments/assets/cc285e27-3cbd-4ed6-b7f4-c2447ad45dbb
-
-</details>
 
 #### TextMarkerAddonDeletionOfTerms
 Short name ID of videos in playlist: T2 T1
@@ -1399,23 +1472,7 @@ https://github.com/user-attachments/assets/8c2bebd4-205d-4dc9-a224-704b110b3339
 
 </details>
 
-#### TranscriptCorrection
-Short name ID of videos in playlist: L26 L25 L24 L23 L22 L21
-<details>
 
-https://github.com/user-attachments/assets/31be491d-fcd1-4b3b-884e-3ea25e507865
-
-https://github.com/user-attachments/assets/579c060e-77c0-4f97-bf34-05b842f31fa8
-
-https://github.com/user-attachments/assets/bf4fdadc-5bed-4f25-a346-c8c4c5503ec1
-
-https://github.com/user-attachments/assets/cf417a83-b2da-4283-926c-0654e21c02c5
-
-https://github.com/user-attachments/assets/1c5bce63-476f-4f3b-a953-c557df249264
-
-https://github.com/user-attachments/assets/14d8deb9-fe6a-4cf6-b0d2-685f689ac631
-
-</details>
 
 
 
@@ -1465,17 +1522,6 @@ https://github.com/user-attachments/assets/ad9838ac-91ca-4071-9f2a-43dcf1211dba
 https://github.com/user-attachments/assets/762bc1db-4d5d-42ba-9549-5be16dc666aa
 
 https://github.com/user-attachments/assets/c0d73747-a114-478d-8405-bd3ca6769db8
-
-</details>
-
-
-#### AudacitySetUp
-Short name ID of videos in playlist: A1 A34
-<details>
-
-https://github.com/user-attachments/assets/0e56d6ea-856a-4e60-a615-62aa88767409
-
-https://github.com/user-attachments/assets/172b4a42-6632-466f-a2d3-e4474627c649
 
 </details>
 
