@@ -375,6 +375,8 @@ https://github.com/user-attachments/assets/c8ebacf9-f422-4990-bbac-f9a9cc7614f3
 #### mpvinstallation
 Short name ID of videos in playlist: M3 M2 M1
 
+Important Note: sub-auto=exact (mpv config)
+
 https://github.com/user-attachments/assets/65473328-205a-47a9-8950-9074c74d94aa
 
 https://github.com/user-attachments/assets/fc7d64cf-ab6c-4480-87a4-6986c385e20a
@@ -426,6 +428,18 @@ Then you have to set up python, the following guide can be used as a reference, 
 <details>
 
 <summary>Python Installation Guide</summary>
+
+<details>
+
+<summary>Example Installation for Windows TODO</summary>
+
+HIER PLAYLIST EINFUEGEN
+
+</details>
+
+<details>
+
+<summary>Notes</summary>
 
 Here is the complete setup guide tailored to all operating systems (**Linux**, **macOS**, and **Windows**).
 
@@ -633,6 +647,8 @@ On Mac, **Homebrew** (`brew`) is the community-standard package manager:
 1. **Zero installer wizard mistakes:** You avoid common errors like forgetting to check the *"Add python.exe to PATH"* checkbox on Windows.
 2. **Installs System Tools in parallel:** Tools like **FFmpeg** (which are required for `pydub` and `whisperx` audio/video cutting) would normally require downloading `.zip` files and manually messing with Windows Environment Variables—`winget install Gyan.FFmpeg` or `brew install ffmpeg` does it in 3 seconds.
 3. **100% Reproducible:** You can paste the script into any new computer or virtual machine and have the entire environment ready to run without manual setup.
+
+</details>
 
 </details>
 
@@ -1017,6 +1033,9 @@ https://github.com/user-attachments/assets/9df82663-1a37-4651-a5fb-ea7148180c22
 
 #### LightnovelSubtitleCreation
 Short name ID of videos in playlist: L35 L34 L33 L32 L31 L30 L29 L28 L27 L26 L25 L24 L23 L22 L21 L20
+
+Important Note: whisperX was used with the tiny model, because my computer is so slow but if user has a faster computer he might change the paramters with AI so that the transcription is faster
+
 <details>
 
 https://github.com/user-attachments/assets/c94ba185-f5d7-4735-8527-5ffc7e86fc7a
