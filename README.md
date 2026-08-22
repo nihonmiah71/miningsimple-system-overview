@@ -403,7 +403,9 @@ https://github.com/user-attachments/assets/70ae43ed-7fc6-496d-95fd-026aefa23c41
 
 After that you have to clone the repository with git, use the following command in your shell
 
+```text
 git clone https://github.com/nihonmiah71/miningsimple-system-overview.git
+```
 
 <details>
 
