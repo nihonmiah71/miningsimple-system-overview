@@ -199,6 +199,33 @@ class RefactorEngine:
 
         self.replace_in_file(fpath, transform)
 
+   def refactor_addon_1552719434(self):
+        """NoteEnhancer - Sentence Hover Preview & Browser Search"""
+        fpath = self.find_addon_file("1552719434", "__init__.py")
+        if not os.path.exists(fpath):
+            fpath = self.find_addon_file("1552719434", "init.py")
+
+        model_m = self.get_val("models", "miningsimple")
+        word_f = self.get_val("mining_fields", "Word")
+        sp_f = self.get_val("mining_fields", "SentencePlain")
+
+        def transform(text):
+            # 1. Update the search query (used in both get_sentences and open_browser)
+            # Matches: query = f'note:... card:{card_type_name} -is:suspended ...:"{word}"'
+            query_pattern = r"query\s*=\s*f['\"]note:[^\s]+\s+card:\{card_type_name\}\s+-is:suspended\s+[^\s:]+:\"\{word\}\"['\"]"
+            query_replacement = f"query = f'note:{model_m} card:{{card_type_name}} -is:suspended {word_f}:\"{{word}}\"'"
+            text = re.sub(query_pattern, query_replacement, text)
+
+            # 2. Update the SentencePlain check: if "SentencePlain" in note:
+            text = re.sub(r'if\s+"[^"]+"\s+in\s+note:', f'if "{sp_f}" in note:', text)
+
+            # 3. Update the SentencePlain extraction: note["SentencePlain"].strip()
+            text = re.sub(r'note\["[^"]+"\]\.strip\(\)', f'note["{sp_f}"].strip()', text)
+
+            return text
+
+        self.replace_in_file(fpath, transform)
+    
     def refactor_addon_984445827(self):
         """Grammar Mining and Linking & GrammarDataUpdate"""
         fpath = self.find_addon_file("984445827", "__init__.py")
@@ -452,6 +479,7 @@ class RefactorEngine:
         self.log("========================================================")
 
         self.log("\n--- Phase 1: Anki Add-ons ---")
+        self.refactor_addon_1552719434()
         self.refactor_addon_943429275()
         self.refactor_addon_1444428697()
         self.refactor_addon_207985417()
