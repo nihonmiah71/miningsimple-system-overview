@@ -409,14 +409,13 @@ git clone https://github.com/nihonmiah71/miningsimple-system-overview.git
 
 <summary>TODO Repository Cloning</summary>
 
-#### TODO
-Short name ID of videos in playlist: P3 P2 P1
+#### TODO (repo cloning, deck import, anki addon download, python code, grammar deck audio install, initial set up addon activation)
 
-https://github.com/user-attachments/assets/01d4c3e8-1d88-4c2a-a43b-325ae22f7432
+We have also provided audio for the example sentences for the grammar note, for the data refer to the link 
 
-https://github.com/user-attachments/assets/798d8bfa-8d2a-4847-acbd-8afac2dd00dd
+grammar audio examplesentences
 
-https://github.com/user-attachments/assets/2e4b967c-db5c-491f-85a3-99bf0da3b34f
+https://drive.proton.me/urls/MW7Z6BYXW4#5HLR3UVkGLu3
 
 </details>
 </details>
@@ -737,6 +736,13 @@ Refer to the the following to set up Yomitan, there is also a seperate link wher
 
 #### ChromeStoreBrowserAddons
 Short name ID of videos in playlist: C16 A7 A6 A5 C15 C14 C13 C12 C11
+
+Here is the link for the yomitan dictionary collection (zipped)
+
+https://drive.proton.me/urls/PE7KT1JBVM#CJulhFDoJIef
+
+### TODO make playlist for yomitan dictionary download and install
+
 <details>
 
 https://github.com/user-attachments/assets/34939804-7827-4487-8e28-8b108d19c2e5
@@ -997,6 +1003,7 @@ https://github.com/user-attachments/assets/0580e2bd-a17e-4b95-a52c-5d899fb7bd04
 <details>
 <summary>Lightnovel</summary>
 
+
 #### LibationSetUp
 Short name ID of videos in playlist: L36
 <details>
@@ -1141,6 +1148,28 @@ https://github.com/user-attachments/assets/0580e2bd-a17e-4b95-a52c-5d899fb7bd04
 https://github.com/user-attachments/assets/1687a10b-610a-4fbc-89af-5591b1810fc2
 
 https://github.com/user-attachments/assets/5667cf82-92bb-4735-b3f6-b99c4c714632
+
+</details>
+
+#### Oregairu ,TODO make playlist for Oregairu download and install and use
+
+Important Note: The download links for the oregairu files (raw i.e. uneditet) subtitlefiles (so you can mine yourself your own custom subtitles with an oregairu epub file downloaded form zlibrary) and the chapter audios are provided in the following. Also we recommend to download only one volume at a time.
+
+Oregairu
+
+https://drive.proton.me/urls/XJ3GQTSXAR#hIvr1Ae3YViS
+
+Oregairu(1) (contains Volume 6.5,12,13)
+
+https://drive.proton.me/urls/YY40H6347C#vw7OBtegPPDl
+
+Oregairu(2) (contains Volume 7.5,14)
+
+https://drive.proton.me/urls/S377M9WAN4#etllgvJVtDzm
+
+<details>
+   
+### TODO
 
 </details>
 
