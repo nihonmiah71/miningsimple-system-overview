@@ -199,7 +199,7 @@ class RefactorEngine:
 
         self.replace_in_file(fpath, transform)
 
-   def refactor_addon_1552719434(self):
+    def refactor_addon_1552719434(self):
         """NoteEnhancer - Sentence Hover Preview & Browser Search"""
         fpath = self.find_addon_file("1552719434", "__init__.py")
         if not os.path.exists(fpath):
