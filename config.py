@@ -211,7 +211,6 @@ class RefactorEngine:
 
         def transform(text):
             # 1. Update the search query (used in both get_sentences and open_browser)
-            # Matches: query = f'note:... card:{card_type_name} -is:suspended ...:"{word}"'
             query_pattern = r"query\s*=\s*f['\"]note:[^\s]+\s+card:\{card_type_name\}\s+-is:suspended\s+[^\s:]+:\"\{word\}\"['\"]"
             query_replacement = f"query = f'note:{model_m} card:{{card_type_name}} -is:suspended {word_f}:\"{{word}}\"'"
             text = re.sub(query_pattern, query_replacement, text)
@@ -268,8 +267,18 @@ class RefactorEngine:
 
         self.replace_in_file(fpath, transform_init)
 
+        prep_script_path = os.path.join(self.repo_dir, "browseraddons", "grammaraddonregex", "prepare_data.py")
+
         def transform_cfg(text):
-            return re.sub(r'deck:\w+', f'deck:{deck_g}', text)
+            try:
+                data = json.loads(text)
+                if "search_filter" in data:
+                    data["search_filter"] = re.sub(r'deck:(?:"[^"]+"|\S+)', f'deck:{deck_g}', data["search_filter"])
+                data["script_path"] = prep_script_path
+                return json.dumps(data, indent=4, ensure_ascii=False)
+            except Exception:
+                text = re.sub(r'deck:\w+', f'deck:{deck_g}', text)
+                return text
 
         self.replace_in_file(cfg_path, transform_cfg)
 
@@ -345,8 +354,22 @@ class RefactorEngine:
 
         self.replace_in_file(fpath, transform_init)
 
+        voc_script_path = os.path.join(self.repo_dir, "browseraddons", "markierer_extension", "vocappend.py")
+
         def transform_cfg(text):
-            return re.sub(r'"search_filter":\s*"deck:\w+\s+card:\w+"', f'"search_filter": "deck:{deck_m} card:{tmpl_p}"', text)
+            try:
+                data = json.loads(text)
+                if "search_filter" in data:
+                    sf = data["search_filter"]
+                    sf = re.sub(r'deck:(?:"[^"]+"|\S+)', f'deck:{deck_m}', sf)
+                    sf = re.sub(r'card:(?:"[^"]+"|\S+)', f'card:{tmpl_p}', sf)
+                    data["search_filter"] = sf
+                data["script_path"] = voc_script_path
+                return json.dumps(data, indent=4, ensure_ascii=False)
+            except Exception:
+                text = re.sub(r'deck:\w+', f'deck:{deck_m}', text)
+                text = re.sub(r'card:\w+', f'card:{tmpl_p}', text)
+                return text
 
         self.replace_in_file(cfg_path, transform_cfg)
 
