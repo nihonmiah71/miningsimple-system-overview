@@ -403,10 +403,33 @@ https://github.com/user-attachments/assets/70ae43ed-7fc6-496d-95fd-026aefa23c41
 
 After that you have to clone the repository with git, use the following command in your shell
 
+**Windows:**
 ```text
-git clone https://github.com/nihonmiah71/miningsimple-system-overview.git
+git clone --filter=blob:none --no-checkout https://github.com/nihonmiah71/miningsimple-system-overview.git
 ```
+```text
+cd miningsimple-system-overview
+```
+```text
+git sparse-checkout set --no-cone "/*" "!/README.md"
+```
+```text
+git checkout
+```
+**Linux / macOS / Git Bash:**
 
+```text
+git clone --filter=blob:none --no-checkout https://github.com/nihonmiah71/miningsimple-system-overview.git
+```
+```text
+cd miningsimple-system-overview
+```
+```text
+git sparse-checkout set --no-cone '/*' '!/README.md'
+```
+```text
+git checkout
+```
 <details>
 
 <summary>TODO Repository Cloning</summary>
