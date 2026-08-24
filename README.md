@@ -1178,7 +1178,7 @@ https://github.com/user-attachments/assets/5667cf82-92bb-4735-b3f6-b99c4c714632
 
 #### Oregairu ,TODO make playlist for Oregairu download and install and use
 
-Important Note: The download links for the oregairu files (raw i.e. uneditet) subtitlefiles (so you can mine yourself your own custom subtitles with an oregairu epub file downloaded form zlibrary) and the chapter audios are provided in the following. Also we recommend to download only one volume at a time.
+Important Note: The download links for the oregairu files (raw i.e. uneditet) subtitlefiles (so you can mine yourself your own custom subtitles with an oregairu epub file downloaded form zlibrary) and the chapter audios are provided in the following. Also we recommend to download only one volume at a time. Also the link for the folder with the epub files are also here so you can immediately import them into tsuureader and then test
 
 Oregairu
 
@@ -1191,6 +1191,10 @@ https://drive.proton.me/urls/YY40H6347C#vw7OBtegPPDl
 Oregairu(2) (contains Volume 7.5,14)
 
 https://drive.proton.me/urls/S377M9WAN4#etllgvJVtDzm
+
+Oregairu Volume 1 to 14 Epub Files
+
+https://drive.proton.me/urls/AM9KEJYFDR#tmVfdAFXS9CY
 
 <details>
    
