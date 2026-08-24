@@ -4,6 +4,7 @@
 config.py - Standalone Configuration and Codebase Refactoring Tool
 Propagates deck, model, card template, and field renaming substitutions
 across all Anki Add-ons and External Mining/JS Scripts.
+Supports custom renaming as well as 1-click restoration to default names.
 """
 
 import os
@@ -15,6 +16,50 @@ from tkinter import filedialog, messagebox, ttk
 
 CONFIG_FILE_NAME = "config.txt"
 
+# Canonical system default names
+DEFAULT_CONFIG = {
+    "decks": {
+        "mining": "Mining",
+        "grammar": "Grammar"
+    },
+    "models": {
+        "miningsimple": "miningsimple",
+        "Grammar": "Grammar"
+    },
+    "templates": {
+        "pronounciation": "Pronounciation"
+    },
+    "mining_fields": {
+        "Word": "Word",
+        "SentencePlain": "SentencePlain",
+        "SentenceFurigana": "SentenceFurigana",
+        "Correct English Definition": "Correct English Definition",
+        "Correct Japanese Definition": "Correct Japanese Definition",
+        "English Definition Overview": "English Definition Overview",
+        "Frequency": "Frequency",
+        "SoundFront": "SoundFront",
+        "SoundBack": "SoundBack",
+        "Picture": "Picture",
+        "Note ID": "Note ID",
+        "Link to Related Cards": "Link to Related Cards",
+        "TranslationExampleSentence": "TranslationExampleSentence",
+        "SiblingSyncInfo": "SiblingSyncInfo"
+    },
+    "grammar_fields": {
+        "Level And Grammar Point": "Level And Grammar Point",
+        "Link": "Link",
+        "Connected Grammar Points from jlptsensei (optional)": "Connected Grammar Points from jlptsensei (optional)",
+        "Notes": "Notes",
+        "construction": "construction",
+        "examplesentences": "examplesentences",
+        "regexpattern": "regexpattern",
+        "mined sentences": "mined sentences",
+        "title audio": "title audio",
+        "construction audio": "construction audio",
+        "examplesentences audio": "examplesentences audio"
+    }
+}
+
 
 # ==============================================================================
 # CONFIG LOADER
@@ -24,7 +69,6 @@ def load_config_data(base_dir):
     """Loads configuration data from config.txt."""
     cfg_path = os.path.join(base_dir, CONFIG_FILE_NAME)
     if not os.path.exists(cfg_path):
-        # Check current working directory as fallback
         cfg_path = os.path.join(os.getcwd(), CONFIG_FILE_NAME)
 
     if not os.path.exists(cfg_path):
@@ -57,12 +101,12 @@ class RefactorEngine:
 
     def get_val(self, group, key, default=None):
         if default is None:
-            default = key
+            default = DEFAULT_CONFIG.get(group, {}).get(key, key)
         return self.cfg.get(group, {}).get(key, default)
 
     def replace_in_file(self, file_path, replacer_callback):
         """Safely updates a file in place using a callback function."""
-        if not os.path.exists(file_path):
+        if not file_path or not os.path.exists(file_path):
             self.log(f"[SKIPPED - Not Found] {file_path}")
             return False
 
@@ -89,17 +133,14 @@ class RefactorEngine:
         if not self.addons_dir or not os.path.exists(self.addons_dir):
             return None
         
-        # Check direct folder
         direct_path = os.path.join(self.addons_dir, str(addon_id), filename)
         if os.path.exists(direct_path):
             return direct_path
 
-        # Scan folder names containing the ID
         for root, dirs, files in os.walk(self.addons_dir):
             if os.path.basename(root) == str(addon_id) or str(addon_id) in os.path.basename(root):
                 if filename in files:
                     return os.path.join(root, filename)
-                # Check init alternative
                 if filename == "__init__.py" and "init.py" in files:
                     return os.path.join(root, "init.py")
 
@@ -145,10 +186,45 @@ class RefactorEngine:
         self.replace_in_file(fpath, transform)
 
     def refactor_addon_207985417(self):
-        """field_extract_inject_config.json"""
+        """field_extract_inject_config.json (Extraction / Injection Addon)"""
         fpath = self.find_addon_file("207985417", "field_extract_inject_config.json")
         if not os.path.exists(fpath):
             fpath = self.find_addon_file("207985417", "config.json")
+
+        m_model = self.get_val("models", "miningsimple")
+        g_model = self.get_val("models", "Grammar")
+
+        word_f = self.get_val("mining_fields", "Word")
+        sp_f = self.get_val("mining_fields", "SentencePlain")
+        ced_f = self.get_val("mining_fields", "Correct English Definition")
+        cjd_f = self.get_val("mining_fields", "Correct Japanese Definition")
+        sf_f = self.get_val("mining_fields", "SoundFront")
+        sb_f = self.get_val("mining_fields", "SoundBack")
+        pic_f = self.get_val("mining_fields", "Picture")
+        freq_f = self.get_val("mining_fields", "Frequency")
+        trans_f = self.get_val("mining_fields", "TranslationExampleSentence")
+
+        lvl_pt = self.get_val("grammar_fields", "Level And Grammar Point")
+        link_f = self.get_val("grammar_fields", "Link")
+        conn_g = self.get_val("grammar_fields", "Connected Grammar Points from jlptsensei (optional)")
+        notes_f = self.get_val("grammar_fields", "Notes")
+        const_f = self.get_val("grammar_fields", "construction")
+        ex_f = self.get_val("grammar_fields", "examplesentences")
+        t_aud = self.get_val("grammar_fields", "title audio")
+        c_aud = self.get_val("grammar_fields", "construction audio")
+        e_aud = self.get_val("grammar_fields", "examplesentences audio")
+        reg_f = self.get_val("grammar_fields", "regexpattern")
+
+        # Dynamic Paths
+        grammar_data_path = ""
+        add_voc_path = ""
+        if self.repo_dir:
+            grammar_data_path = os.path.normpath(
+                os.path.join(self.repo_dir, "browseraddons", "grammaraddonregex", "simplegrammarregex_fixed.tsv")
+            ).replace("\\", "/")
+            add_voc_path = os.path.normpath(
+                os.path.join(self.repo_dir, "browseraddons", "markierer_extension", "extracted_fields1.tsv")
+            ).replace("\\", "/")
 
         def transform(text):
             try:
@@ -156,44 +232,65 @@ class RefactorEngine:
             except Exception:
                 return text
 
-            m_model = self.get_val("models", "miningsimple")
-            g_model = self.get_val("models", "Grammar")
-
-            # Update extraction profiles
-            for prof_name, prof in data.get("profiles", {}).get("extraction", {}).items():
-                if prof.get("model_name") in ["miningsimple", m_model]:
+            # --- 1. Extraction Profiles ---
+            ext_profiles = data.get("profiles", {}).get("extraction", {})
+            for prof_name, prof in ext_profiles.items():
+                if prof_name == "AddNewVocToList":
                     prof["model_name"] = m_model
-                    if "selected_fields" in prof:
-                        prof["selected_fields"] = [self.get_val("mining_fields", f, f) for f in prof["selected_fields"]]
-                elif prof.get("model_name") in ["Grammar", g_model]:
-                    prof["model_name"] = g_model
-                    if "selected_fields" in prof:
-                        prof["selected_fields"] = [self.get_val("grammar_fields", f, f) for f in prof["selected_fields"]]
+                    prof["selected_fields"] = [word_f]
+                    if add_voc_path:
+                        prof["fixed_file_path"] = add_voc_path
 
-            # Update injection profiles
-            for prof_name, prof in data.get("profiles", {}).get("injection", {}).items():
-                if prof.get("model_name") in ["miningsimple", m_model]:
-                    prof["model_name"] = m_model
-                    if "target_fields" in prof:
-                        prof["target_fields"] = [self.get_val("mining_fields", f, f) for f in prof["target_fields"]]
-                    if "field_mapping" in prof:
-                        new_mapping = {}
-                        for k, v in prof["field_mapping"].items():
-                            nk = self.get_val("mining_fields", k, k)
-                            nv = self.get_val("mining_fields", v, v)
-                            new_mapping[nk] = nv
-                        prof["field_mapping"] = new_mapping
-                elif prof.get("model_name") in ["Grammar", g_model]:
+                elif prof_name == "GrammarDataUpdate":
                     prof["model_name"] = g_model
-                    if "target_fields" in prof:
-                        prof["target_fields"] = [self.get_val("grammar_fields", f, f) for f in prof["target_fields"]]
-                    if "field_mapping" in prof:
-                        new_mapping = {}
-                        for k, v in prof["field_mapping"].items():
-                            nk = self.get_val("grammar_fields", k, k)
-                            nv = self.get_val("grammar_fields", v, v)
-                            new_mapping[nk] = nv
-                        prof["field_mapping"] = new_mapping
+                    prof["selected_fields"] = [
+                        lvl_pt, link_f, conn_g, notes_f,
+                        const_f, ex_f, t_aud, c_aud, e_aud, reg_f
+                    ]
+                    if grammar_data_path:
+                        prof["fixed_file_path"] = grammar_data_path
+
+                elif prof_name in ["AnimePictureAudioSubSync", "LNAudioSubSync", "LNAudioSubSyncManualSelect", "AnimePictureAudioSubSyncManualSelect"]:
+                    prof["model_name"] = m_model
+                    prof["selected_fields"] = [word_f, sp_f, ced_f]
+
+            # --- 2. Injection Profiles ---
+            inj_profiles = data.get("profiles", {}).get("injection", {})
+            for prof_name, prof in inj_profiles.items():
+                if prof_name in ["CorrectDefinitionImport", "CorrectDefinitionImportManualSelect"]:
+                    prof["model_name"] = m_model
+                    prof["target_fields"] = [ced_f, cjd_f]
+                    prof["field_mapping"] = {ced_f: ced_f, cjd_f: cjd_f}
+
+                elif prof_name == "TagUpdateImport":
+                    prof["model_name"] = g_model
+                    prof["target_fields"] = [notes_f]
+                    prof["field_mapping"] = {notes_f: notes_f}
+
+                elif prof_name == "LNAudioSubSync":
+                    prof["model_name"] = m_model
+                    prof["target_fields"] = [sf_f, sb_f]
+                    prof["field_mapping"] = {sf_f: sf_f, sb_f: sb_f}
+
+                elif prof_name == "AnimePictureAudioSubSync":
+                    prof["model_name"] = m_model
+                    prof["target_fields"] = [sf_f, sb_f, pic_f]
+                    prof["field_mapping"] = {sf_f: sf_f, sb_f: sb_f, pic_f: pic_f}
+
+                elif prof_name in ["BatchTranslate", "BatchTranslateManualSelect"]:
+                    prof["model_name"] = m_model
+                    prof["target_fields"] = [trans_f]
+                    prof["field_mapping"] = {trans_f: trans_f}
+
+                elif prof_name == "LNAudioSubSyncManualSelect":
+                    prof["model_name"] = m_model
+                    prof["target_fields"] = [freq_f]
+                    prof["field_mapping"] = {freq_f: freq_f}
+
+                elif prof_name == "AnimePictureAudioSubSyncManualSelect":
+                    prof["model_name"] = m_model
+                    prof["target_fields"] = [word_f]
+                    prof["field_mapping"] = {word_f: word_f}
 
             return json.dumps(data, indent=4, ensure_ascii=False)
 
@@ -210,17 +307,11 @@ class RefactorEngine:
         sp_f = self.get_val("mining_fields", "SentencePlain")
 
         def transform(text):
-            # 1. Update the search query (used in both get_sentences and open_browser)
             query_pattern = r"query\s*=\s*f['\"]note:[^\s]+\s+card:\{card_type_name\}\s+-is:suspended\s+[^\s:]+:\"\{word\}\"['\"]"
             query_replacement = f"query = f'note:{model_m} card:{{card_type_name}} -is:suspended {word_f}:\"{{word}}\"'"
             text = re.sub(query_pattern, query_replacement, text)
-
-            # 2. Update the SentencePlain check: if "SentencePlain" in note:
             text = re.sub(r'if\s+"[^"]+"\s+in\s+note:', f'if "{sp_f}" in note:', text)
-
-            # 3. Update the SentencePlain extraction: note["SentencePlain"].strip()
             text = re.sub(r'note\["[^"]+"\]\.strip\(\)', f'note["{sp_f}"].strip()', text)
-
             return text
 
         self.replace_in_file(fpath, transform)
@@ -246,8 +337,7 @@ class RefactorEngine:
             text = re.sub(r'deck_name\s*=\s*"[^"]+"', f'deck_name = "{deck_m}"', text)
             text = re.sub(r'model_name\s*=\s*"[^"]+"', f'model_name = "{model_m}"', text)
             text = re.sub(r'if\s+"[^"]+"\s+not\s+in\s+headers:', f'if "{nid_f}" not in headers:', text)
-            text = re.sub(r'row_data\["[^"]+"\]\s*==\s*"Note ID"', f'row_data["{nid_f}"] == "{nid_f}"', text)
-            text = re.sub(r'row_data\["[^"]+"\]\s*==\s*"nidindiv"', f'row_data["{nid_f}"] == "nidindiv"', text)
+            text = re.sub(r'row_data\["[^"]+"\]\s*==\s*"[^"]+"', f'row_data["{nid_f}"] == "{nid_f}"', text)
             text = re.sub(r'nidindiv\s*=\s*row_data\["[^"]+"\]', f'nidindiv = row_data["{nid_f}"]', text)
             text = re.sub(r'"term_content":\s*row_data\.get\("[^"]+",\s*""\)', f'"term_content": row_data.get("{word_f}", "")', text)
             text = re.sub(r'if\s+"[^"]+"\s+in\s+card\.template\(\)\[\'name\'\]\.lower\(\):', f'if "{tmpl_pron}" in card.template()[\'name\'].lower():', text)
@@ -267,14 +357,15 @@ class RefactorEngine:
 
         self.replace_in_file(fpath, transform_init)
 
-        prep_script_path = os.path.join(self.repo_dir, "browseraddons", "grammaraddonregex", "prepare_data.py")
+        prep_script_path = os.path.normpath(os.path.join(self.repo_dir, "browseraddons", "grammaraddonregex", "prepare_data.py")).replace("\\", "/")
 
         def transform_cfg(text):
             try:
                 data = json.loads(text)
                 if "search_filter" in data:
                     data["search_filter"] = re.sub(r'deck:(?:"[^"]+"|\S+)', f'deck:{deck_g}', data["search_filter"])
-                data["script_path"] = prep_script_path
+                if self.repo_dir:
+                    data["script_path"] = prep_script_path
                 return json.dumps(data, indent=4, ensure_ascii=False)
             except Exception:
                 text = re.sub(r'deck:\w+', f'deck:{deck_g}', text)
@@ -316,7 +407,7 @@ class RefactorEngine:
         def transform(text):
             text = re.sub(r'TARGET_FIELD\s*=\s*"[^"]+"', f'TARGET_FIELD = "{target_f}"', text)
             text = re.sub(r'SOURCE_LABEL_FIELD\s*=\s*"[^"]+"', f'SOURCE_LABEL_FIELD = "{source_l}"', text)
-            text = re.sub(r'query\s*=\s*f\'deck:\w+\s+"\{SOURCE_LABEL_FIELD\}', f"query = f'deck:{deck_g} \"{{SOURCE_LABEL_FIELD}}", text)
+            text = re.sub(r'query\s*=\s*f\'deck:[^\s\']+\s+"\{SOURCE_LABEL_FIELD\}', f"query = f'deck:{deck_g} \"{{SOURCE_LABEL_FIELD}}", text)
             return text
 
         self.replace_in_file(fpath, transform)
@@ -347,14 +438,14 @@ class RefactorEngine:
 
         def transform_init(text):
             text = re.sub(r'query\s*=\s*f\'note:\w+\s+card:\{card_type_name\}\s+-is:suspended\s+\w+:"\{word\}"\'',
-                          f'query = f\'note:{model_m} card:{{card_type_name}} -is:suspended {word_f}:"{{word}}"\'', text)
+                          f'query = f\'note:{model_m} card:{{card_type_name}} -is:suspended {word_f}:\"{{word}}\"\'', text)
             text = re.sub(r'if\s+"[^"]+"\s+in\s+note:\s*\n\s*sentence_text\s*=\s*note\["[^"]+"\]\.strip\(\)',
                           f'if "{sp_f}" in note:\n                sentence_text = note["{sp_f}"].strip()', text)
             return text
 
         self.replace_in_file(fpath, transform_init)
 
-        voc_script_path = os.path.join(self.repo_dir, "browseraddons", "markierer_extension", "vocappend.py")
+        voc_script_path = os.path.normpath(os.path.join(self.repo_dir, "browseraddons", "markierer_extension", "vocappend.py")).replace("\\", "/")
 
         def transform_cfg(text):
             try:
@@ -364,7 +455,8 @@ class RefactorEngine:
                     sf = re.sub(r'deck:(?:"[^"]+"|\S+)', f'deck:{deck_m}', sf)
                     sf = re.sub(r'card:(?:"[^"]+"|\S+)', f'card:{tmpl_p}', sf)
                     data["search_filter"] = sf
-                data["script_path"] = voc_script_path
+                if self.repo_dir:
+                    data["script_path"] = voc_script_path
                 return json.dumps(data, indent=4, ensure_ascii=False)
             except Exception:
                 text = re.sub(r'deck:\w+', f'deck:{deck_m}', text)
@@ -431,33 +523,39 @@ class RefactorEngine:
             text = re.sub(r'WORD_COLUMN_NAME\s*=\s*"[^"]+"', f'WORD_COLUMN_NAME = "{word_f}"', text)
             text = re.sub(r'SENTENCE_COLUMN_NAME\s*=\s*"[^"]+"', f'SENTENCE_COLUMN_NAME = "{sp_f}"', text)
             text = re.sub(r'DEFINITION_COLUMN_NAME\s*=\s*"[^"]+"', f'DEFINITION_COLUMN_NAME = "{ced_f}"', text)
-            text = re.sub(r"'SoundFront'", f"'{sf_f}'", text)
-            text = re.sub(r"'SoundBack'", f"'{sb_f}'", text)
+            text = re.sub(r"AUDIO_FRONT_COLUMN\s*=\s*'[^']+'", f"AUDIO_FRONT_COLUMN = '{sf_f}'", text)
+            text = re.sub(r"AUDIO_BACK_COLUMN\s*=\s*'[^']+'", f"AUDIO_BACK_COLUMN = '{sb_f}'", text)
             return text
 
         self.replace_in_file(ln_script, transform_ln)
 
     def refactor_browser_extensions(self):
-        """Refactors browseraddons (grammaraddonregex, markierer_extension, etc.)."""
+        """Refactors browseraddons safely, idempotently, covering every property access and UI element."""
+        # ----------------------------------------------------------------------
         # 1. prepare_data.py
+        # ----------------------------------------------------------------------
         prep_py = os.path.join(self.repo_dir, "browseraddons", "grammaraddonregex", "prepare_data.py")
         lvl_pt = self.get_val("grammar_fields", "Level And Grammar Point")
         link_f = self.get_val("grammar_fields", "Link")
         const_f = self.get_val("grammar_fields", "construction")
         ex_f = self.get_val("grammar_fields", "examplesentences")
         reg_f = self.get_val("grammar_fields", "regexpattern")
+        notes_f = self.get_val("grammar_fields", "Notes")
 
         def transform_prep(text):
-            text = re.sub(r"row\.get\('Level And Grammar Point',\s*''\)", f"row.get('{lvl_pt}', '')", text)
-            text = re.sub(r"row\.get\('Link',\s*''\)", f"row.get('{link_f}', '')", text)
-            text = re.sub(r"row\.get\('construction',\s*''\)", f"row.get('{const_f}', '')", text)
-            text = re.sub(r"row\.get\('examplesentences',\s*''\)", f"row.get('{ex_f}', '')", text)
-            text = re.sub(r"row\.get\('regexpattern',\s*''\)", f"row.get('{reg_f}', '')", text)
+            text = re.sub(r"row\.get\(['\"][^'\"]*Level[^'\"]*['\"],\s*''\)", f"row.get('{lvl_pt}', '')", text)
+            text = re.sub(r"row\.get\(['\"][^'\"]*Link[^'\"]*['\"],\s*''\)", f"row.get('{link_f}', '')", text)
+            text = re.sub(r"row\.get\(['\"][^'\"]*(?:construction|yakuza)[^'\"]*['\"],\s*''\)", f"row.get('{const_f}', '')", text)
+            text = re.sub(r"row\.get\(['\"][^'\"]*examplesentences[^'\"]*['\"],\s*''\)", f"row.get('{ex_f}', '')", text)
+            text = re.sub(r"row\.get\(['\"][^'\"]*regexpattern[^'\"]*['\"],\s*''\)", f"row.get('{reg_f}', '')", text)
+            text = re.sub(r"row\.get\(['\"][^'\"]*Notes[^'\"]*['\"],\s*''\)", f"row.get('{notes_f}', '')", text)
             return text
 
         self.replace_in_file(prep_py, transform_prep)
 
+        # ----------------------------------------------------------------------
         # 2. content.js
+        # ----------------------------------------------------------------------
         content_js = os.path.join(self.repo_dir, "browseraddons", "grammaraddonregex", "content.js")
         nid_f = self.get_val("mining_fields", "Note ID")
         word_f = self.get_val("mining_fields", "Word")
@@ -467,30 +565,76 @@ class RefactorEngine:
         cjd_f = self.get_val("mining_fields", "Correct Japanese Definition")
 
         def transform_content_js(text):
-            # Table headers
-            th_pattern = r'<th>Note ID</th>\s*<th>Word</th>\s*<th>SentencePlain</th>\s*<th>English Definition Overview</th>\s*<th>Frequency</th>\s*<th>Correct Japanese Definition</th>'
+            # Table HTML Headers
+            th_pattern = r'<th>[^<]+</th>\s*<th>[^<]+</th>\s*<th>[^<]+</th>\s*<th>[^<]+</th>\s*<th>[^<]+</th>\s*<th>[^<]+</th>'
             th_replace = f'<th>{nid_f}</th>\n        <th>{word_f}</th>\n        <th>{sp_f}</th>\n        <th>{edo_f}</th>\n        <th>{freq_f}</th>\n        <th>{cjd_f}</th>'
-            text = re.sub(th_pattern, th_replace, text)
+            text = re.sub(th_pattern, th_replace, text, count=1)
 
             # TSV Export Header Array
-            tsv_header_pattern = r'\["Note ID",\s*"Word",\s*"SentencePlain",\s*"English Definition Overview",\s*"Frequency",\s*"Correct Japanese Definition"\]'
-            tsv_header_replace = f'["{nid_f}", "{word_f}", "{sp_f}", "{edo_f}", "{freq_f}", "{cjd_f}"]'
-            text = re.sub(tsv_header_pattern, tsv_header_replace, text)
+            text = re.sub(
+                r'\["[^"]+",\s*"[^"]+",\s*"[^"]+",\s*"[^"]+",\s*"[^"]+",\s*"[^"]+"\]',
+                f'["{nid_f}", "{word_f}", "{sp_f}", "{edo_f}", "{freq_f}", "{cjd_f}"]',
+                text,
+                count=1
+            )
 
             # Stats Table Header
-            text = re.sub(r'<th>Grammar \("Level And Grammar Point"\)</th>', f'<th>Grammar ("{lvl_pt}")</th>', text)
+            text = re.sub(r'<th>Grammar \("[^"]*"\)</th>', f'<th>Grammar ("{lvl_pt}")</th>', text)
+
+            # Object Lookups in Modal Popup Template (using robust bracket notation)
+            text = re.sub(r'\$\{g(?:\.construction|\["[^"]*"\])(?=\s*\|\|\s*\'\'\}|\})', f'${{g["{const_f}"]', text)
+            text = re.sub(r'\$\{g(?:\.examplesentences|\["[^"]*"\])(?=\s*\|\|\s*\'\'\}|\})', f'${{g["{ex_f}"]', text)
+            text = re.sub(r'\$\{g(?:\.regexpattern|\["[^"]*"\])(?=\s*\|\|\s*\'\'\}|\})', f'${{g["{reg_f}"]', text)
+            text = re.sub(r'g(?:\.link|\.Link|\["[^"]*Link[^"]*"\])', f'g["{link_f}"]', text)
+            text = re.sub(r'g(?:\.level_and_point|\.Level_And_Grammar_Point|\["[^"]*Level[^"]*"\])', f'g["{lvl_pt}"]', text)
+            text = re.sub(r'g(?:\.notes|\.Notes|\["[^"]*Notes[^"]*"\])', f'g["{notes_f}"]', text)
+
+            # Mining Payload Creation (+ Anki & Force Mark Listeners)
+            text = re.sub(
+                r'level_and_point:\s*targetGrammar(?:\.level_and_point|\.Level_And_Grammar_Point|\["[^"]*"\])',
+                f'level_and_point: targetGrammar["{lvl_pt}"]',
+                text
+            )
+            text = re.sub(
+                r'construction:\s*targetGrammar(?:\.construction|\["[^"]*"\])',
+                f'construction: targetGrammar["{const_f}"]',
+                text
+            )
+            text = re.sub(
+                r'regexpattern:\s*targetGrammar(?:\.regexpattern|\["[^"]*"\])',
+                f'regexpattern: targetGrammar["{reg_f}"]',
+                text
+            )
+
             return text
 
         self.replace_in_file(content_js, transform_content_js)
 
+        # ----------------------------------------------------------------------
         # 3. options.js
+        # ----------------------------------------------------------------------
         options_js = os.path.join(self.repo_dir, "browseraddons", "grammaraddonregex", "options.js")
-        notes_f = self.get_val("grammar_fields", "Notes")
 
         def transform_options_js(text):
-            text = re.sub(r"item\['Level And Grammar Point'\]", f"item['{lvl_pt}']", text)
-            text = re.sub(r"g\['Notes'\]", f"g['{notes_f}']", text)
-            text = re.sub(r"g\['Link'\]", f"g['{link_f}']", text)
+            # Array Sorting & Item Lookups
+            text = re.sub(r"item\[['\"][^'\"]*Level[^'\"]*['\"]\]", f"item['{lvl_pt}']", text)
+            text = re.sub(r"a\[['\"][^'\"]*Level[^'\"]*['\"]\]", f"a['{lvl_pt}']", text)
+            text = re.sub(r"b\[['\"][^'\"]*Level[^'\"]*['\"]\]", f"b['{lvl_pt}']", text)
+            text = re.sub(r"a\.level_and_point\b", f"a['{lvl_pt}']", text)
+            text = re.sub(r"b\.level_and_point\b", f"b['{lvl_pt}']", text)
+            text = re.sub(r"item\.level_and_point\b", f"item['{lvl_pt}']", text)
+
+            # Field Lookups (Contrast Cards & Hover Modals)
+            text = re.sub(r"g\[['\"][^'\"]*Notes[^'\"]*['\"]\]", f"g['{notes_f}']", text)
+            text = re.sub(r"g\[['\"][^'\"]*Link[^'\"]*['\"]\]", f"g['{link_f}']", text)
+            text = re.sub(r"g(?:\.notes|\.Notes)\b", f"g['{notes_f}']", text)
+            text = re.sub(r"g(?:\.link|\.Link)\b", f"g['{link_f}']", text)
+
+            # Template Interpolations
+            text = re.sub(r'\$\{g(?:\.construction|\["[^"]*"\])(?=\s*\|\|\s*\'\'\}|\})', f'${{g["{const_f}"]', text)
+            text = re.sub(r'\$\{g(?:\.examplesentences|\["[^"]*"\])(?=\s*\|\|\s*\'\'\}|\})', f'${{g["{ex_f}"]', text)
+            text = re.sub(r'\$\{g(?:\.regexpattern|\["[^"]*"\])(?=\s*\|\|\s*\'\'\}|\})', f'${{g["{reg_f}"]', text)
+            text = re.sub(r'g(?:\.level_and_point|\.Level_And_Grammar_Point)\b', f'g["{lvl_pt}"]', text)
             return text
 
         self.replace_in_file(options_js, transform_options_js)
@@ -534,8 +678,8 @@ class AppGUI:
         self.root = root
         self.root.title("System Configuration Applier (config.py)")
         width = "750" if sys.platform == "win32" else "700"
-        self.root.geometry(f"{width}x600")
-        self.root.minsize(650, 520)
+        self.root.geometry(f"{width}x640")
+        self.root.minsize(650, 540)
 
         self.base_dir = os.path.dirname(os.path.abspath(__file__))
         self.config_data, self.cfg_path = load_config_data(self.base_dir)
@@ -579,8 +723,11 @@ class AppGUI:
         frame_act = ttk.Frame(self.root)
         frame_act.pack(fill="x", padx=10, pady=6)
 
-        self.btn_run = ttk.Button(frame_act, text="Apply Substitutions & Update Codebase", command=self.execute_substitutions)
+        self.btn_run = ttk.Button(frame_act, text="Apply Substitutions (From config.txt)", command=self.execute_substitutions)
         self.btn_run.pack(side="left", padx=5)
+
+        self.btn_restore = ttk.Button(frame_act, text="Restore Default Names Across Codebase", command=self.restore_defaults)
+        self.btn_restore.pack(side="left", padx=5)
 
         btn_reload = ttk.Button(frame_act, text="Reload config.txt", command=self.reload_config)
         btn_reload.pack(side="left", padx=5)
@@ -648,6 +795,7 @@ class AppGUI:
                 return
 
         self.btn_run.config(state="disabled")
+        self.btn_restore.config(state="disabled")
         self.status_var.set("Running refactoring operations...")
 
         try:
@@ -661,6 +809,46 @@ class AppGUI:
             messagebox.showerror("Execution Error", f"An error occurred during execution:\n{str(e)}")
         finally:
             self.btn_run.config(state="normal")
+            self.btn_restore.config(state="normal")
+
+    def restore_defaults(self):
+        """Restores the codebase back to standard default names."""
+        addons_dir = self.addons_dir_var.get().strip()
+        repo_dir = self.repo_dir_var.get().strip()
+
+        if not addons_dir or not os.path.exists(addons_dir):
+            messagebox.showerror("Error", f"Anki add-ons directory does not exist:\n{addons_dir}")
+            return
+
+        if not repo_dir or not os.path.exists(repo_dir):
+            messagebox.showerror("Error", f"Project repository directory does not exist:\n{repo_dir}")
+            return
+
+        confirm = messagebox.askyesno(
+            "Confirm Reset to Defaults",
+            "Are you sure you want to reset all add-ons, mining scripts, and browser extensions "
+            "back to their original default names?\n\nThis will overwrite custom substitutions."
+        )
+        if not confirm:
+            return
+
+        self.btn_run.config(state="disabled")
+        self.btn_restore.config(state="disabled")
+        self.status_var.set("Restoring factory default names...")
+
+        try:
+            self.log_message("\n--- RESTORING CANONICAL DEFAULT NAMES ACROSS CODEBASE ---")
+            engine = RefactorEngine(DEFAULT_CONFIG, addons_dir, repo_dir, logger=self.log_message)
+            engine.run_all()
+            self.status_var.set("Codebase successfully restored to default names.")
+            messagebox.showinfo("Defaults Restored", "All files have been restored to their standard default names!")
+        except Exception as e:
+            self.log_message(f"[FATAL ERROR] {str(e)}")
+            self.status_var.set("Restoration failed.")
+            messagebox.showerror("Error", f"An error occurred during restoration:\n{str(e)}")
+        finally:
+            self.btn_run.config(state="normal")
+            self.btn_restore.config(state="normal")
 
 
 def main():
