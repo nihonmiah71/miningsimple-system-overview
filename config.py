@@ -87,10 +87,11 @@ def load_config_data(base_dir):
 # ==============================================================================
 
 class RefactorEngine:
-    def __init__(self, config_data, anki_addons_dir, repo_dir, logger=print):
+    def __init__(self, config_data, anki_addons_dir, repo_dir, is_restore=False, logger=print):
         self.cfg = config_data
         self.addons_dir = anki_addons_dir
         self.repo_dir = repo_dir
+        self.is_restore = is_restore
         self.log = logger
         
         self.decks = self.cfg.get("decks", {})
@@ -215,10 +216,10 @@ class RefactorEngine:
         e_aud = self.get_val("grammar_fields", "examplesentences audio")
         reg_f = self.get_val("grammar_fields", "regexpattern")
 
-        # Dynamic Paths
+        # Compute dynamic paths (reset to "" if is_restore=True)
         grammar_data_path = ""
         add_voc_path = ""
-        if self.repo_dir:
+        if self.repo_dir and not self.is_restore:
             grammar_data_path = os.path.normpath(
                 os.path.join(self.repo_dir, "browseraddons", "grammaraddonregex", "simplegrammarregex_fixed.tsv")
             ).replace("\\", "/")
@@ -238,8 +239,7 @@ class RefactorEngine:
                 if prof_name == "AddNewVocToList":
                     prof["model_name"] = m_model
                     prof["selected_fields"] = [word_f]
-                    if add_voc_path:
-                        prof["fixed_file_path"] = add_voc_path
+                    prof["fixed_file_path"] = add_voc_path
 
                 elif prof_name == "GrammarDataUpdate":
                     prof["model_name"] = g_model
@@ -247,8 +247,7 @@ class RefactorEngine:
                         lvl_pt, link_f, conn_g, notes_f,
                         const_f, ex_f, t_aud, c_aud, e_aud, reg_f
                     ]
-                    if grammar_data_path:
-                        prof["fixed_file_path"] = grammar_data_path
+                    prof["fixed_file_path"] = grammar_data_path
 
                 elif prof_name in ["AnimePictureAudioSubSync", "LNAudioSubSync", "LNAudioSubSyncManualSelect", "AnimePictureAudioSubSyncManualSelect"]:
                     prof["model_name"] = m_model
@@ -357,15 +356,16 @@ class RefactorEngine:
 
         self.replace_in_file(fpath, transform_init)
 
-        prep_script_path = os.path.normpath(os.path.join(self.repo_dir, "browseraddons", "grammaraddonregex", "prepare_data.py")).replace("\\", "/")
+        prep_script_path = os.path.normpath(
+            os.path.join(self.repo_dir, "browseraddons", "grammaraddonregex", "prepare_data.py")
+        ).replace("\\", "/") if (self.repo_dir and not self.is_restore) else ""
 
         def transform_cfg(text):
             try:
                 data = json.loads(text)
                 if "search_filter" in data:
                     data["search_filter"] = re.sub(r'deck:(?:"[^"]+"|\S+)', f'deck:{deck_g}', data["search_filter"])
-                if self.repo_dir:
-                    data["script_path"] = prep_script_path
+                data["script_path"] = prep_script_path
                 return json.dumps(data, indent=4, ensure_ascii=False)
             except Exception:
                 text = re.sub(r'deck:\w+', f'deck:{deck_g}', text)
@@ -445,7 +445,9 @@ class RefactorEngine:
 
         self.replace_in_file(fpath, transform_init)
 
-        voc_script_path = os.path.normpath(os.path.join(self.repo_dir, "browseraddons", "markierer_extension", "vocappend.py")).replace("\\", "/")
+        voc_script_path = os.path.normpath(
+            os.path.join(self.repo_dir, "browseraddons", "markierer_extension", "vocappend.py")
+        ).replace("\\", "/") if (self.repo_dir and not self.is_restore) else ""
 
         def transform_cfg(text):
             try:
@@ -455,8 +457,7 @@ class RefactorEngine:
                     sf = re.sub(r'deck:(?:"[^"]+"|\S+)', f'deck:{deck_m}', sf)
                     sf = re.sub(r'card:(?:"[^"]+"|\S+)', f'card:{tmpl_p}', sf)
                     data["search_filter"] = sf
-                if self.repo_dir:
-                    data["script_path"] = voc_script_path
+                data["script_path"] = voc_script_path
                 return json.dumps(data, indent=4, ensure_ascii=False)
             except Exception:
                 text = re.sub(r'deck:\w+', f'deck:{deck_m}', text)
@@ -581,7 +582,7 @@ class RefactorEngine:
             # Stats Table Header
             text = re.sub(r'<th>Grammar \("[^"]*"\)</th>', f'<th>Grammar ("{lvl_pt}")</th>', text)
 
-            # Object Lookups in Modal Popup Template (using robust bracket notation)
+            # Object Lookups in Modal Popup Template
             text = re.sub(r'\$\{g(?:\.construction|\["[^"]*"\])(?=\s*\|\|\s*\'\'\}|\})', f'${{g["{const_f}"]', text)
             text = re.sub(r'\$\{g(?:\.examplesentences|\["[^"]*"\])(?=\s*\|\|\s*\'\'\}|\})', f'${{g["{ex_f}"]', text)
             text = re.sub(r'\$\{g(?:\.regexpattern|\["[^"]*"\])(?=\s*\|\|\s*\'\'\}|\})', f'${{g["{reg_f}"]', text)
@@ -799,7 +800,7 @@ class AppGUI:
         self.status_var.set("Running refactoring operations...")
 
         try:
-            engine = RefactorEngine(self.config_data, addons_dir, repo_dir, logger=self.log_message)
+            engine = RefactorEngine(self.config_data, addons_dir, repo_dir, is_restore=False, logger=self.log_message)
             engine.run_all()
             self.status_var.set("All files successfully updated.")
             messagebox.showinfo("Completed", "All substitutions have been successfully applied!")
@@ -812,7 +813,7 @@ class AppGUI:
             self.btn_restore.config(state="normal")
 
     def restore_defaults(self):
-        """Restores the codebase back to standard default names."""
+        """Restores the codebase back to standard default names and resets dynamic paths to empty."""
         addons_dir = self.addons_dir_var.get().strip()
         repo_dir = self.repo_dir_var.get().strip()
 
@@ -827,7 +828,8 @@ class AppGUI:
         confirm = messagebox.askyesno(
             "Confirm Reset to Defaults",
             "Are you sure you want to reset all add-ons, mining scripts, and browser extensions "
-            "back to their original default names?\n\nThis will overwrite custom substitutions."
+            "back to their original default names?\n\n"
+            "This will reset all custom substitutions and clear dynamic file paths to empty."
         )
         if not confirm:
             return
@@ -838,7 +840,7 @@ class AppGUI:
 
         try:
             self.log_message("\n--- RESTORING CANONICAL DEFAULT NAMES ACROSS CODEBASE ---")
-            engine = RefactorEngine(DEFAULT_CONFIG, addons_dir, repo_dir, logger=self.log_message)
+            engine = RefactorEngine(DEFAULT_CONFIG, addons_dir, repo_dir, is_restore=True, logger=self.log_message)
             engine.run_all()
             self.status_var.set("Codebase successfully restored to default names.")
             messagebox.showinfo("Defaults Restored", "All files have been restored to their standard default names!")
