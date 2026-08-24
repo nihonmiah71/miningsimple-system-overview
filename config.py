@@ -216,7 +216,6 @@ class RefactorEngine:
         e_aud = self.get_val("grammar_fields", "examplesentences audio")
         reg_f = self.get_val("grammar_fields", "regexpattern")
 
-        # Compute dynamic paths (reset to "" if is_restore=True)
         grammar_data_path = ""
         add_voc_path = ""
         if self.repo_dir and not self.is_restore:
@@ -233,7 +232,7 @@ class RefactorEngine:
             except Exception:
                 return text
 
-            # --- 1. Extraction Profiles ---
+            # 1. Extraction Profiles
             ext_profiles = data.get("profiles", {}).get("extraction", {})
             for prof_name, prof in ext_profiles.items():
                 if prof_name == "AddNewVocToList":
@@ -253,7 +252,7 @@ class RefactorEngine:
                     prof["model_name"] = m_model
                     prof["selected_fields"] = [word_f, sp_f, ced_f]
 
-            # --- 2. Injection Profiles ---
+            # 2. Injection Profiles
             inj_profiles = data.get("profiles", {}).get("injection", {})
             for prof_name, prof in inj_profiles.items():
                 if prof_name in ["CorrectDefinitionImport", "CorrectDefinitionImportManualSelect"]:
@@ -531,10 +530,12 @@ class RefactorEngine:
         self.replace_in_file(ln_script, transform_ln)
 
     def refactor_browser_extensions(self):
-        """Refactors browseraddons safely, idempotently, covering every property access and UI element."""
-        # ----------------------------------------------------------------------
-        # 1. prepare_data.py
-        # ----------------------------------------------------------------------
+        """
+        Refactors browseraddons safely.
+        Updates TSV ingestion in prepare_data.py and TSV export headers in content.js.
+        Internal JS rendering properties (options.js / content.js) remain completely untouched.
+        """
+        # 1. prepare_data.py - Dynamic TSV column mapping
         prep_py = os.path.join(self.repo_dir, "browseraddons", "grammaraddonregex", "prepare_data.py")
         lvl_pt = self.get_val("grammar_fields", "Level And Grammar Point")
         link_f = self.get_val("grammar_fields", "Link")
@@ -544,19 +545,17 @@ class RefactorEngine:
         notes_f = self.get_val("grammar_fields", "Notes")
 
         def transform_prep(text):
-            text = re.sub(r"row\.get\(['\"][^'\"]*Level[^'\"]*['\"],\s*''\)", f"row.get('{lvl_pt}', '')", text)
-            text = re.sub(r"row\.get\(['\"][^'\"]*Link[^'\"]*['\"],\s*''\)", f"row.get('{link_f}', '')", text)
-            text = re.sub(r"row\.get\(['\"][^'\"]*(?:construction|yakuza)[^'\"]*['\"],\s*''\)", f"row.get('{const_f}', '')", text)
-            text = re.sub(r"row\.get\(['\"][^'\"]*examplesentences[^'\"]*['\"],\s*''\)", f"row.get('{ex_f}', '')", text)
-            text = re.sub(r"row\.get\(['\"][^'\"]*regexpattern[^'\"]*['\"],\s*''\)", f"row.get('{reg_f}', '')", text)
-            text = re.sub(r"row\.get\(['\"][^'\"]*Notes[^'\"]*['\"],\s*''\)", f"row.get('{notes_f}', '')", text)
+            text = re.sub(r'"level_and_point":\s*row\.get\([^)]+\)', f'"level_and_point": row.get(\'{lvl_pt}\', \'\')', text)
+            text = re.sub(r'"link":\s*row\.get\([^)]+\)', f'"link": row.get(\'{link_f}\', \'\')', text)
+            text = re.sub(r'"construction":\s*row\.get\([^)]+\)', f'"construction": row.get(\'{const_f}\', \'\')', text)
+            text = re.sub(r'"examplesentences":\s*row\.get\([^)]+\)', f'"examplesentences": row.get(\'{ex_f}\', \'\')', text)
+            text = re.sub(r'"regexpattern":\s*row\.get\([^)]+\)', f'"regexpattern": row.get(\'{reg_f}\', \'\')', text)
+            text = re.sub(r'"notes":\s*row\.get\([^)]+\)', f'"notes": row.get(\'{notes_f}\', \'\')', text)
             return text
 
         self.replace_in_file(prep_py, transform_prep)
 
-        # ----------------------------------------------------------------------
-        # 2. content.js
-        # ----------------------------------------------------------------------
+        # 2. content.js - Mining Table UI and TSV Export Headers
         content_js = os.path.join(self.repo_dir, "browseraddons", "grammaraddonregex", "content.js")
         nid_f = self.get_val("mining_fields", "Note ID")
         word_f = self.get_val("mining_fields", "Word")
@@ -566,79 +565,18 @@ class RefactorEngine:
         cjd_f = self.get_val("mining_fields", "Correct Japanese Definition")
 
         def transform_content_js(text):
-            # Table HTML Headers
+            # Mining Table Header HTML
             th_pattern = r'<th>[^<]+</th>\s*<th>[^<]+</th>\s*<th>[^<]+</th>\s*<th>[^<]+</th>\s*<th>[^<]+</th>\s*<th>[^<]+</th>'
             th_replace = f'<th>{nid_f}</th>\n        <th>{word_f}</th>\n        <th>{sp_f}</th>\n        <th>{edo_f}</th>\n        <th>{freq_f}</th>\n        <th>{cjd_f}</th>'
             text = re.sub(th_pattern, th_replace, text, count=1)
 
-            # TSV Export Header Array
-            text = re.sub(
-                r'\["[^"]+",\s*"[^"]+",\s*"[^"]+",\s*"[^"]+",\s*"[^"]+",\s*"[^"]+"\]',
-                f'["{nid_f}", "{word_f}", "{sp_f}", "{edo_f}", "{freq_f}", "{cjd_f}"]',
-                text,
-                count=1
-            )
-
-            # Stats Table Header
-            text = re.sub(r'<th>Grammar \("[^"]*"\)</th>', f'<th>Grammar ("{lvl_pt}")</th>', text)
-
-            # Object Lookups in Modal Popup Template
-            text = re.sub(r'\$\{g(?:\.construction|\["[^"]*"\])(?=\s*\|\|\s*\'\'\}|\})', f'${{g["{const_f}"]', text)
-            text = re.sub(r'\$\{g(?:\.examplesentences|\["[^"]*"\])(?=\s*\|\|\s*\'\'\}|\})', f'${{g["{ex_f}"]', text)
-            text = re.sub(r'\$\{g(?:\.regexpattern|\["[^"]*"\])(?=\s*\|\|\s*\'\'\}|\})', f'${{g["{reg_f}"]', text)
-            text = re.sub(r'g(?:\.link|\.Link|\["[^"]*Link[^"]*"\])', f'g["{link_f}"]', text)
-            text = re.sub(r'g(?:\.level_and_point|\.Level_And_Grammar_Point|\["[^"]*Level[^"]*"\])', f'g["{lvl_pt}"]', text)
-            text = re.sub(r'g(?:\.notes|\.Notes|\["[^"]*Notes[^"]*"\])', f'g["{notes_f}"]', text)
-
-            # Mining Payload Creation (+ Anki & Force Mark Listeners)
-            text = re.sub(
-                r'level_and_point:\s*targetGrammar(?:\.level_and_point|\.Level_And_Grammar_Point|\["[^"]*"\])',
-                f'level_and_point: targetGrammar["{lvl_pt}"]',
-                text
-            )
-            text = re.sub(
-                r'construction:\s*targetGrammar(?:\.construction|\["[^"]*"\])',
-                f'construction: targetGrammar["{const_f}"]',
-                text
-            )
-            text = re.sub(
-                r'regexpattern:\s*targetGrammar(?:\.regexpattern|\["[^"]*"\])',
-                f'regexpattern: targetGrammar["{reg_f}"]',
-                text
-            )
-
+            # TSV Export Output Header Array
+            tsv_header_pattern = r'outputText\s*=\s*\["[^"]+",\s*"[^"]+",\s*"[^"]+",\s*"[^"]+",\s*"[^"]+",\s*"[^"]+"\]'
+            tsv_header_replace = f'outputText = ["{nid_f}", "{word_f}", "{sp_f}", "{edo_f}", "{freq_f}", "{cjd_f}"]'
+            text = re.sub(tsv_header_pattern, tsv_header_replace, text, count=1)
             return text
 
         self.replace_in_file(content_js, transform_content_js)
-
-        # ----------------------------------------------------------------------
-        # 3. options.js
-        # ----------------------------------------------------------------------
-        options_js = os.path.join(self.repo_dir, "browseraddons", "grammaraddonregex", "options.js")
-
-        def transform_options_js(text):
-            # Array Sorting & Item Lookups
-            text = re.sub(r"item\[['\"][^'\"]*Level[^'\"]*['\"]\]", f"item['{lvl_pt}']", text)
-            text = re.sub(r"a\[['\"][^'\"]*Level[^'\"]*['\"]\]", f"a['{lvl_pt}']", text)
-            text = re.sub(r"b\[['\"][^'\"]*Level[^'\"]*['\"]\]", f"b['{lvl_pt}']", text)
-            text = re.sub(r"a\.level_and_point\b", f"a['{lvl_pt}']", text)
-            text = re.sub(r"b\.level_and_point\b", f"b['{lvl_pt}']", text)
-            text = re.sub(r"item\.level_and_point\b", f"item['{lvl_pt}']", text)
-
-            # Field Lookups (Contrast Cards & Hover Modals)
-            text = re.sub(r"g\[['\"][^'\"]*Notes[^'\"]*['\"]\]", f"g['{notes_f}']", text)
-            text = re.sub(r"g\[['\"][^'\"]*Link[^'\"]*['\"]\]", f"g['{link_f}']", text)
-            text = re.sub(r"g(?:\.notes|\.Notes)\b", f"g['{notes_f}']", text)
-            text = re.sub(r"g(?:\.link|\.Link)\b", f"g['{link_f}']", text)
-
-            # Template Interpolations
-            text = re.sub(r'\$\{g(?:\.construction|\["[^"]*"\])(?=\s*\|\|\s*\'\'\}|\})', f'${{g["{const_f}"]', text)
-            text = re.sub(r'\$\{g(?:\.examplesentences|\["[^"]*"\])(?=\s*\|\|\s*\'\'\}|\})', f'${{g["{ex_f}"]', text)
-            text = re.sub(r'\$\{g(?:\.regexpattern|\["[^"]*"\])(?=\s*\|\|\s*\'\'\}|\})', f'${{g["{reg_f}"]', text)
-            text = re.sub(r'g(?:\.level_and_point|\.Level_And_Grammar_Point)\b', f'g["{lvl_pt}"]', text)
-            return text
-
-        self.replace_in_file(options_js, transform_options_js)
 
     def run_all(self):
         """Executes all refactoring stages."""
@@ -662,7 +600,7 @@ class RefactorEngine:
         self.log("\n--- Phase 2: Python Scripts (Mining Pipelines) ---")
         self.refactor_repo_python_scripts()
 
-        self.log("\n--- Phase 3: Browser Extensions (Grammar Regex & Highlighter) ---")
+        self.log("\n--- Phase 3: Browser Extensions (Grammar Regex & Ingestion) ---")
         self.refactor_browser_extensions()
 
         self.log("\n========================================================")
