@@ -1,30 +1,4 @@
-<details><summary>New Videos for reference</summary>
 
-
-
-https://github.com/user-attachments/assets/b240b7d5-d2ec-4ec4-aa98-162e37d83f76
-
-https://github.com/user-attachments/assets/12f4cf19-0837-4875-98f2-c7ea19ba38f8
-
-https://github.com/user-attachments/assets/3f3fedd8-4b32-4ef3-9bd8-b64c17c5554b
-
-https://github.com/user-attachments/assets/e829a619-8c1b-4faf-9606-870a78a55d43
-
-https://github.com/user-attachments/assets/a7ed1120-b878-467e-8e66-4666648acd27
-
-https://github.com/user-attachments/assets/c604ddcd-59db-43f0-b495-f6f098d8e68a
-
-https://github.com/user-attachments/assets/3fa22402-25b3-4149-8e20-d36d018fadba
-
-https://github.com/user-attachments/assets/73f3b29d-21bf-4e9e-9735-03e90b2769ae
-
-https://github.com/user-attachments/assets/041078d8-a23b-47e8-ab55-bec0d0900b09
-
-https://github.com/user-attachments/assets/6f1a5226-e7b0-4006-bb33-3e065f13454e
-
-https://github.com/user-attachments/assets/e6f5e668-3f14-4eaf-b9db-6c6de795b8e5
-
-</details>
 <details>
 <summary>tutorial videos in table with names and unique identifiers (overview for reference)</summary>
    
@@ -924,7 +898,15 @@ https://github.com/user-attachments/assets/1418981a-1bf8-4fd1-b2d7-cd0098ba4c98
 
 <details>
 
+https://github.com/user-attachments/assets/b240b7d5-d2ec-4ec4-aa98-162e37d83f76
 
+https://github.com/user-attachments/assets/12f4cf19-0837-4875-98f2-c7ea19ba38f8
+
+https://github.com/user-attachments/assets/3f3fedd8-4b32-4ef3-9bd8-b64c17c5554b
+
+https://github.com/user-attachments/assets/e829a619-8c1b-4faf-9606-870a78a55d43
+
+https://github.com/user-attachments/assets/a7ed1120-b878-467e-8e66-4666648acd27
 
 </details>
 
@@ -1331,7 +1313,7 @@ https://github.com/user-attachments/assets/5667cf82-92bb-4735-b3f6-b99c4c714632
 
 </details>
 
-#### Oregairu ,TODO make playlist for Oregairu download and install and use
+#### Oregairu ,example ready to use
 
 Important Note: The download links for the oregairu files (raw i.e. uneditet) subtitlefiles (so you can mine yourself your own custom subtitles with an oregairu epub file downloaded form zlibrary) and the chapter audios are provided in the following. Also we recommend to download only one volume at a time. Also the link for the folder with the epub files are also here so you can immediately import them into tsuureader and then test
 
@@ -1353,7 +1335,17 @@ https://drive.proton.me/urls/AM9KEJYFDR#tmVfdAFXS9CY
 
 <details>
    
-### TODO
+https://github.com/user-attachments/assets/c604ddcd-59db-43f0-b495-f6f098d8e68a
+
+https://github.com/user-attachments/assets/3fa22402-25b3-4149-8e20-d36d018fadba
+
+https://github.com/user-attachments/assets/73f3b29d-21bf-4e9e-9735-03e90b2769ae
+
+https://github.com/user-attachments/assets/041078d8-a23b-47e8-ab55-bec0d0900b09
+
+https://github.com/user-attachments/assets/6f1a5226-e7b0-4006-bb33-3e065f13454e
+
+https://github.com/user-attachments/assets/e6f5e668-3f14-4eaf-b9db-6c6de795b8e5
 
 </details>
 
