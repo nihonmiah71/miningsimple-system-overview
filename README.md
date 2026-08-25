@@ -1,19 +1,5 @@
 <details><summary>New Videos</summary>
 
-https://github.com/user-attachments/assets/80bfe57c-f718-45db-baa5-7a4905f5bb57
-
-https://github.com/user-attachments/assets/ac4c062c-2b6b-4228-b7a0-c46f460b9c59
-
-https://github.com/user-attachments/assets/5afb571a-0a0d-46fb-8939-b186c626c9b8
-
-https://github.com/user-attachments/assets/ed1611d1-05db-4e93-bdfa-4bc9b4c865ca
-
-https://github.com/user-attachments/assets/2434ab4e-8310-4d8f-aec1-f18a65585791
-
-https://github.com/user-attachments/assets/1b7fda99-e94d-4d2a-9190-e70e10a14795
-
-https://github.com/user-attachments/assets/307a8b91-bffc-4a14-a466-f7f29bd3408d
-
 https://github.com/user-attachments/assets/636b7468-8a21-462a-8dea-daeafe013fe3
 
 https://github.com/user-attachments/assets/abb1c017-7b60-4f6e-a34a-2b0987fa931e
@@ -79,14 +65,6 @@ https://github.com/user-attachments/assets/3f3fedd8-4b32-4ef3-9bd8-b64c17c5554b
 https://github.com/user-attachments/assets/e829a619-8c1b-4faf-9606-870a78a55d43
 
 https://github.com/user-attachments/assets/a7ed1120-b878-467e-8e66-4666648acd27
-
-https://github.com/user-attachments/assets/5e16d065-f41b-47bc-8a54-3e1bf00a8bc7
-
-https://github.com/user-attachments/assets/4603dd8f-0d03-47f5-b0dd-74da12756d63
-
-https://github.com/user-attachments/assets/de07dbec-f325-443f-8253-afcd58ea797d
-
-https://github.com/user-attachments/assets/ec4ffe6b-1591-4cab-a642-657bb89b8b39
 
 https://github.com/user-attachments/assets/c604ddcd-59db-43f0-b495-f6f098d8e68a
 
@@ -535,15 +513,23 @@ git checkout
 ```
 <details>
 
-<summary>TODO Repository Cloning</summary>
+<summary>Repository Cloning</summary>
 
-#### TODO (repo cloning, deck import, anki addon download, python code, grammar deck audio install, initial set up addon activation)
+#### Repository Cloning
 
-We have also provided audio for the example sentences for the grammar note, for the data refer to the link 
+https://github.com/user-attachments/assets/80bfe57c-f718-45db-baa5-7a4905f5bb57
 
-grammar audio examplesentences
+https://github.com/user-attachments/assets/ac4c062c-2b6b-4228-b7a0-c46f460b9c59
 
-https://drive.proton.me/urls/MW7Z6BYXW4#5HLR3UVkGLu3
+https://github.com/user-attachments/assets/5afb571a-0a0d-46fb-8939-b186c626c9b8
+
+https://github.com/user-attachments/assets/ed1611d1-05db-4e93-bdfa-4bc9b4c865ca
+
+https://github.com/user-attachments/assets/2434ab4e-8310-4d8f-aec1-f18a65585791
+
+https://github.com/user-attachments/assets/1b7fda99-e94d-4d2a-9190-e70e10a14795
+
+https://github.com/user-attachments/assets/307a8b91-bffc-4a14-a466-f7f29bd3408d
 
 </details>
 </details>
@@ -972,6 +958,23 @@ https://github.com/user-attachments/assets/7359bff8-0708-441a-b723-5772ed992aa0
 
 </details>
 
+<details><summary>Optional Audio for Grammar Deck</summary>
+   
+We have also provided audio for the example sentences for the grammar note, for the data refer to the link 
+
+grammar audio examplesentences
+
+https://drive.proton.me/urls/MW7Z6BYXW4#5HLR3UVkGLu3
+
+https://github.com/user-attachments/assets/5e16d065-f41b-47bc-8a54-3e1bf00a8bc7
+
+https://github.com/user-attachments/assets/4603dd8f-0d03-47f5-b0dd-74da12756d63
+
+https://github.com/user-attachments/assets/de07dbec-f325-443f-8253-afcd58ea797d
+
+https://github.com/user-attachments/assets/ec4ffe6b-1591-4cab-a642-657bb89b8b39
+
+</details>
 </details>
 Throughout the system you also have to set up various workflows by setting the paths when you first use a component, how to do that will be explained in the guides when the functionality is actualy being used, but in most cases your are simply being prompted to just select a directory or a certain file with the fileexplorer. Also there are some optional programs and Addons where the installation will be explained in case you want to make use of the functionalities in which they are used (ShareX, Audacity,LosslessCut,Libation, Video Download Helper)
 </details>
