@@ -466,7 +466,7 @@ HIER PLAYLIST EINFUEGEN
 <summary>Notes</summary>
 
 
-# 🐍 Global Python & System Dependencies Setup (No Virtual Environments)
+## 🐍 Global Python & System Dependencies Setup (No Virtual Environments)
 
 This guide installs **Python 3.12**, **FFmpeg**, and all required machine learning and data packages **globally on your system**.
 
@@ -499,15 +499,15 @@ Open **PowerShell (Run as Administrator)** and run the following commands:
 
 ### Step A: Install Python 3.12 and FFmpeg via `winget`
 
-# 1. Install Python 3.12 globally and add to PATH automatically
+#### 1. Install Python 3.12 globally and add to PATH automatically
 ```text
 winget install Python.Python.3.12 --override "/quiet PrependPath=1 Include_pip=1 Include_tcltk=1"
 ```
-# 2. Install FFmpeg
+#### 2. Install FFmpeg
 ```text
 winget install Gyan.FFmpeg
 ```
-# 3. Reload PATH in current shell
+#### 3. Reload PATH in current shell
 ```text
 $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
 ```
