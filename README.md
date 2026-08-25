@@ -863,44 +863,39 @@ https://github.com/user-attachments/assets/2e4b967c-db5c-491f-85a3-99bf0da3b34f
 <details>
 <summary>4. Anki and Addons Set Up</summary>
 
-Then you have to import in Anki the notetypes, you can also rename in this step the properties like the name of the deck, the notetypes, the cardtypes and the fields but we recommend using the default names as they are. Next install the Anki Addons and configure them and also run the basic initial configuration process through a combination of designated Anki Addons and Python Scripts and you make the the self hosted browser Addons ready to use.
+Then you have to import in Anki the notetypes, you can also rename in this step the properties like the name of the deck, the notetypes, the cardtypes and the fields but we recommend using the default names as they are. You will run the basic initial configuration process through a combination of designated Anki Addons and Python Scripts, you will configure 2 anki addons seperately in addition to the configuration, you install ChromeStore Browser Addons and configure yomitan, and finaly you make the the self hosted browser Addons ready to use.
 
 <details>
 
-<summary>TODO Anki Start Up and Initial Configuration</summary>
+<summary>Final Configuration</summary>
 
-#### TODO (only configuration addon left)
+#### Deck Import and Optional Renaming
 
-#### AnkiAddons
-Short name ID of videos in playlist: A4 A3
 <details>
 
-https://github.com/user-attachments/assets/67520a00-e254-4974-9a29-f5c27550638a
 
-https://github.com/user-attachments/assets/7c417db8-6d88-4440-8a60-de332de1e8a1
 
 </details>
 
-#### Initial Configuration (TODO)
+#### System Configuration
 
-#### AddonBrowserSelfSetUp
-Short name ID of videos in playlist: A29 A28 A27 A26 A25
 <details>
 
-https://github.com/user-attachments/assets/754455d5-f437-47d6-948d-789be830004f
 
-https://github.com/user-attachments/assets/e82a5ab8-935b-4541-b17c-213aec8de79c
-
-https://github.com/user-attachments/assets/060bbb23-7eef-4576-aa68-82f0657ecca5
-
-https://github.com/user-attachments/assets/314c8866-54ec-403b-bc67-2933655943ef
-
-https://github.com/user-attachments/assets/721a5461-92fa-4eb6-a720-c3aae486b30d
 
 </details>
 
+#### AnkiAddons Configuration 
+
+<details>
+
+
+
 </details>
 
+#### Chromestore Browser Addon Configuration 
+
+<details>
 Finaly you are going to install additional Chromw Browser Addons (and a Firefox Addon optionaly), especialy yomitan is important for mining and a dedicated walkthrough for installation and supplementary configuration files (yomitan config settings json, yomitan dictionary collection json) were provided.
 
 <details><summary>List of Chrome Browser Addons</summary>
@@ -923,38 +918,17 @@ https://chromewebstore.google.com/detail/super-simple-highlighter/hhlhjgianpocpo
 Yomitan Popup Dictionary
 https://chromewebstore.google.com/detail/yomitan-popup-dictionary/likgccmbimhjbgkjambclfkhldnlhbnn
 
-Refer to the the following to set up Yomitan, there is also a seperate link where you can download the dictionary collection that matches the configuration file (TODO Add Link)
-
-<details> <summary>Yomitan Set Up</summary>
-
-#### ChromeStoreBrowserAddons
-Short name ID of videos in playlist: C16 A7 A6 A5 C15 C14 C13 C12 C11
-
-Here is the link for the yomitan dictionary collection (zipped)
+**Here is the link for the yomitan dictionary collection (zipped)**
 
 https://drive.proton.me/urls/PE7KT1JBVM#CJulhFDoJIef
 
-### TODO make playlist for yomitan dictionary download and install
+</details>
+
+#### Self Hosted Browser Addon Configuration 
 
 <details>
 
-https://github.com/user-attachments/assets/34939804-7827-4487-8e28-8b108d19c2e5
 
-https://github.com/user-attachments/assets/e0c90431-9226-4eb2-8e03-1d8616e000f9
-
-https://github.com/user-attachments/assets/692dd797-c62d-40ac-a737-41f3c7c593dc
-
-https://github.com/user-attachments/assets/facd0142-be2c-40ce-b818-edf0c08e2847
-
-https://github.com/user-attachments/assets/f5f800a5-fa3a-420e-87ad-282bbe3e9a50
-
-https://github.com/user-attachments/assets/1f451dd6-65ce-4393-a772-adbef9dae5e6
-
-https://github.com/user-attachments/assets/fd4edfc7-7b5e-44b8-9503-fe652d466159
-
-https://github.com/user-attachments/assets/640b0464-3a37-42b5-b0bf-973c3af1a7ff
-
-https://github.com/user-attachments/assets/7359bff8-0708-441a-b723-5772ed992aa0
 
 </details>
 
