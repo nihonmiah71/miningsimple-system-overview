@@ -1,20 +1,4 @@
-<details><summary>New Videos</summary>
-
-https://github.com/user-attachments/assets/636b7468-8a21-462a-8dea-daeafe013fe3
-
-https://github.com/user-attachments/assets/abb1c017-7b60-4f6e-a34a-2b0987fa931e
-
-https://github.com/user-attachments/assets/c4885ad9-5979-401b-92ee-074bbd574a68
-
-https://github.com/user-attachments/assets/556ce844-8532-4387-8326-62cff0c84444
-
-https://github.com/user-attachments/assets/aa3bbeb0-5842-49b8-914b-0563660fe05d
-
-https://github.com/user-attachments/assets/b5b3e3ec-0ff6-45e2-8306-b3e41aa769c7
-
-https://github.com/user-attachments/assets/c3f19396-9257-4401-b7c0-c65d7725b7a5
-
-https://github.com/user-attachments/assets/3bfcb6f5-91b8-4fbe-bc42-cfdccde3a9cc
+<details><summary>New Videos for reference</summary>
 
 https://github.com/user-attachments/assets/f9208d0e-89e3-40b5-9a79-9fbded618ebe
 
@@ -515,7 +499,9 @@ git checkout
 
 <summary>Repository Cloning</summary>
 
-#### Repository Cloning
+#### Repository Cloning (and Anki Addons Installation)
+
+You can skip the first 3 videos if you have already installed GIT and anki
 
 https://github.com/user-attachments/assets/80bfe57c-f718-45db-baa5-7a4905f5bb57
 
@@ -544,9 +530,23 @@ Then you have to set up python, the following guide can be used as a reference, 
 
 <details>
 
-<summary>Example Installation for Windows TODO</summary>
+<summary>Example Installation for Windows</summary>
 
-HIER PLAYLIST EINFUEGEN
+https://github.com/user-attachments/assets/636b7468-8a21-462a-8dea-daeafe013fe3
+
+https://github.com/user-attachments/assets/abb1c017-7b60-4f6e-a34a-2b0987fa931e
+
+https://github.com/user-attachments/assets/c4885ad9-5979-401b-92ee-074bbd574a68
+
+https://github.com/user-attachments/assets/556ce844-8532-4387-8326-62cff0c84444
+
+https://github.com/user-attachments/assets/aa3bbeb0-5842-49b8-914b-0563660fe05d
+
+https://github.com/user-attachments/assets/b5b3e3ec-0ff6-45e2-8306-b3e41aa769c7
+
+https://github.com/user-attachments/assets/c3f19396-9257-4401-b7c0-c65d7725b7a5
+
+https://github.com/user-attachments/assets/3bfcb6f5-91b8-4fbe-bc42-cfdccde3a9cc
 
 </details>
 
@@ -845,6 +845,8 @@ SUCCESS: Python 3.12.x has all packages installed globally!
 <details>
 
 <summary>Alternative Playlist for Reference</summary>
+
+You dont have to watch it if you already were succesful before in the python installation
 
 #### Python3.12SetUp
 Short name ID of videos in playlist: P3 P2 P1
