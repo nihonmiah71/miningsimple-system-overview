@@ -1,44 +1,6 @@
 <details><summary>New Videos for reference</summary>
 
-https://github.com/user-attachments/assets/f9208d0e-89e3-40b5-9a79-9fbded618ebe
 
-https://github.com/user-attachments/assets/e51fb36d-6807-4912-b6c6-9bf4b16f3624
-
-https://github.com/user-attachments/assets/13887618-742a-40e3-9848-28753590e9dc
-
-https://github.com/user-attachments/assets/8541d349-df03-4e21-8470-0cf3fa78c582
-
-https://github.com/user-attachments/assets/12446887-37f2-46f2-afb7-694e5f0e8e45
-
-https://github.com/user-attachments/assets/1638266b-5ca1-46de-9d19-440031a6437d
-
-https://github.com/user-attachments/assets/7b653c5b-00a2-4a66-ad51-2093803d2e05
-
-https://github.com/user-attachments/assets/99b38198-3e91-4f8f-80cb-9151304582d7
-
-https://github.com/user-attachments/assets/ef7dc6e5-26ce-47b1-b58d-f2900b63b834
-
-https://github.com/user-attachments/assets/bf1e031f-b453-4b79-8738-c7b4c0c02b95
-
-https://github.com/user-attachments/assets/8797da45-f126-4bc2-a0f6-140b811e0503
-
-https://github.com/user-attachments/assets/d8dbbc09-aa32-4e22-a7c9-9606d9560408
-
-https://github.com/user-attachments/assets/90469a47-4aa5-4d97-b365-ede57535fff1
-
-https://github.com/user-attachments/assets/d3633470-8a40-4274-aa4e-cae17f11a62a
-
-https://github.com/user-attachments/assets/7a47d9df-9463-4fe9-9dd9-f7d7238cf643
-
-https://github.com/user-attachments/assets/5ed3c3cb-b465-47ed-8375-c90c40dfe846
-
-https://github.com/user-attachments/assets/663d5078-edd2-4aa6-bc7f-04c7f5252f4b
-
-https://github.com/user-attachments/assets/7f017289-72e8-464b-bc43-feca40dae601
-
-https://github.com/user-attachments/assets/2917ab7e-6256-45ef-8a12-0eae32eaa108
-
-https://github.com/user-attachments/assets/1418981a-1bf8-4fd1-b2d7-cd0098ba4c98
 
 https://github.com/user-attachments/assets/b240b7d5-d2ec-4ec4-aa98-162e37d83f76
 
@@ -873,7 +835,9 @@ Then you have to import in Anki the notetypes, you can also rename in this step 
 
 <details>
 
+https://github.com/user-attachments/assets/f9208d0e-89e3-40b5-9a79-9fbded618ebe
 
+https://github.com/user-attachments/assets/e51fb36d-6807-4912-b6c6-9bf4b16f3624
 
 </details>
 
@@ -881,7 +845,19 @@ Then you have to import in Anki the notetypes, you can also rename in this step 
 
 <details>
 
+https://github.com/user-attachments/assets/12446887-37f2-46f2-afb7-694e5f0e8e45
 
+https://github.com/user-attachments/assets/1638266b-5ca1-46de-9d19-440031a6437d
+
+https://github.com/user-attachments/assets/7b653c5b-00a2-4a66-ad51-2093803d2e05
+
+https://github.com/user-attachments/assets/99b38198-3e91-4f8f-80cb-9151304582d7
+
+https://github.com/user-attachments/assets/ef7dc6e5-26ce-47b1-b58d-f2900b63b834
+
+https://github.com/user-attachments/assets/bf1e031f-b453-4b79-8738-c7b4c0c02b95
+
+https://github.com/user-attachments/assets/8797da45-f126-4bc2-a0f6-140b811e0503
 
 </details>
 
@@ -889,7 +865,9 @@ Then you have to import in Anki the notetypes, you can also rename in this step 
 
 <details>
 
+https://github.com/user-attachments/assets/13887618-742a-40e3-9848-28753590e9dc
 
+https://github.com/user-attachments/assets/8541d349-df03-4e21-8470-0cf3fa78c582
 
 </details>
 
@@ -921,6 +899,24 @@ https://chromewebstore.google.com/detail/yomitan-popup-dictionary/likgccmbimhjbg
 **Here is the link for the yomitan dictionary collection (zipped)**
 
 https://drive.proton.me/urls/PE7KT1JBVM#CJulhFDoJIef
+
+https://github.com/user-attachments/assets/d8dbbc09-aa32-4e22-a7c9-9606d9560408
+
+https://github.com/user-attachments/assets/90469a47-4aa5-4d97-b365-ede57535fff1
+
+https://github.com/user-attachments/assets/d3633470-8a40-4274-aa4e-cae17f11a62a
+
+https://github.com/user-attachments/assets/7a47d9df-9463-4fe9-9dd9-f7d7238cf643
+
+https://github.com/user-attachments/assets/5ed3c3cb-b465-47ed-8375-c90c40dfe846
+
+https://github.com/user-attachments/assets/663d5078-edd2-4aa6-bc7f-04c7f5252f4b
+
+https://github.com/user-attachments/assets/7f017289-72e8-464b-bc43-feca40dae601
+
+https://github.com/user-attachments/assets/2917ab7e-6256-45ef-8a12-0eae32eaa108
+
+https://github.com/user-attachments/assets/1418981a-1bf8-4fd1-b2d7-cd0098ba4c98
 
 </details>
 
