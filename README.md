@@ -625,14 +625,13 @@ python -c "import sys, cv2, pydub, pysrt, pykakasi, pandas, tkinter, whisperx; p
 ```text
 SUCCESS: Python 3.12.x has all packages installed globally!
 ```
-
 ### 🛡️ Why this fixes all edge cases on other OSes:
-
 1. **Linux / macOS PEP 668 Fix (`--break-system-packages`):** Modern versions of Debian/Ubuntu, Arch, Fedora, and Homebrew intentionally reject `pip install` outside a virtual environment with the error `externally-managed-environment`. Adding `--break-system-packages` forces pip to install the modules into the system site-packages so Anki and subprocesses can access them globally.
 2. **`python -m pip` instead of `pip`:** Invoking `python -m pip` ensures that packages are placed into the exact Python version that `python` points to, eliminating discrepancies where `pip` points to an old Python 3.10 while `python` points to 3.12.
-```
 
----
+
+
+
 </details>
 
 </details>
