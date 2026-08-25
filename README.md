@@ -465,12 +465,14 @@ HIER PLAYLIST EINFUEGEN
 
 <summary>Notes</summary>
 
-```markdown
+
 # 🐍 Global Python & System Dependencies Setup (No Virtual Environments)
 
 This guide installs **Python 3.12**, **FFmpeg**, and all required machine learning and data packages **globally on your system**.
 
 Because Anki addons and background tools invoke `subprocess.Popen(["python", script_path])` directly from the OS environment, **we do not use virtual environments (`venv`)**. Installing globally guarantees that scripts, Anki integrations, and terminal commands find all dependencies everywhere without silent missing-module failures.
+
+**You have to make sure that after you cloned the repo to start all shells in the cloned repo (use cd or similar commands to move your shell to the location of the cloned repo)**
 
 ---
 
@@ -496,29 +498,37 @@ pandas
 Open **PowerShell (Run as Administrator)** and run the following commands:
 
 ### Step A: Install Python 3.12 and FFmpeg via `winget`
-```powershell
+
 # 1. Install Python 3.12 globally and add to PATH automatically
+```text
 winget install Python.Python.3.12 --override "/quiet PrependPath=1 Include_pip=1 Include_tcltk=1"
-
+```
 # 2. Install FFmpeg
+```text
 winget install Gyan.FFmpeg
-
+```
 # 3. Reload PATH in current shell
+```text
 $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
 ```
 
 ### Step B: Install All Packages Globally
-```powershell
+
 # 1. Upgrade global pip
 python -m pip install --upgrade pip setuptools wheel
 
-# 2. Install PyTorch Globally (NVIDIA CUDA 12.1 or CPU)
-# For NVIDIA GPUs:
+# 2. Install PyTorch Globally (for CPU)
+```text
+python -m pip install torch torchaudio
+```
+# (OR for NVIDIA GPUs, run this instead):
+<details>
+```text
 python -m pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu121
-# (OR for CPU only, run this instead):
-# python -m pip install torch torchaudio
-
-# 3. Install all project requirements globally into the system Python
+```
+</details>
+# 3. Install all project requirements globally into the system Python (for this step you have to be in project directory (change location with cd if necessary))
+```text
 python -m pip install -r requirements.txt
 ```
 
