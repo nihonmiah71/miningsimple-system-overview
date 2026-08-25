@@ -745,7 +745,7 @@ SUCCESS: Python 3.12.x has all packages installed globally!
 2. **Interactive Visual Setup for Windows:** Bypasses silent `winget` installer failures and ensures essential components (`pip`, `tcl/tk`, and `py launcher`) are cleanly registered.
 3. **Linux / macOS PEP 668 Fix (`--break-system-packages`):** Modern versions of Debian/Ubuntu, Arch, Fedora, and Homebrew intentionally reject `pip install` outside a virtual environment with the error `externally-managed-environment`. Adding `--break-system-packages` forces pip to install the modules into the global system site-packages so Anki and subprocesses can access them globally from anywhere.
 4. **`python -m pip` instead of `pip`:** Invoking `python -m pip` ensures that packages are placed into the exact Python version that `python` points to, eliminating discrepancies where `pip` points to an old Python version while `python` points to 3.12.
-```
+
 
 
 
