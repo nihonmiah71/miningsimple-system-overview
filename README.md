@@ -465,16 +465,15 @@ HIER PLAYLIST EINFUEGEN
 
 <summary>Notes</summary>
 
-
 ## 🐍 Global Python & System Dependencies Setup (No Virtual Environments)
 
 This guide installs **Python 3.12**, **FFmpeg**, and all required machine learning and data packages **globally on your system**.
 
 Because Anki addons and background tools invoke `subprocess.Popen(["python", script_path])` directly from the OS environment, **we do not use virtual environments (`venv`)**. Installing globally guarantees that scripts, Anki integrations, and terminal commands find all dependencies everywhere without silent missing-module failures.
 
-**You have to make sure that after you cloned the repo to start all shells in the cloned repo (use cd or similar commands to move your shell to the location of the cloned repo)**
+> ⚠️ **Important:** After cloning the repository, ensure you navigate into the cloned folder (`cd miningsimple-system-overview`) before installing the requirements.
 
----
+
 
 ## 📦 Requirements File (`requirements.txt`)
 
@@ -495,52 +494,145 @@ pandas
 
 ## 🪟 1. Windows (Windows 10 / 11)
 
-Open **PowerShell (Run as Administrator)** and run the following commands:
+Open **PowerShell (Run as Administrator)** and execute the following steps:
 
-### Step A: Install Python 3.12 and FFmpeg via `winget`
+### Step A: Install Python 3.12 & FFmpeg
 
-#### 1. Install Python 3.12 globally and add to PATH automatically
-```text
-winget install Python.Python.3.12 --override "/quiet PrependPath=1 Include_pip=1 Include_tcltk=1"
+#### 1. Download and open the official Python 3.12 installer
+*(We launch the interactive installer to avoid silent background installation issues and ensure proper component selection)*
+
+```powershell
+Invoke-WebRequest -Uri "https://www.python.org/ftp/python/3.12.10/python-3.12.10-amd64.exe" -OutFile "$env:TEMP\python-3.12.10-amd64.exe"
+Start-Process "$env:TEMP\python-3.12.10-amd64.exe" -Wait
 ```
+
+**In the Python Setup Window that appears:**
+1. ✅ **Check the box:** `Add python.exe to PATH` *(at the very bottom)*.
+2. ✅ **Check the box:** `Use admin privileges when installing py.exe` *(if visible)*.
+3. Click **"Customize installation"** (or **"Modify"** if already installed):
+   * Ensure `pip`, `tcl/tk`, and `py launcher` are **checked**.
+4. Click **Next** $\rightarrow$ Check **"Install Python 3.12 for all users"** $\rightarrow$ Click **Install**.
+5. When finished, if you see **"Disable path length limit"**, click it, then click **Close**.
+
 #### 2. Install FFmpeg
-```text
+```powershell
 winget install Gyan.FFmpeg
 ```
-#### 3. Reload PATH in current shell
-```text
-$env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
+
+#### 3. Permanently Register Python to System-Wide PATH
+*(This ensures Python works across ALL user accounts, CMD prompts, and background tools like Anki)*
+
+```powershell
+$pyDir = "$env:LOCALAPPDATA\Programs\Python\Python312"
+if (-not (Test-Path "$pyDir\python.exe")) { $pyDir = "C:\Program Files\Python312" }
+if (-not (Test-Path "$pyDir\python.exe")) {
+    $pyDir = (Get-ChildItem -Path "$env:LOCALAPPDATA\Programs\Python", "C:\Program Files\Python*", "C:\Users\*\AppData\Local\Programs\Python\Python312" -Filter "python.exe" -Recurse -ErrorAction SilentlyContinue | Select-Object -First 1).DirectoryName
+}
+
+if ($pyDir) {
+    $machinePath = [System.Environment]::GetEnvironmentVariable("Path", "Machine")
+    if ($machinePath -notlike "*$pyDir*") {
+        [System.Environment]::SetEnvironmentVariable("Path", "$pyDir;$pyDir\Scripts;" + $machinePath, "Machine")
+    }
+    $env:Path = "$pyDir;$pyDir\Scripts;" + $env:Path
+    Write-Host "✅ Python successfully registered system-wide: $pyDir" -ForegroundColor Green
+    python --version
+}
 ```
+
+---
 
 ### Step B: Install All Packages Globally
 
-#### 1. Upgrade global pip
-
-```text
+#### 1. Ensure `pip` is active and updated
+```powershell
+python -m ensurepip --upgrade
 python -m pip install --upgrade pip setuptools wheel
 ```
 
 #### 2. Install PyTorch Globally (for CPU)
-
-```text
+```powershell
 python -m pip install torch torchaudio
 ```
 
 #### (OR for NVIDIA GPUs, run this instead):
-
 <details>
-   
-```text
+<summary>⚡ Click here for NVIDIA GPU CUDA command</summary>
+
+```powershell
 python -m pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu121
 ```
-
 </details>
 
-#### 3. Install all project requirements globally into the system Python (for this step you have to be in project directory (change location with cd if necessary))
-
-```text
+#### 3. Install all project requirements globally into the system Python
+*(Make sure your PowerShell is in your cloned project folder with `cd`)*
+```powershell
 python -m pip install -r requirements.txt
 ```
+
+---
+
+### 🛠️ Windows Troubleshooting
+
+<details>
+<summary>🔍 Issue 1: <code>'python' is not recognized as an internal or external command</code> in CMD</summary>
+
+If a new `cmd` window cannot find `python`, the PATH variable is missing from the global machine registry. Run this in an **Administrator PowerShell**:
+
+```powershell
+$pyDir = (Get-ChildItem -Path "$env:LOCALAPPDATA\Programs\Python", "C:\Program Files\Python*", "C:\Users\*\AppData\Local\Programs\Python\Python312" -Filter "python.exe" -Recurse -ErrorAction SilentlyContinue | Select-Object -First 1).DirectoryName
+
+if ($pyDir) {
+    $machinePath = [System.Environment]::GetEnvironmentVariable("Path", "Machine")
+    if ($machinePath -notlike "*$pyDir*") {
+        [System.Environment]::SetEnvironmentVariable("Path", "$pyDir;$pyDir\Scripts;" + $machinePath, "Machine")
+    }
+    Write-Host "✅ Python added to Machine PATH: $pyDir" -ForegroundColor Green
+}
+```
+*Restart all open CMD/PowerShell windows after running this.*
+</details>
+
+<details>
+<summary>📦 Issue 2: <code>No module named pip</code></summary>
+
+If `python --version` works but `pip` is missing or uninstalled, restore it using the built-in bootstrap:
+
+```powershell
+python -m ensurepip --upgrade
+python -m pip install --upgrade pip setuptools wheel
+```
+*(Alternative manual bootstrap if ensurepip fails):*
+```powershell
+Invoke-WebRequest -Uri "https://bootstrap.pypa.io/get-pip.py" -OutFile "$env:TEMP\get-pip.py"
+python "$env:TEMP\get-pip.py"
+```
+</details>
+
+<details>
+<summary>🛑 Issue 3: Windows opens the Microsoft Store when running <code>python</code></summary>
+
+Windows has dummy app aliases enabled by default. Disable them:
+1. Open Windows **Settings** (`Win + I`).
+2. Go to **Apps** $\rightarrow$ **Advanced app settings** $\rightarrow$ **App execution aliases**.
+3. Toggle **OFF** both **"App Installer (python.exe)"** and **"App Installer (python3.exe)"**.
+</details>
+
+<details>
+<summary>🧹 Issue 4: Clean Uninstall / Reset (if previous installations are corrupted)</summary>
+
+To cleanly wipe broken Python installations and start fresh:
+
+```powershell
+# 1. Remove residual Python folders
+Remove-Item -Recurse -Force "$env:LOCALAPPDATA\Programs\Python\Python312" -ErrorAction SilentlyContinue
+Remove-Item -Recurse -Force "C:\Program Files\Python312" -ErrorAction SilentlyContinue
+Remove-Item -Recurse -Force "$env:APPDATA\Python" -ErrorAction SilentlyContinue
+Remove-Item -Recurse -Force "$env:LOCALAPPDATA\pip" -ErrorAction SilentlyContinue
+
+# 2. Re-run installer in Step A1
+```
+</details>
 
 ---
 
@@ -635,7 +727,7 @@ python3.12 -m pip install -r requirements.txt --break-system-packages
 
 ## ✅ Verification Check
 
-To confirm that the **global system Python** has all modules loaded and ready for Anki / command line execution, run this one-liner anywhere in your terminal or PowerShell (without activating any environment):
+To confirm that the **global system Python** has all modules loaded and ready for Anki / command line execution, run this one-liner anywhere in your terminal or command prompt (without activating any environment):
 
 ```bash
 python -c "import sys, cv2, pydub, pysrt, pykakasi, pandas, tkinter, whisperx; print(f'SUCCESS: Python {sys.version.split()[0]} has all packages installed globally!')"
@@ -645,10 +737,15 @@ python -c "import sys, cv2, pydub, pysrt, pykakasi, pandas, tkinter, whisperx; p
 ```text
 SUCCESS: Python 3.12.x has all packages installed globally!
 ```
-### 🛡️ Why this fixes all edge cases on other OSes:
-1. **Linux / macOS PEP 668 Fix (`--break-system-packages`):** Modern versions of Debian/Ubuntu, Arch, Fedora, and Homebrew intentionally reject `pip install` outside a virtual environment with the error `externally-managed-environment`. Adding `--break-system-packages` forces pip to install the modules into the system site-packages so Anki and subprocesses can access them globally.
-2. **`python -m pip` instead of `pip`:** Invoking `python -m pip` ensures that packages are placed into the exact Python version that `python` points to, eliminating discrepancies where `pip` points to an old Python 3.10 while `python` points to 3.12.
 
+---
+
+### 🛡️ Why this fixes all edge cases across OSes:
+1. **Windows System-Wide Machine PATH:** Writing Python to the `Machine` environment variable guarantees that every user account, standard CMD prompt, and background subprocess (e.g., Anki) finds `python.exe` and `pip` globally without missing path errors.
+2. **Interactive Visual Setup for Windows:** Bypasses silent `winget` installer failures and ensures essential components (`pip`, `tcl/tk`, and `py launcher`) are cleanly registered.
+3. **Linux / macOS PEP 668 Fix (`--break-system-packages`):** Modern versions of Debian/Ubuntu, Arch, Fedora, and Homebrew intentionally reject `pip install` outside a virtual environment with the error `externally-managed-environment`. Adding `--break-system-packages` forces pip to install the modules into the global system site-packages so Anki and subprocesses can access them globally from anywhere.
+4. **`python -m pip` instead of `pip`:** Invoking `python -m pip` ensures that packages are placed into the exact Python version that `python` points to, eliminating discrepancies where `pip` points to an old Python version while `python` points to 3.12.
+```
 
 
 
