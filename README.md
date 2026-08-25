@@ -514,20 +514,30 @@ $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";"
 
 ### Step B: Install All Packages Globally
 
-# 1. Upgrade global pip
-python -m pip install --upgrade pip setuptools wheel
+#### 1. Upgrade global pip
 
-# 2. Install PyTorch Globally (for CPU)
+```text
+python -m pip install --upgrade pip setuptools wheel
+```
+
+#### 2. Install PyTorch Globally (for CPU)
+
 ```text
 python -m pip install torch torchaudio
 ```
-# (OR for NVIDIA GPUs, run this instead):
+
+#### (OR for NVIDIA GPUs, run this instead):
+
 <details>
+   
 ```text
 python -m pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu121
 ```
+
 </details>
-# 3. Install all project requirements globally into the system Python (for this step you have to be in project directory (change location with cd if necessary))
+
+#### 3. Install all project requirements globally into the system Python (for this step you have to be in project directory (change location with cd if necessary))
+
 ```text
 python -m pip install -r requirements.txt
 ```
