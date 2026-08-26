@@ -275,9 +275,10 @@
 
 <summary>miningsimple Note</summary>
 
-https://github.com/user-attachments/assets/c42f565e-16dd-431d-9bf4-429a3aa229f1
-
-https://github.com/user-attachments/assets/632813ae-1016-499f-aef5-12f71138dbaa
+| Video Name | ID | Link |
+| :--- | :--- | :--- |
+| miningsimpleNote1.mp4 | M4 | https://github.com/user-attachments/assets/c42f565e-16dd-431d-9bf4-429a3aa229f1 |
+| miningsimpleNote2.mp4 | M5 | https://github.com/user-attachments/assets/632813ae-1016-499f-aef5-12f71138dbaa |
 
 </details>
 
@@ -285,11 +286,11 @@ https://github.com/user-attachments/assets/632813ae-1016-499f-aef5-12f71138dbaa
 
 <summary>Grammar Note</summary>
 
-https://github.com/user-attachments/assets/8e763e84-08cc-49cb-ad90-ed1d405500b2
-
-https://github.com/user-attachments/assets/066b23ae-089b-46ab-ae25-be70f85f600b
-
-https://github.com/user-attachments/assets/cf0bf4cb-9ce9-4f32-a238-4cbce4f44252
+| Video Name | ID | Link |
+| :--- | :--- | :--- |
+| GrammarNote1.mp4 | G15 | https://github.com/user-attachments/assets/8e763e84-08cc-49cb-ad90-ed1d405500b2 |
+| GrammarNote2.mp4 | G16 | https://github.com/user-attachments/assets/066b23ae-089b-46ab-ae25-be70f85f600b |
+| GrammarNote3.mp4 | G17 | https://github.com/user-attachments/assets/cf0bf4cb-9ce9-4f32-a238-4cbce4f44252 |
 
 </details>
 
@@ -297,9 +298,10 @@ https://github.com/user-attachments/assets/cf0bf4cb-9ce9-4f32-a238-4cbce4f44252
 
 <summary>GrammarBrowserAddon</summary>
 
-https://github.com/user-attachments/assets/b20cc74f-8fb2-4501-8a47-ef85c14ae53b
-
-https://github.com/user-attachments/assets/87107aef-5a34-4e94-b18e-44420dcf9508
+| Video Name | ID | Link |
+| :--- | :--- | :--- |
+| CardCreation0.2-ActivationOFGrammarAddonAtBeginningOFReading1.mp4 | C48 | https://github.com/user-attachments/assets/b20cc74f-8fb2-4501-8a47-ef85c14ae53b |
+| CardCreation0.3-ActivationOFGrammarAddonAtBeginningOFReading2.mp4 | C47 | https://github.com/user-attachments/assets/87107aef-5a34-4e94-b18e-44420dcf9508 |
 
 </details>
 
@@ -307,19 +309,15 @@ https://github.com/user-attachments/assets/87107aef-5a34-4e94-b18e-44420dcf9508
 
 <summary>MinedWordTextMarkerAddon</summary>
 
-https://github.com/user-attachments/assets/1b5e1ce5-8903-41da-82eb-9d37b4109177
-
-https://github.com/user-attachments/assets/36c6bc2a-6389-4781-bd25-ea017d1f21a4
-
-https://github.com/user-attachments/assets/bfb5b39b-a9b4-4931-b03d-118fe4eb07ae
-
-https://github.com/user-attachments/assets/6e543329-dbdf-4bde-82af-b8e167d186ff
-
-https://github.com/user-attachments/assets/11bd3e91-2998-4fd3-b802-953efca71a33
-
-https://github.com/user-attachments/assets/aef99ec8-fb4c-46fc-bf25-d1b66dcc12a0
-
-https://github.com/user-attachments/assets/ec28d819-ed65-4a97-9a4a-31fb64e0d113
+| Video Name | ID | Link |
+| :--- | :--- | :--- |
+| CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading.part.1.mp4 | C46 | https://github.com/user-attachments/assets/1b5e1ce5-8903-41da-82eb-9d37b4109177 |
+| CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading.part.2.part.1.mp4 | C45 | https://github.com/user-attachments/assets/36c6bc2a-6389-4781-bd25-ea017d1f21a4 |
+| CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading.part.2.part.2.mp4 | C44 | https://github.com/user-attachments/assets/bfb5b39b-a9b4-4931-b03d-118fe4eb07ae |
+| CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading.part.3.part.1.mp4 | C43 | https://github.com/user-attachments/assets/6e543329-dbdf-4bde-82af-b8e167d186ff |
+| CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading.part.3.part.2_split_1.mp4 | C42 | https://github.com/user-attachments/assets/11bd3e91-2998-4fd3-b802-953efca71a33 |
+| CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading.part.3.part.2_split_2.mp4 | C41 | https://github.com/user-attachments/assets/aef99ec8-fb4c-46fc-bf25-d1b66dcc12a0 |
+| CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading.part.3.part.2_split_3.mp4 | C40 | https://github.com/user-attachments/assets/ec28d819-ed65-4a97-9a4a-31fb64e0d113 |
 
 </details>
 
@@ -376,8 +374,9 @@ necessary: 7Zip,Git,Anki,mpv Player,Chrome recommended:Deskpins, VisualStudioCod
 #### AnkiDownload
 Short name ID of videos in playlist: A2
 
-
-https://github.com/user-attachments/assets/50503aef-7cd6-43c7-b591-09b74ea2d66c
+| Video Name | ID | Link |
+| :--- | :--- | :--- |
+| AnkiDownload.mp4 | A2 | https://github.com/user-attachments/assets/50503aef-7cd6-43c7-b591-09b74ea2d66c |
 
 </details>
 
@@ -389,7 +388,9 @@ https://github.com/user-attachments/assets/50503aef-7cd6-43c7-b591-09b74ea2d66c
 
 Short name ID of videos in playlist: A33
 
-https://github.com/user-attachments/assets/04b4ffeb-6b58-462b-b87d-e3d25df9aac8
+| Video Name | ID | Link |
+| :--- | :--- | :--- |
+| 7zSetUp.mp4 | A33 | https://github.com/user-attachments/assets/04b4ffeb-6b58-462b-b87d-e3d25df9aac8 |
 
 </details>
 
@@ -401,9 +402,10 @@ https://github.com/user-attachments/assets/04b4ffeb-6b58-462b-b87d-e3d25df9aac8
 
 Short name ID of videos in playlist: D2 D1
 
-https://github.com/user-attachments/assets/b7441eda-d31b-4728-a128-f545d1bab73c
-
-https://github.com/user-attachments/assets/976fe04b-0df9-4cc0-b6a5-d453fb9e0cea
+| Video Name | ID | Link |
+| :--- | :--- | :--- |
+| DeskpinSetUp1.mp4 | D2 | https://github.com/user-attachments/assets/b7441eda-d31b-4728-a128-f545d1bab73c |
+| DeskpinSetUp2.mp4 | D1 | https://github.com/user-attachments/assets/976fe04b-0df9-4cc0-b6a5-d453fb9e0cea |
 
 </details>
 
@@ -414,7 +416,9 @@ https://github.com/user-attachments/assets/976fe04b-0df9-4cc0-b6a5-d453fb9e0cea
 
 Short name ID of videos in playlist: G14
 
-https://github.com/user-attachments/assets/c8ebacf9-f422-4990-bbac-f9a9cc7614f3
+| Video Name | ID | Link |
+| :--- | :--- | :--- |
+| GitSetup.mp4 | G14 | https://github.com/user-attachments/assets/c8ebacf9-f422-4990-bbac-f9a9cc7614f3 |
 
 </details>
 
@@ -427,11 +431,11 @@ Short name ID of videos in playlist: M3 M2 M1
 
 Important Note: sub-auto=exact (mpv config)
 
-https://github.com/user-attachments/assets/65473328-205a-47a9-8950-9074c74d94aa
-
-https://github.com/user-attachments/assets/fc7d64cf-ab6c-4480-87a4-6986c385e20a
-
-https://github.com/user-attachments/assets/12401250-c6c7-4491-9437-e0188ebb5d2b
+| Video Name | ID | Link |
+| :--- | :--- | :--- |
+| mpvinstallation1.mp4 | M3 | https://github.com/user-attachments/assets/65473328-205a-47a9-8950-9074c74d94aa |
+| mpvInstallation2.mp4 | M2 | https://github.com/user-attachments/assets/fc7d64cf-ab6c-4480-87a4-6986c385e20a |
+| mpvinstallation3.mp4 | M1 | https://github.com/user-attachments/assets/12401250-c6c7-4491-9437-e0188ebb5d2b |
 
 </details>
 
@@ -443,12 +447,13 @@ https://github.com/user-attachments/assets/12401250-c6c7-4491-9437-e0188ebb5d2b
 #### VisualStudioCodeSetUP
 Short name ID of videos in playlist: V1
 
-https://github.com/user-attachments/assets/70ae43ed-7fc6-496d-95fd-026aefa23c41
+| Video Name | ID | Link |
+| :--- | :--- | :--- |
+| VisualStudioCodeSetUP.mp4 | V1 | https://github.com/user-attachments/assets/70ae43ed-7fc6-496d-95fd-026aefa23c41 |
 
 </details>
 </details>
 </details>
-
 <details><summary>2. cloning repository</summary>
 
 After that you have to clone the repository with git, use the following command in your shell
@@ -488,19 +493,15 @@ git checkout
 
 You can skip the first 3 videos if you have already installed GIT and anki
 
-https://github.com/user-attachments/assets/80bfe57c-f718-45db-baa5-7a4905f5bb57
-
-https://github.com/user-attachments/assets/ac4c062c-2b6b-4228-b7a0-c46f460b9c59
-
-https://github.com/user-attachments/assets/5afb571a-0a0d-46fb-8939-b186c626c9b8
-
-https://github.com/user-attachments/assets/ed1611d1-05db-4e93-bdfa-4bc9b4c865ca
-
-https://github.com/user-attachments/assets/2434ab4e-8310-4d8f-aec1-f18a65585791
-
-https://github.com/user-attachments/assets/1b7fda99-e94d-4d2a-9190-e70e10a14795
-
-https://github.com/user-attachments/assets/307a8b91-bffc-4a14-a466-f7f29bd3408d
+| Video Name | ID | Link |
+| :--- | :--- | :--- |
+| SETUP1_GITANKI_split_1.mp4 | S10 | https://github.com/user-attachments/assets/80bfe57c-f718-45db-baa5-7a4905f5bb57 |
+| SETUP1_GITANKI_split_2.mp4 | S11 | https://github.com/user-attachments/assets/ac4c062c-2b6b-4228-b7a0-c46f460b9c59 |
+| SETUP1_GITANKI_split_3.mp4 | S12 | https://github.com/user-attachments/assets/5afb571a-0a0d-46fb-8939-b186c626c9b8 |
+| SETUP2_CLONING_split_1.mp4 | S13 | https://github.com/user-attachments/assets/ed1611d1-05db-4e93-bdfa-4bc9b4c865ca |
+| SETUP2_CLONING_split_2.mp4 | S14 | https://github.com/user-attachments/assets/2434ab4e-8310-4d8f-aec1-f18a65585791 |
+| SETUP2_CLONING_split_3.mp4 | S15 | https://github.com/user-attachments/assets/1b7fda99-e94d-4d2a-9190-e70e10a14795 |
+| SETUP2_CLONING_split_4.mp4 | S16 | https://github.com/user-attachments/assets/307a8b91-bffc-4a14-a466-f7f29bd3408d |
 
 </details>
 </details>
@@ -517,21 +518,16 @@ Then you have to set up python, the following guide can be used as a reference, 
 
 <summary>Example Installation for Windows</summary>
 
-https://github.com/user-attachments/assets/636b7468-8a21-462a-8dea-daeafe013fe3
-
-https://github.com/user-attachments/assets/abb1c017-7b60-4f6e-a34a-2b0987fa931e
-
-https://github.com/user-attachments/assets/c4885ad9-5979-401b-92ee-074bbd574a68
-
-https://github.com/user-attachments/assets/556ce844-8532-4387-8326-62cff0c84444
-
-https://github.com/user-attachments/assets/aa3bbeb0-5842-49b8-914b-0563660fe05d
-
-https://github.com/user-attachments/assets/b5b3e3ec-0ff6-45e2-8306-b3e41aa769c7
-
-https://github.com/user-attachments/assets/c3f19396-9257-4401-b7c0-c65d7725b7a5
-
-https://github.com/user-attachments/assets/3bfcb6f5-91b8-4fbe-bc42-cfdccde3a9cc
+| Video Name | ID | Link |
+| :--- | :--- | :--- |
+| SETUP3_Python_split_1.mp4 | S17 | https://github.com/user-attachments/assets/636b7468-8a21-462a-8dea-daeafe013fe3 |
+| SETUP3_Python_split_2.mp4 | S18 | https://github.com/user-attachments/assets/abb1c017-7b60-4f6e-a34a-2b0987fa931e |
+| SETUP3_Python_split_3.mp4 | S19 | https://github.com/user-attachments/assets/c4885ad9-5979-401b-92ee-074bbd574a68 |
+| SETUP3_Python_split_4.mp4 | S20 | https://github.com/user-attachments/assets/556ce844-8532-4387-8326-62cff0c84444 |
+| SETUP3_Python_split_5.mp4 | S21 | https://github.com/user-attachments/assets/aa3bbeb0-5842-49b8-914b-0563660fe05d |
+| SETUP3_Python_split_6.mp4 | S22 | https://github.com/user-attachments/assets/b5b3e3ec-0ff6-45e2-8306-b3e41aa769c7 |
+| SETUP3_Python_split_7.mp4 | S23 | https://github.com/user-attachments/assets/c3f19396-9257-4401-b7c0-c65d7725b7a5 |
+| SETUP3_Python_split_8.mp4 | S24 | https://github.com/user-attachments/assets/3bfcb6f5-91b8-4fbe-bc42-cfdccde3a9cc |
 
 </details>
 
