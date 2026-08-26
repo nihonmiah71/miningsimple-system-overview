@@ -1,7 +1,3 @@
-
-<details>
-<summary>tutorial videos in table with names and unique identifiers (overview for reference)</summary>
-   
 <details>
 <summary>tutorial videos in table with names and unique identifiers (overview for reference)</summary>
    
@@ -267,8 +263,6 @@
 | VisualizeCluster2.part.2.mp4 | V18 | https://github.com/user-attachments/assets/ba9f1df7-abc5-4139-96bf-01d968e411da |
 | VisualizeCluster2.part.1.mp4 | V19 | https://github.com/user-attachments/assets/a804cf75-daaf-4585-99a8-7ece7bf75576 |
 | VisualizeCluster1.mp4 | V20 | https://github.com/user-attachments/assets/f547a64d-464a-4cb5-be0e-dbc0b5918c2f |
-
-</details>
 
 </details>
 
