@@ -887,6 +887,7 @@ Then you have to import in Anki the notetypes, you can also rename in this step 
 | SETUP52AnkiAddonsSetUp.ChangedNames2.mp4 | S35 | https://github.com/user-attachments/assets/8541d349-df03-4e21-8470-0cf3fa78c582 |
 
 </details>
+
 #### Chromestore Browser Addon Configuration 
 
 <details>
