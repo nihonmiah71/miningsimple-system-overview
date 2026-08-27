@@ -285,9 +285,7 @@ miningsimple Note: https://www.youtube.com/watch?v=evXtRlJ-Yww
 | miningsimpleNote2.mp4 | M5 | https://github.com/user-attachments/assets/632813ae-1016-499f-aef5-12f71138dbaa |
 
 </details>
-```
-
----</details>
+</details>
 
 <details>
 
@@ -304,9 +302,7 @@ Grammar Note: https://www.youtube.com/watch?v=9j2wlW7fYvs
 | GrammarNote3.mp4 | G17 | https://github.com/user-attachments/assets/cf0bf4cb-9ce9-4f32-a238-4cbce4f44252 |
 
 </details>
-```
-
----</details>
+</details>
 
 <details>
 
@@ -322,9 +318,7 @@ GrammarBrowserAddon: https://www.youtube.com/watch?v=k_bjdNjxrg4
 | CardCreation0.3-ActivationOFGrammarAddonAtBeginningOFReading2.mp4 | C47 | https://github.com/user-attachments/assets/87107aef-5a34-4e94-b18e-44420dcf9508 |
 
 </details>
-```
-
----</details>
+</details>
 
 <details>
 
@@ -345,9 +339,7 @@ MinedWordTextMarkerAddon: https://www.youtube.com/watch?v=v6W_xkRYVak
 | CardCreation0.4-ActivationOFTextMarkerAddonAtBeginningOFReading.part.3.part.2_split_3.mp4 | C40 | https://github.com/user-attachments/assets/ec28d819-ed65-4a97-9a4a-31fb64e0d113 |
 
 </details>
-```
-
----</details>
+</details>
 
 ## Overview and Main Idea
 
@@ -411,9 +403,7 @@ AnkiDownload: https://www.youtube.com/watch?v=al5T_EroVAg
 | AnkiDownload.mp4 | A2 | https://github.com/user-attachments/assets/50503aef-7cd6-43c7-b591-09b74ea2d66c |
 
 </details>
-```
-
----</details>
+</details>
 
 
 <details>
@@ -432,9 +422,7 @@ Short name ID of videos in playlist: A33
 | 7zSetUp.mp4 | A33 | https://github.com/user-attachments/assets/04b4ffeb-6b58-462b-b87d-e3d25df9aac8 |
 
 </details>
-```
-
----</details>
+</details>
 
 
 <details>
@@ -454,9 +442,7 @@ DeskpinSetUp: https://www.youtube.com/watch?v=oqho4W6O2VM
 | DeskpinSetUp2.mp4 | D1 | https://github.com/user-attachments/assets/976fe04b-0df9-4cc0-b6a5-d453fb9e0cea |
 
 </details>
-```
-
----</details>
+</details>
 
 <details>
 <summary>GitSetup</summary>
@@ -474,9 +460,7 @@ GitSetup: https://www.youtube.com/watch?v=S82NWdfHD-8
 | GitSetup.mp4 | G14 | https://github.com/user-attachments/assets/c8ebacf9-f422-4990-bbac-f9a9cc7614f3 |
 
 </details>
-```
-
----</details>
+</details>
 
 
 <details>
@@ -498,9 +482,7 @@ mpvinstallation: https://www.youtube.com/watch?v=HgIYkSLYEh4
 | mpvinstallation3.mp4 | M1 | https://github.com/user-attachments/assets/12401250-c6c7-4491-9437-e0188ebb5d2b |
 
 </details>
-```
-
----</details>
+</details>
 
 
 
@@ -519,9 +501,7 @@ VisualStudioCodeSetUP: https://www.youtube.com/watch?v=AyQzpnptYJs
 | VisualStudioCodeSetUP.mp4 | V1 | https://github.com/user-attachments/assets/70ae43ed-7fc6-496d-95fd-026aefa23c41 |
 
 </details>
-```
-
----</details>
+</details>
 </details>
 </details>
 <details><summary>2. cloning repository</summary>
@@ -578,9 +558,7 @@ Repository Cloning: https://www.youtube.com/watch?v=3se8GMVOHUY
 | SETUP2_CLONING_split_4.mp4 | S16 | https://github.com/user-attachments/assets/307a8b91-bffc-4a14-a466-f7f29bd3408d |
 
 </details>
-```
-
----</details>
+</details>
 </details>
 
 <details><summary>3. Python Set Up</summary>
@@ -611,9 +589,7 @@ Python Example Installation Windows: https://www.youtube.com/watch?v=KFX2cINnzR8
 | SETUP3_Python_split_8.mp4 | S24 | https://github.com/user-attachments/assets/3bfcb6f5-91b8-4fbe-bc42-cfdccde3a9cc |
 
 </details>
-```
-
----</details>
+</details>
 
 <details>
 
@@ -642,9 +618,7 @@ pysrt
 pykakasi
 opencv-python
 pandas
-```
 
----
 
 ## 🪟 1. Windows (Windows 10 / 11)
 
@@ -692,9 +666,7 @@ if ($pyDir) {
     Write-Host "✅ Python successfully registered system-wide: $pyDir" -ForegroundColor Green
     python --version
 }
-```
 
----
 
 ### Step B: Install All Packages Globally
 
@@ -722,9 +694,7 @@ python -m pip install torch torchaudio --index-url https://download.pytorch.org/
 *(Make sure your PowerShell is in your cloned project folder with `cd`)*
 ```powershell
 python -m pip install -r requirements.txt
-```
 
----
 
 ### 🛠️ Windows Troubleshooting
 
@@ -819,9 +789,7 @@ python3.12 -m pip install torch torchaudio --index-url https://download.pytorch.
 
 # 5. Install all requirements globally
 python3.12 -m pip install -r requirements.txt --break-system-packages
-```
 
----
 
 ## 🐧 3. Linux (Fedora / RHEL / Rocky)
 
@@ -837,9 +805,7 @@ sudo ln -sf /usr/bin/python3.12 /usr/bin/python
 python3.12 -m pip install --upgrade pip setuptools wheel --break-system-packages
 python3.12 -m pip install torch torchaudio --break-system-packages
 python3.12 -m pip install -r requirements.txt --break-system-packages
-```
 
----
 
 ## 🐧 4. Linux (Arch Linux / Manjaro)
 
@@ -851,9 +817,7 @@ sudo pacman -Syu --needed python python-pip tk ffmpeg mesa libglvnd
 python -m pip install --upgrade pip setuptools wheel --break-system-packages
 python -m pip install torch torchaudio --break-system-packages
 python -m pip install -r requirements.txt --break-system-packages
-```
 
----
 
 ## 🍏 5. macOS (Apple Silicon M1/M2/M3/M4 & Intel)
 
@@ -875,9 +839,7 @@ source ~/.zshrc
 python3.12 -m pip install --upgrade pip setuptools wheel --break-system-packages
 python3.12 -m pip install torch torchaudio --break-system-packages
 python3.12 -m pip install -r requirements.txt --break-system-packages
-```
 
----
 
 ## ✅ Verification Check
 
@@ -890,9 +852,7 @@ python -c "import sys, cv2, pydub, pysrt, pykakasi, pandas, tkinter, whisperx; p
 ### Expected Output:
 ```text
 SUCCESS: Python 3.12.x has all packages installed globally!
-```
 
----
 
 ### 🛡️ Why this fixes all edge cases across OSes:
 1. **Windows System-Wide Machine PATH:** Writing Python to the `Machine` environment variable guarantees that every user account, standard CMD prompt, and background subprocess (e.g., Anki) finds `python.exe` and `pip` globally without missing path errors.
@@ -927,9 +887,7 @@ Python3 12SetUp Alternative: https://www.youtube.com/watch?v=du50koQ6HqQ
 | Python3.12SetUp2.mp4 | P1 | https://github.com/user-attachments/assets/2e4b967c-db5c-491f-85a3-99bf0da3b34f |
 
 </details>
-```
-
----</details>
+</details>
 </details>
 
 <details>
@@ -955,9 +913,7 @@ Deck Import And Optional Renaming: https://www.youtube.com/watch?v=IT472gYWQjg
 | SETUP42_DECKIMPORTOPTIONALRENAMING2.mp4 | S26 | https://github.com/user-attachments/assets/e51fb36d-6807-4912-b6c6-9bf4b16f3624 |
 
 </details>
-```
-
----</details>
+</details>
 
 #### System Configuration
 
@@ -978,9 +934,7 @@ System Configuration: https://www.youtube.com/watch?v=xX1JiS44YBE
 | SETUP6.52setupADDONS2.mp4 | S33 | https://github.com/user-attachments/assets/8797da45-f126-4bc2-a0f6-140b811e0503 |
 
 </details>
-```
-
----</details>
+</details>
 
 #### AnkiAddons Configuration 
 
@@ -996,9 +950,7 @@ AnkiAddons Configuration: https://www.youtube.com/watch?v=gvTL6hQAk7c
 | SETUP52AnkiAddonsSetUp.ChangedNames2.mp4 | S35 | https://github.com/user-attachments/assets/8541d349-df03-4e21-8470-0cf3fa78c582 |
 
 </details>
-```
-
----</details>
+</details>
 
 #### Chromestore Browser Addon Configuration 
 
@@ -1046,9 +998,7 @@ Chromestore Browser Addon Configuration: https://www.youtube.com/watch?v=dW-n3wA
 | SETUP64ChromestoreBrowserAddons4.mp4 | S44 | https://github.com/user-attachments/assets/1418981a-1bf8-4fd1-b2d7-cd0098ba4c98 |
 
 </details>
-```
-
----</details>
+</details>
 
 #### Self Hosted Browser Addon Configuration 
 
@@ -1067,9 +1017,7 @@ Self Hosted Browser Addon Configuration: https://www.youtube.com/watch?v=KW2Uy8i
 | SETUP72SelfHostedAddonsActivation2_split_3.mp4 | S49 | https://github.com/user-attachments/assets/a7ed1120-b878-467e-8e66-4666648acd27 |
 
 </details>
-```
-
----</details>
+</details>
 
 </details>
 
@@ -1093,9 +1041,7 @@ Optional Audio for Grammar Deck: https://www.youtube.com/watch?v=hb8rZK93RHE
 | SETUPOPTIONALGRAMMARDECKAUDIO_split_4.mp4 | S53 | https://github.com/user-attachments/assets/ec4ffe6b-1591-4cab-a642-657bb89b8b39 |
 
 </details>
-```
-
----</details>
+</details>
 </details>
 
 Throughout the system you also have to set up various workflows by setting the paths when you first use a component, how to do that will be explained in the guides when the functionality is actualy being used, but in most cases your are simply being prompted to just select a directory or a certain file with the fileexplorer. Also there are some optional programs and Addons where the installation will be explained in case you want to make use of the functionalities in which they are used (ShareX, Audacity,LosslessCut,Libation, Video Download Helper)
@@ -1154,9 +1100,7 @@ CardsCreation1: https://www.youtube.com/watch?v=UHxcngLh1gA
 | CardsCreation4.751.part.2.mp4 | C24 | https://github.com/user-attachments/assets/7f506e9e-2f4b-4103-aeed-653ca8fa8c79 |
 
 </details>
-```
-
----</details>
+</details>
 
 After that you are supposed to extract the media for the cards (and create a
 special subtitle file with your mined words), see MediaExtraction for reference
@@ -1190,9 +1134,7 @@ CardsCreation2: https://www.youtube.com/watch?v=HmI9XSRphGU
 | FinalResultMining5.part.3.mp4 | F12 | https://github.com/user-attachments/assets/92be4d49-5a23-4b81-ac66-ce3d7cd5c556 |
 
 </details>
-```
-
----</details>
+</details>
 </details>
 </details>
 
@@ -1223,9 +1165,7 @@ AnimeSourceMaterialVideoDownloadHelper: https://www.youtube.com/watch?v=A2J861jH
 | AnimeSourceMaterialVideoDownloadHelper2-ChromeStoreBrowserAddons2.5.mp4 | A5 | https://github.com/user-attachments/assets/facd0142-be2c-40ce-b818-edf0c08e2847 |
 
 </details>
-```
-
----</details>
+</details>
 
 #### AnimeSourceMaterialSubtitlesSRT
 Short name ID of videos in playlist: A8 A9
@@ -1241,9 +1181,7 @@ AnimeSourceMaterialSubtitlesSRT: https://www.youtube.com/watch?v=VNuf8NP96ig
 | AnimePrepareSubtitlesForMining3-AnimeSourceMaterialSubtitlesSRT2.mp4 | A9 | https://github.com/user-attachments/assets/ebea91c9-5d77-4a95-8fc8-1b8743480ac8 |
 
 </details>
-```
-
----</details>
+</details>
 
 #### AnimePrepareSubtitlesForMining
 Short name ID of videos in playlist: A17 A16 A15 A14 A13 A12 A11 A10 A9
@@ -1266,9 +1204,7 @@ AnimePrepareSubtitlesForMining: https://www.youtube.com/watch?v=Flhuhdz9_68
 | AnimePrepareSubtitlesForMining3-AnimeSourceMaterialSubtitlesSRT2.mp4 | A9 | https://github.com/user-attachments/assets/ebea91c9-5d77-4a95-8fc8-1b8743480ac8 |
 
 </details>
-```
-
----</details>
+</details>
 
 #### AnimePictureAudioSubSync
 Short name ID of videos in playlist: A23 A22 A21 A20 A19 A18 L17 L16 L15 L14 L13 L12 L11 L10 L9 L8 L7 L6 L5 L4 L3
@@ -1303,9 +1239,7 @@ AnimePictureAudioSubSync: https://www.youtube.com/watch?v=iWhd6IF8eZc
 | LNAudioSubtitleSyncAnki8AnimePictureAudioSubSyn11.part.2.mp4 | L3 | https://github.com/user-attachments/assets/0580e2bd-a17e-4b95-a52c-5d899fb7bd04 |
 
 </details>
-```
-
----</details>
+</details>
    
 </details>
 
@@ -1328,9 +1262,7 @@ LibationSetUp: https://www.youtube.com/watch?v=9wZD_EEBAHc
 | LibationSetUp-ObtaininingPreparingTargetChapterAudio1.mp4 | L36 | https://github.com/user-attachments/assets/5375428f-11d9-470f-b51a-6411d444920b |
 
 </details>
-```
-
----</details>
+</details>
 
 #### ObtaininingPreparingTargetChapterAudio
 Short name ID of videos in playlist: L36 O1 O2
@@ -1347,9 +1279,7 @@ ObtaininingPreparingTargetChapterAudio: https://www.youtube.com/watch?v=zUkma2kJ
 | ObtainingRawLightNovelHTMLAndPreperationOfRawChapterText3ObtaininingPreparingTargetChapterAudio3.mp4 | O2 | https://github.com/user-attachments/assets/9df82663-1a37-4651-a5fb-ea7148180c22 |
 
 </details>
-```
-
----</details>
+</details>
 
 #### ObtainingRawLightNovelHTMLAndPreperationOfRawChapterText
 Short name ID of videos in playlist: O5 O4 O3 O2
@@ -1367,9 +1297,7 @@ ObtainingRawLightNovelHTMLAndPreperationOfRawChapterText: https://www.youtube.co
 | ObtainingRawLightNovelHTMLAndPreperationOfRawChapterText3ObtaininingPreparingTargetChapterAudio3.mp4 | O2 | https://github.com/user-attachments/assets/9df82663-1a37-4651-a5fb-ea7148180c22 |
 
 </details>
-```
-
----</details>
+</details>
 
 #### LightnovelSubtitleCreation
 Short name ID of videos in playlist: L35 L34 L33 L32 L31 L30 L29 L28 L27 L26 L25 L24 L23 L22 L21 L20
@@ -1402,9 +1330,7 @@ LightnovelSubtitleCreation: https://www.youtube.com/watch?v=rqEfU30cj6Y
 | LightnovelSubtitleCreation12.mp4 | L20 | https://github.com/user-attachments/assets/a96e3999-3e50-4aa7-9213-87a8dc408c52 |
 
 </details>
-```
-
----</details>
+</details>
 
 #### AnalysisOfTranscriptionQuality
 Short name ID of videos in playlist: L27 L28
@@ -1420,9 +1346,7 @@ AnalysisOfTranscriptionQuality: https://www.youtube.com/watch?v=VzrPutge-Y8
 | LightnovelSubtitleCreation5AnalysisOfTranscriptionQuality2.mp4 | L28 | https://github.com/user-attachments/assets/035e7006-bda1-436f-befc-f59fcc35afff |
 
 </details>
-```
-
----</details>
+</details>
 
 #### TranscriptCorrection
 Short name ID of videos in playlist: L26 L25 L24 L23 L22 L21
@@ -1442,9 +1366,7 @@ TranscriptCorrection: https://www.youtube.com/watch?v=p9cGeLszJWE
 | LightnovelSubtitleCreation11TranscriptCorrection5.mp4 | L21 | https://github.com/user-attachments/assets/14d8deb9-fe6a-4cf6-b0d2-685f689ac631 |
 
 </details>
-```
-
----</details>
+</details>
 
 #### LNAudioSubtitleSyncAnki
 Short name ID of videos in playlist: L19 L18 L17 L16 L15 L14 L13 L12 L11 L10 L9 L8 L7 L6 L5 L4 L3 N2 N1
@@ -1477,9 +1399,7 @@ LNAudioSubtitleSyncAnki: https://www.youtube.com/watch?v=g4LJEbhi8SI
 | NewLNAudioSubtitleSyncAnki3.part.2.mp4 | N1 | https://github.com/user-attachments/assets/5667cf82-92bb-4735-b3f6-b99c4c714632 |
 
 </details>
-```
-
----</details>
+</details>
 
 #### Oregairu ,example ready to use
 
@@ -1517,9 +1437,7 @@ Oregairu Example Ready To Use: https://www.youtube.com/watch?v=spIOqJ_EhxY
 | UseSystemOnOregairu4.mp4 | U8 | https://github.com/user-attachments/assets/e6f5e668-3f14-4eaf-b9db-6c6de795b8e5 |
 
 </details>
-```
-
----</details>
+</details>
 
 #### SoundEditing
 Short name ID of videos in playlist: S7 S6 S5 S4 S3 S2 S1
@@ -1540,9 +1458,7 @@ SoundEditing: https://www.youtube.com/watch?v=sy870CNa_bE
 | SoundEditing4.part.3.mp4 | S1 | https://github.com/user-attachments/assets/cc285e27-3cbd-4ed6-b7f4-c2447ad45dbb |
 
 </details>
-```
-
----</details>
+</details>
 
 #### LosslessCutSetup
 Short name ID of videos in playlist: L2 L1
@@ -1558,9 +1474,7 @@ LosslessCutSetup: https://www.youtube.com/watch?v=DwIXXXmSJg8
 | LosslessCutSetup2.mp4 | L1 | https://github.com/user-attachments/assets/28bc32a6-1da6-4106-a8d2-d8c51bda108b |
 
 </details>
-```
-
----</details>
+</details>
 
 #### AudacitySetUp
 Short name ID of videos in playlist: A1 A34
@@ -1576,9 +1490,7 @@ AudacitySetUp: https://www.youtube.com/watch?v=swb5O_wnF2w
 | AudacitySetUp2.mp4 | A34 | https://github.com/user-attachments/assets/172b4a42-6632-466f-a2d3-e4474627c649 |
 
 </details>
-```
-
----</details>
+</details>
 
 </details>
 
@@ -1634,9 +1546,7 @@ Operating the Browser Addons: https://www.youtube.com/watch?v=DrK2RiUQXr4
 | HTMLMarkingRemoverAddon-EditRegex3-GrammarAddonEditingClusters4.mp4 | H1 | https://github.com/user-attachments/assets/4c149010-1ace-425e-a38b-a748fe623779 |
 
 </details>
-```
-
----</details>
+</details>
 
 ----------------------
 
@@ -1662,9 +1572,7 @@ FindingSemanticalyRelatedStructures: https://www.youtube.com/watch?v=IhUqDI78xiI
 | FindingSemanticalyRelated.Structures5.part.2.mp4 | F6 | https://github.com/user-attachments/assets/47fdad08-350e-40b5-9cf9-96adba32aa2f |
 
 </details>
-```
-
----</details>
+</details>
 
 #### FindingSyntacticalyRelatedStructures
 Short name ID of videos in playlist: F5 F4 F3 F2
@@ -1682,9 +1590,7 @@ FindingSyntacticalyRelatedStructures: https://www.youtube.com/watch?v=hA8TOzlRIJ
 | FindingSyntacticalyRelatedStructures3.mp4 | F2 | https://github.com/user-attachments/assets/91534d4e-aa55-4676-a89b-64c5e9d2375e |
 
 </details>
-```
-
----</details>
+</details>
 
 #### UpdateGrammarDataBase
 Short name ID of videos in playlist: U2
@@ -1699,9 +1605,7 @@ UpdateGrammarDataBase: https://www.youtube.com/watch?v=_PwH6TAIAlo
 | UpdateGrammarDataBase1-GrammarAddonEditRegex2-createYourOwnClusters4-GrammarAddonEditingClusters3-createYourOwnClusters8-EditingClusters9-EditingClusters11-ForceDisplayOfSubpattern2.mp4 | U2 | https://github.com/user-attachments/assets/335eac46-1400-4fb0-b3ff-afc1b8e46752 |
 
 </details>
-```
-
----</details>
+</details>
 
 #### ContrastingGrammarstructuresInTheBrowserAddon
 Short name ID of videos in playlist: C10
@@ -1716,9 +1620,7 @@ ContrastingGrammarstructuresInTheBrowserAddon: https://www.youtube.com/watch?v=Q
 | ContrastingGrammarstructuresInTheBrowserAddon.mp4 | C10 | https://github.com/user-attachments/assets/20df12d5-231f-44b3-baf4-3c0dab613f8c |
 
 </details>
-```
-
----</details>
+</details>
 
 #### EditRegex
 Short name ID of videos in playlist: G11 U2 H1 E2 E1
@@ -1737,9 +1639,7 @@ EditRegex: https://www.youtube.com/watch?v=9ljN6vp_LZM
 | EditRegex5-GrammarAddonEditingClusters6.mp4 | E1 | https://github.com/user-attachments/assets/83ccf7a8-e4d1-46bd-8dcf-d34d0d5864bc |
 
 </details>
-```
-
----</details>
+</details>
 
 #### GrammarAddonEditingClusters
 Short name ID of videos in playlist: G12 G11 U2 H1 E2 E1
@@ -1759,9 +1659,7 @@ GrammarAddonEditingClusters: https://www.youtube.com/watch?v=aiXShqe8aAg
 | EditRegex5-GrammarAddonEditingClusters6.mp4 | E1 | https://github.com/user-attachments/assets/83ccf7a8-e4d1-46bd-8dcf-d34d0d5864bc |
 
 </details>
-```
-
----</details>
+</details>
 
 #### RemoveClusters
 Short name ID of videos in playlist: R1
@@ -1776,9 +1674,7 @@ RemoveClusters: https://www.youtube.com/watch?v=mumnBUCXU4U
 | RemoveClusters-EditingClusters10.mp4 | R1 | https://github.com/user-attachments/assets/c3b28e99-dda1-4289-8f88-797ff8a77221 |
 
 </details>
-```
-
----</details>
+</details>
 
 #### ForceDisplayOfSubpattern
 Short name ID of videos in playlist: F1 U2
@@ -1794,9 +1690,7 @@ ForceDisplayOfSubpattern: https://www.youtube.com/watch?v=qjMI7hJYVng
 | UpdateGrammarDataBase1-GrammarAddonEditRegex2-createYourOwnClusters4-GrammarAddonEditingClusters3-createYourOwnClusters8-EditingClusters9-EditingClusters11-ForceDisplayOfSubpattern2.mp4 | U2 | https://github.com/user-attachments/assets/335eac46-1400-4fb0-b3ff-afc1b8e46752 |
 
 </details>
-```
-
----</details>
+</details>
 
 #### EditingClusters
 Short name ID of videos in playlist: E4 E3 C4 C3 C2 C1 C54 C53 C52 U2 R1 U2
@@ -1822,9 +1716,7 @@ EditingClusters: https://www.youtube.com/watch?v=bhKcDs2oS-Y
 | UpdateGrammarDataBase1-GrammarAddonEditRegex2-createYourOwnClusters4-GrammarAddonEditingClusters3-createYourOwnClusters8-EditingClusters9-EditingClusters11-ForceDisplayOfSubpattern2.mp4 | U2 | https://github.com/user-attachments/assets/335eac46-1400-4fb0-b3ff-afc1b8e46752 |
 
 </details>
-```
-
----</details>
+</details>
 
 #### VisualizeCluster
 Short name ID of videos in playlist: V20 V19 V18 V17 V16 V15 V14 V13 V12 V11 V10 V9 V8 V7 V6 V5 V4 V3 V2
@@ -1882,9 +1774,7 @@ createYourOwnClusters: https://www.youtube.com/watch?v=XkQjJh9oX5Q
 | createYourOwnClusters11-AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists6.mp4 | C51 | https://github.com/user-attachments/assets/7de65c1f-ae99-4e7c-b278-4046377fde8c |
 
 </details>
-```
-
----</details>
+</details>
 
 #### AddAnIndividualGrammarCardAndAddItToAClusterThatAlreadyExists
 Short name ID of videos in playlist: A32 A31 A30 V4 V3 V2 C51
