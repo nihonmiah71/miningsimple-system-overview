@@ -1,4 +1,4 @@
-info: some of the tutorial videos uses version of programs which were in german at that time, but everything is set to english in the updated final version here
+info: some of the tutorial videos use version of programs which were in german at that time, but everything is set to english in the updated final version here
 
 <details>
 <summary>tutorial videos in table with names and unique identifiers (overview for reference)</summary>
