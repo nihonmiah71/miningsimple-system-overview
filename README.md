@@ -1,5 +1,7 @@
 info: some of the tutorial videos use version of programs which were in german at that time, but everything is set to english in the updated final version here
 
+info: the videos are without voice, you should think of them as scrollable gifs and a visual guide where the informaton is in text (pause the video appropriately and try to redo the steps if there is a need for it)
+
 <details>
 <summary>tutorial videos in table with names and unique identifiers (overview for reference)</summary>
    
