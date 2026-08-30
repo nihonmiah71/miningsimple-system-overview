@@ -545,7 +545,7 @@ git checkout
 
 #### Repository Cloning (and Anki Addons Installation)
 
-You can skip the first 3 videos if you have already installed GIT and anki
+You can skip the beginning of the video if you have already installed GIT and anki
 
 Repository Cloning: https://www.youtube.com/watch?v=3se8GMVOHUY
 
