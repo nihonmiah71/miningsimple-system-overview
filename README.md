@@ -3,7 +3,7 @@ info: some of the tutorial videos use version of programs which were in german a
 info: the videos are without voice, you should think of them as scrollable gifs and a visual guide where the informaton is in text (pause the video appropriately and try to redo the steps if there is a need for it)
 
 <details>
-<summary>tutorial videos in table with names and unique identifiers (overview for reference)</summary>
+<summary>tutorial videos in table with names and unique identifiers (overview for reference, dont watch this, these are just all the videos as an overview which are then used in the individual guides)</summary>
    
 | Video Name | ID | Link |
 | :--- | :--- | :--- |
