@@ -347,7 +347,7 @@ MinedWordTextMarkerAddon: https://www.youtube.com/watch?v=v6W_xkRYVak
 
 ## Overview and Main Idea
 
-The main idea of the system is to create cards for Anki with a good format for learning Japanese which were mined from either Lightnovels or Anime. We prepared 2 main addons that can be used during the mining process, a grammar parser that marks selected grammar patterns and a vocabulary marker that marks all the words in the text that have been mined before at least once. In order to learn grammar more efficiently also a seperate notetype has been integrated in the system. The system has 5 main components:
+The main idea of the system is to create cards for Anki with a good format for learning Japanese which were mined from either Lightnovels or Anime AND also at the same time to create subtitlefiles where the mined words are highlighted and translated, so you can watch the anime with this special subtitle file again (in case of lightnovels the "video" will be the audiobook played back and the subtitles the lightnovel text alligned to the audio). We prepared 2 main addons that can be used during the mining process, a grammar parser that marks selected grammar patterns and a vocabulary marker that marks all the words in the text that have been mined before at least once. In order to learn grammar more efficiently also a seperate notetype has been integrated in the system. The system has 5 main components:
 
 ### Set Up: 
 
